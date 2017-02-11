@@ -38,6 +38,7 @@ caskApps=(
     atom
     karabiner-elements
     teamviewer
+    dropbox
 )
 if ! command_exists brew; then
     echo "Some reason brew did not install"
@@ -95,3 +96,24 @@ echo "Downloading laravel"
 composer global require "laravel/installer"
 echo "Downloading laravel valet"
 composer global require laravel/valet
+
+rm ~/.zshrc
+
+git clone git@github.com:Penthious/developer-setup.git ~/developer-setup
+
+if [ ! -f ~/.zshrc ]; then
+    echo "Creating zshrc!"
+    ln -sf ~/.developer-setup/.zshrc ~/.zshrc
+else
+    echo "Keeping existing zshrc!"
+fi
+
+if [ ! -d ~/.config/nvim ]; then
+  echo "    Creating nvim folder!"
+  mkdir ~/.config/nvim
+  ln -s ~/.developer-setup/init.vim ~/.config/nvim/init.vim
+else
+  echo "    Keeping existing nvim folder!"
+  rm ~/.config/nvim/init.vim
+  ln -s ~/.developer-setup/init.vim ~/.config/nvim/init.vim
+fi
