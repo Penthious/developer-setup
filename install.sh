@@ -103,7 +103,7 @@ git clone git@github.com:Penthious/developer-setup.git ~/developer-setup
 
 if [ ! -f ~/.zshrc ]; then
     echo "Creating zshrc!"
-    ln -sf ~/.developer-setup/.zshrc ~/.zshrc
+    ln -sf ~/developer-setup/.zshrc ~/.zshrc
 else
     echo "Keeping existing zshrc!"
 fi
@@ -111,9 +111,9 @@ fi
 if [ ! -d ~/.config/nvim ]; then
   echo "    Creating nvim folder!"
   mkdir ~/.config/nvim
-  ln -s ~/.developer-setup/init.vim ~/.config/nvim/init.vim
+  ln -sf ~/developer-setup/init.vim ~/.config/nvim/init.vim
 else
   echo "    Keeping existing nvim folder!"
   rm ~/.config/nvim/init.vim
-  ln -s ~/.developer-setup/init.vim ~/.config/nvim/init.vim
+  ln -sf ~/developer-setup/init.vim ~/.config/nvim/init.vim
 fi
