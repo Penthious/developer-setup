@@ -109,9 +109,15 @@ composer global require laravel/valet
 
 rm ~/.zshrc
 rm ~/.gitconfig
+if [ ! -d ~/.config/karabiner ]; then
+  mkdir ~/.config/karabiner
+else
+  rm ~/.config/karabiner/karabiner.json
+fi
 
 ln -sf ~/developer-setup/.gitconfig ~/.gitconfig
 ln -sf ~/developer-setup/.gitconfig ~/.gitconfig
+ln -sf ~/developer-setup/karabiner.json ~/.config/karabiner/karabiner.json
 
 git clone git@github.com:Penthious/developer-setup.git ~/developer-setup
 
