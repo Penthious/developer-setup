@@ -1,9 +1,16 @@
 #!/bin/sh
-xcode-select --install
 
 command_exists(){
     type "$1" > /dev/null 2>&1
 }
+
+if ! command_exists xcode-select; then
+    echo "Installing xcode-select"
+    xcode-select --install
+else
+    echo "Installing system updates"
+    softwareupdate --install -a
+fi
 
 if [ ! -d ~/.config ]; then
   echo "    Creating .config folder"
@@ -30,6 +37,7 @@ brewApps=(
     php71-xdebug
     python3
     yarn
+    mysql
 )
 
 caskApps=(
@@ -45,6 +53,10 @@ caskApps=(
     teamviewer
     dropbox
 )
+
+#
+# Install homebrew and all my brewApps
+#
 if ! command_exists brew; then
     echo "Some reason brew did not install"
 else
@@ -64,13 +76,17 @@ else
             brew install $app
         fi
     done
-
-
+#
+# Moves the cask app folder to the correct place
+#
     if [ -d /opt/homebrew-cask/Caskroom ]; then
         echo "Moving caskroom folder"
         sudo mv /opt/homebrew-cask/Caskroom /usr/local
     fi
 
+#
+# Installs all all my caskApps
+#
     for app in "${caskApps[@]}"; do
         if  brew cask list "$app" > /dev/null; then
             echo "$app already installed"
@@ -80,6 +96,9 @@ else
     done
 fi
 
+#
+# Installs neovim to pip
+#
 if pip3 list neovim > /dev/null 2>&1; then
     pip3 install --upgrade neovim
 else
@@ -87,6 +106,9 @@ else
     pip3 install --upgrade neovim
 fi
 
+#
+# Installs yarn dependencies
+#
 if ! command_exists yarn; then
     echo "yarn not found. Please install and then re-run installation scripts"
     exit 1
@@ -94,6 +116,9 @@ else
     echo "Do stuff with yarn here"
 fi
 
+#
+# Installs zsh with oh-my-zsh and zsh plugins
+#
 if ! command_exists zsh; then
     echo "zsh not found. Please install and then re-run installation scripts"
     exit 1
@@ -108,8 +133,10 @@ fi
     echo "Adding zsh auto complete"
     sudo git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 
+#
+# Install composer
+#
 if ! command_exists composer; then
-    # Install composer
     echo "Downloading composer"
     php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
     php -r "if (hash_file('SHA384', 'composer-setup.php') === '55d6ead61b29c7bdee5cccfb50076874187bd9f21f65d8991d46ec5cc90518f447387fb9f76ebae1fbbacf329e583e30') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
@@ -118,23 +145,41 @@ if ! command_exists composer; then
 
     echo "Moving composer to the correct directory"
     mv composer.phar /usr/local/bin/composer
+else
+    echo "Updating composer"
+    composer self-update
 fi
 
-
+#
 # Install laravel and laravel valet
-if ! command_exists laravel; then
+#
+if [ ! -d ~/.composer/vendor/laravel ]; then
   echo "Downloading laravel"
   composer global require "laravel/installer"
+else
+  echo "Updating laravel"
+  composer global require "laravel/installer"
 fi
-if ! command_exists valet; then
+
+if [ ! -d ~/.composer/vendor/laravel/valet ]; then
   echo "Downloading laravel valet"
   composer global require laravel/valet
+else
+  echo "Updating laravel valet"
+  composer global update laravel/valet
 fi
+
+#
+# Clones the developer setup repo
+#
 if [ ! -d ~/developer-setup ]; then
   echo "Cloning developer-setup"
   git clone git@github.com:Penthious/developer-setup.git ~/developer-setup
 fi
 
+#
+# Where I remove base files and symlink my developer-setup files
+#
 echo "Removing current zshrc file"
 rm ~/.zshrc
 echo "Removing current gitconfig file"
