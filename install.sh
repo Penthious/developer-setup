@@ -51,12 +51,19 @@ else
         fi
     done
 
+    echo "Tapping caskroom"
     brew tap caskroom/cask
+
+    if [ -d /opt/homebrew-cask/Caskroom ]; then
+        echo "Moving caskroom folder"
+        sudo mv /opt/homebrew-cask/Caskroom /usr/local
+    fi
 
     for app in "${caskApps[@]}"; do
         if  brew cask list "$app" > /dev/null; then
             echo "$app already installed"
         fi
+        echo "Installing $app"
         brew cask install $app
     done
 fi
@@ -66,7 +73,7 @@ if ! command_exists yarn; then
     echo "yarn not found. Please install and then re-run installation scripts"
     exit 1
 else
-
+    echo "Do stuff with yarn here"
 fi
 
 if ! command_exists zsh; then
