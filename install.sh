@@ -4,6 +4,9 @@ command_exists(){
     type "$1" > /dev/null 2>&1
 }
 
+#
+# Install xcode and update system software if needed
+#
 if ! command_exists xcode-select; then
     echo "Installing xcode-select"
     xcode-select --install
@@ -12,11 +15,17 @@ else
     softwareupdate --install -a
 fi
 
+#
+# Make config folder if none exists
+#
 if [ ! -d ~/.config ]; then
   echo "    Creating .config folder"
   mkdir ~/.config
 fi
 
+#
+# Check to see if brew in istalled if not then install it
+#
 if test ! $(which brew); then
     echo "Installing homebrew"
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -54,16 +63,25 @@ caskApps=(
     dropbox
 )
 
+zshPlugins=(
+    git clone git://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions   
+)
+
 #
 # Install homebrew and all my brewApps
 #
 if ! command_exists brew; then
     echo "Some reason brew did not install"
 else
+    echo "Updating brew"
     brew update
+    echo "Upgrading brew"
     brew upgrade
+    echo "Tapping dupes"
     brew tap homebrew/dupes
+    echo "Tapping versions"
     brew tap homebrew/versions
+    echo "Tapping php"
     brew tap homebrew/homebrew-php
     echo "Tapping caskroom"
     brew tap caskroom/cask
@@ -117,21 +135,45 @@ else
 fi
 
 #
-# Installs zsh with oh-my-zsh and zsh plugins
+# Add ssh keys to github
+#
+if [ ! -f ~/.ssh/id_rsa.pub ]; then
+    echo "Adding ssh key"
+    cd ~/.ssh && ssh-keygen
+    echo "Copying ssh key"
+    cat id_rsa.pub | pbcopy
+
+    echo "Add new ssh key to github"
+    open "https://github.com/settings/keys"
+    while true; do
+        read -p "Are you done adding your ssh keys to github?" yn
+        case $yn in
+            [Yy]* ) break;;
+            [Nn]* ) exit;;
+            * ) echo "Please answer yes or no.";;
+        esac
+    done
+fi
+
+#
+# Installs zsh with oh-my-zsh
 #
 if ! command_exists zsh; then
     echo "zsh not found. Please install and then re-run installation scripts"
     exit 1
 elif ! [[ $SHELL =~ .*zsh.* ]]; then
-    echo "Configuring zsh as default shell"
-    chsh -s $(which zsh)
-    echo "Changing to oh-my-zsh"
+    echo "Installing oh-my-zsh"
     sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-    echo "Adding zsh auto complete"
-    git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 fi
-    echo "Adding zsh auto complete"
-    sudo git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+
+#
+# Installing zsh plugins
+#
+for plugin in "${zshPlugins[@]}"; do
+    echo "Installing zsh plugins"
+    plugin
+done
+ 
 
 #
 # Install composer
@@ -216,4 +258,12 @@ else
   rm ~/.config/nvim/init.vim
   echo "Symlinking neovim"
   ln -sf ~/developer-setup/init.vim ~/.config/nvim/init.vim
+fi
+
+#
+# Finally change shell to zsh
+#
+if ! [[ $SHELL =~ .*zsh.* ]]; then
+    echo "Configuring zsh as default shell"
+    chsh -s $(which zsh)
 fi

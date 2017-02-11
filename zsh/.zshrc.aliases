@@ -1,0 +1,21 @@
+#
+# Terminal settings
+#
+alias vim="nvim"
+alias zshconfig="vim ~/.zshrc"
+alias ohmyzsh="vim ~/.oh-my-zsh"
+alias ls="ls -la"
+
+#
+# Github settings
+#
+alias gs="git status"
+alias gt="git checkout tomas"
+alias gd="git checkout dev"
+
+#
+# Project settings
+#
+alias venues="cd ~/projects/venues-api"
+
+

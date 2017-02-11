@@ -1,0 +1,12 @@
+function homestead() {
+  ( cd ~/Homestead && vagrant $* )
+}
+
+#
+# Lazy git commit
+#
+function lgp() {
+  git add .
+  git commit -a -m "$1"
+  git push origin "$2"
+}
