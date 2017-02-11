@@ -1,0 +1,13 @@
+<templateSet group="Handlebars">
+  <template name="partial" value="{{partial '$PARTIAL$'}}" description="partias" toReformat="false" toShortenFQNames="true">
+    <variable name="PARTIAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>
+  <template name="outlet" value="{{outlet}}" description="outlet" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>
+</templateSet>

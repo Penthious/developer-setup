@@ -64,7 +64,7 @@ caskApps=(
 )
 
 zshPlugins=(
-    git clone git://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions   
+    git://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions   
 )
 
 #
@@ -169,9 +169,12 @@ fi
 #
 # Installing zsh plugins
 #
+if [ ! -d ~/.oh-my-zsh ]; then
+    mkdir ~/.oh-my-zsh
+fi
 for plugin in "${zshPlugins[@]}"; do
     echo "Installing zsh plugins"
-    plugin
+    git clone $plugin
 done
  
 
@@ -226,6 +229,17 @@ echo "Removing current zshrc file"
 rm ~/.zshrc
 echo "Removing current gitconfig file"
 rm ~/.gitconfig
+echo "Removing current atom settings"
+rm -rf ~/.atom
+rm -rf ~/Library/Preferences/PhpStorm2016.3
+rm -rf ~/Library/Caches/PhpStorm2016.3
+rm -rf ~/Library/Logs/PhpStorm2016.3
+rm -rf ~/Library/Application\ Support/PhpStorm2016.3
+
+ln -sf ~/developer-setup/phpstorm/config ~/Library/Preferences/PhpStorm2016.3
+ln -sf ~/developer-setup/phpstorm/caches ~/Library/Caches/PhpStorm2016.3
+ln -sf ~/developer-setup/phpstorm/logs ~/Library/Logs/PhpStorm2016.3
+ln -sf ~/developer-setup/phpstorm/plugins ~/Library/Application\ Support/PhpStorm2016.3
 
 if [ ! -d ~/.config/karabiner ]; then
   echo "Making directory .config/karabiner"
@@ -239,6 +253,8 @@ echo "Symlinking gitconfig"
 ln -sf ~/developer-setup/.gitconfig ~/.gitconfig
 echo "Symlinking karabiner"
 ln -sf ~/developer-setup/karabiner.json ~/.config/karabiner/karabiner.json
+echo "Symlinking atom"
+ln -sf ~/developer-setup/.atom ~/.atom
 
 
 if [ ! -f ~/.zshrc ]; then

@@ -1,0 +1,6 @@
+<templateSet group="Ember.js - Templates">
+  <template name="each" value="{{#each model as |$VALUE$|}}&#10;$SELECTION$&#10;{{/each}}" description="Surround with each block" toReformat="true" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

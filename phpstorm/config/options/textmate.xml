@@ -1,0 +1,97 @@
+<application>
+  <component name="TextMateSettings">
+    <option name="bundles">
+      <list>
+        <BundleConfigBean>
+          <option name="enabled" value="false" />
+          <option name="name" value="Ruby" />
+          <option name="path" value="$USER_HOME$/phpstorm/ruby.tmbundle" />
+        </BundleConfigBean>
+      </list>
+    </option>
+    <option name="themesMapping">
+      <map>
+        <entry key="All hallow's eve" value="All Hallow's Eve" />
+        <entry key="Arstotzka" value="Mac Classic" />
+        <entry key="Azure" value="Mac Classic" />
+        <entry key="Blackboard" value="Blackboard" />
+        <entry key="Bold" value="Mac Classic" />
+        <entry key="Box UK" value="Mac Classic" />
+        <entry key="Carbonight" value="Mac Classic" />
+        <entry key="Chocolate" value="Mac Classic" />
+        <entry key="Cobalt" value="Cobalt" />
+        <entry key="Crisp" value="Mac Classic" />
+        <entry key="Darcula" value="Darcula" />
+        <entry key="Darcula copy" value="Mac Classic" />
+        <entry key="Darkside" value="Mac Classic" />
+        <entry key="Default" value="Mac Classic" />
+        <entry key="Earthsong" value="Mac Classic" />
+        <entry key="FreshCut" value="Mac Classic" />
+        <entry key="Frontier" value="Mac Classic" />
+        <entry key="Github" value="GitHub" />
+        <entry key="Gloom" value="Mac Classic" />
+        <entry key="Glowfish" value="Mac Classic" />
+        <entry key="Goldfish" value="Mac Classic" />
+        <entry key="Grunge" value="Mac Classic" />
+        <entry key="Halflife" value="Mac Classic" />
+        <entry key="Heroku" value="Mac Classic" />
+        <entry key="Hyrule" value="Mac Classic" />
+        <entry key="Iceberg" value="Mac Classic" />
+        <entry key="Juicy" value="Mac Classic" />
+        <entry key="Keen" value="Mac Classic" />
+        <entry key="Kiwi" value="Mac Classic" />
+        <entry key="Laravel" value="Mac Classic" />
+        <entry key="Lavender" value="Mac Classic" />
+        <entry key="Legacy" value="Mac Classic" />
+        <entry key="Mellow" value="Mac Classic" />
+        <entry key="Mintchoc" value="Mac Classic" />
+        <entry key="Monokai" value="Monokai" />
+        <entry key="Mud" value="Mac Classic" />
+        <entry key="Oceanic Next" value="Mac Classic" />
+        <entry key="Otakon" value="Mac Classic" />
+        <entry key="Pastel" value="Mac Classic" />
+        <entry key="Patriot" value="Mac Classic" />
+        <entry key="Peacock" value="Mac Classic" />
+        <entry key="Peacocks In Space" value="Mac Classic" />
+        <entry key="Peel" value="Mac Classic" />
+        <entry key="Piggy" value="Mac Classic" />
+        <entry key="Potpourri" value="Mac Classic" />
+        <entry key="Railscasts" value="RailsCasts" />
+        <entry key="Rainbow" value="Mac Classic" />
+        <entry key="Revelation" value="Mac Classic" />
+        <entry key="Shrek" value="Mac Classic" />
+        <entry key="Slate" value="Mac Classic" />
+        <entry key="Slime" value="Mac Classic" />
+        <entry key="Snappy" value="Mac Classic" />
+        <entry key="Solarflare" value="Mac Classic" />
+        <entry key="Solarized Dark" value="Mac Classic" />
+        <entry key="Solarized Light" value="Mac Classic" />
+        <entry key="Sourlick" value="Mac Classic" />
+        <entry key="Spearmint" value="Mac Classic" />
+        <entry key="Stark" value="Mac Classic" />
+        <entry key="Super" value="Mac Classic" />
+        <entry key="Tonic" value="Mac Classic" />
+        <entry key="Tribal" value="Mac Classic" />
+        <entry key="Tron" value="Mac Classic" />
+        <entry key="Turnip" value="Mac Classic" />
+        <entry key="Twilight" value="Twilight" />
+        <entry key="VibrantInk" value="Mac Classic" />
+        <entry key="WarmNeon" value="Mac Classic" />
+        <entry key="Yule" value="Mac Classic" />
+        <entry key="Zacks" value="Mac Classic" />
+        <entry key="_@user_All hallow's eve" value="Mac Classic" />
+        <entry key="_@user_Blackboard" value="Mac Classic" />
+        <entry key="_@user_Cobalt" value="Mac Classic" />
+        <entry key="_@user_Darcula" value="Mac Classic" />
+        <entry key="_@user_Default" value="Mac Classic" />
+        <entry key="_@user_Monokai" value="Mac Classic" />
+        <entry key="_@user_Railscasts" value="Mac Classic" />
+        <entry key="_@user_Solarized Dark" value="Mac Classic" />
+        <entry key="_@user_Solarized Light" value="Mac Classic" />
+        <entry key="_@user_Twilight" value="Mac Classic" />
+        <entry key="_@user_VibrantInk" value="Mac Classic" />
+        <entry key="_@user_WarmNeon" value="Mac Classic" />
+      </map>
+    </option>
+  </component>
+</application>

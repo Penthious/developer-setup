@@ -1,0 +1,8 @@
+<templateSet group="user">
+  <template name="many" value="public function $NAME$()&#10;    {&#10;        return $this-&gt;hasMany('$END$');&#10;    }" description="has many" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
