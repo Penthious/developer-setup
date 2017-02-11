@@ -1,0 +1,4 @@
+'.source.php':
+  'Lang-choice':
+    'prefix': 'Lang-choice'
+    'body': 'Lang::choice(${1:key}, ${2:number}, ${3:replace}, ${4:locale})'

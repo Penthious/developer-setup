@@ -1,0 +1,4 @@
+'.source.php':
+  'View-addNamespace':
+    'prefix': 'View-addNamespace'
+    'body': 'View::addNamespace(${1:namespace}, ${2:hints})'

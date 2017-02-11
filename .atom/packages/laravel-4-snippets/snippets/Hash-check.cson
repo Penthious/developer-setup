@@ -1,0 +1,4 @@
+'.source.php':
+  'Hash-check':
+    'prefix': 'Hash-check'
+    'body': 'Hash::check(${1:value}, ${2:hashedValue}, ${3:options})'

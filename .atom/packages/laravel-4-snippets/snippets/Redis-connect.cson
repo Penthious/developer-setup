@@ -1,0 +1,4 @@
+'.source.php':
+  'Redis-connect':
+    'prefix': 'Redis-connect'
+    'body': 'Redis::connect()'

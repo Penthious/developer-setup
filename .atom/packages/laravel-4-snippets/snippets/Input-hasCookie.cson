@@ -1,0 +1,4 @@
+'.source.php':
+  'Input-hasCookie':
+    'prefix': 'Input-hasCookie'
+    'body': 'Input::hasCookie(${1:key})'

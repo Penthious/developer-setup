@@ -1,0 +1,4 @@
+'.source.php':
+  'Redirect-secure':
+    'prefix': 'Redirect-secure'
+    'body': 'Redirect::secure(${1:path}, ${2:status}, ${3:headers})'

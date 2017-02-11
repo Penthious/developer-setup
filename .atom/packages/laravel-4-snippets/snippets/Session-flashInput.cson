@@ -1,0 +1,4 @@
+'.source.php':
+  'Session-flashInput':
+    'prefix': 'Session-flashInput'
+    'body': 'Session::flashInput(${1:value})'

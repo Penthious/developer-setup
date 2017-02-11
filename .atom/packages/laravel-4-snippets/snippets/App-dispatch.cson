@@ -1,0 +1,4 @@
+'.source.php':
+  'App-dispatch':
+    'prefix': 'App-dispatch'
+    'body': 'App::dispatch(${1:request})'

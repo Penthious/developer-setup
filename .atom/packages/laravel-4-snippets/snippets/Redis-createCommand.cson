@@ -1,0 +1,4 @@
+'.source.php':
+  'Redis-createCommand':
+    'prefix': 'Redis-createCommand'
+    'body': 'Redis::createCommand(${1:commandID}, ${2:arguments})'

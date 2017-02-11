@@ -1,0 +1,4 @@
+'.source.php':
+  'Auth-setRequest':
+    'prefix': 'Auth-setRequest'
+    'body': 'Auth::setRequest(${1:request})'

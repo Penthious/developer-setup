@@ -1,0 +1,4 @@
+'.source.php':
+  'Queue-pop':
+    'prefix': 'Queue-pop'
+    'body': 'Queue::pop(${1:queue})'

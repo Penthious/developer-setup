@@ -1,0 +1,4 @@
+'.source.php':
+  'Route-close':
+    'prefix': 'Route-close'
+    'body': 'Route::close(${1:callback})'

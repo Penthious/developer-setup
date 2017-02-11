@@ -1,0 +1,4 @@
+'.source.php':
+  'Cache-macroCall':
+    'prefix': 'Cache-macroCall'
+    'body': 'Cache::macroCall(${1:method}, ${2:parameters})'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Lang-load':
+    'prefix': 'Lang-load'
+    'body': 'Lang::load(${1:namespace}, ${2:group}, ${3:locale})'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Eloquent-with':
+    'prefix': 'Eloquent-with'
+    'body': 'Eloquent::with(${1:relations})'

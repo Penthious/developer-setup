@@ -1,0 +1,4 @@
+'.source.php':
+  'View-getFinder':
+    'prefix': 'View-getFinder'
+    'body': 'View::getFinder()'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Input-replace':
+    'prefix': 'Input-replace'
+    'body': 'Input::replace(${1:input})'

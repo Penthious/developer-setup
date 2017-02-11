@@ -1,0 +1,4 @@
+'.source.php':
+  'Mail-getViewFactory':
+    'prefix': 'Mail-getViewFactory'
+    'body': 'Mail::getViewFactory()'

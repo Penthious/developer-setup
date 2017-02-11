@@ -1,0 +1,4 @@
+'.source.php':
+  'Lang-addNamespace':
+    'prefix': 'Lang-addNamespace'
+    'body': 'Lang::addNamespace(${1:namespace}, ${2:hint})'

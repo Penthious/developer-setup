@@ -1,0 +1,4 @@
+'.source.php':
+  'SoftDeletingTrait-restoring':
+    'prefix': 'SoftDeletingTrait-restoring'
+    'body': 'SoftDeletingTrait::restoring(${1:callback})'

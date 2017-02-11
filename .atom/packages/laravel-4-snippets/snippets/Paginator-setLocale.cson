@@ -1,0 +1,4 @@
+'.source.php':
+  'Paginator-setLocale':
+    'prefix': 'Paginator-setLocale'
+    'body': 'Paginator::setLocale(${1:locale})'

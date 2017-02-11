@@ -1,0 +1,4 @@
+'.source.php':
+  'Route-getInspector':
+    'prefix': 'Route-getInspector'
+    'body': 'Route::getInspector()'

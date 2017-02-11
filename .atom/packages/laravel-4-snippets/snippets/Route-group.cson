@@ -1,0 +1,4 @@
+'.source.php':
+  'Route-group':
+    'prefix': 'Route-group'
+    'body': 'Route::group(${1:attributes}, ${2:callback})'

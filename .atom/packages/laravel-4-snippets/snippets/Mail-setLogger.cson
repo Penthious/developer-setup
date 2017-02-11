@@ -1,0 +1,4 @@
+'.source.php':
+  'Mail-setLogger':
+    'prefix': 'Mail-setLogger'
+    'body': 'Mail::setLogger(${1:logger})'

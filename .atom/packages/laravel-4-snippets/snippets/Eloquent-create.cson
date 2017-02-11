@@ -1,0 +1,4 @@
+'.source.php':
+  'Eloquent-create':
+    'prefix': 'Eloquent-create'
+    'body': 'Eloquent::create(${1:attributes})'

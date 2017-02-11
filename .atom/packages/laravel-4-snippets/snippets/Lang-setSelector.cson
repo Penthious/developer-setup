@@ -1,0 +1,4 @@
+'.source.php':
+  'Lang-setSelector':
+    'prefix': 'Lang-setSelector'
+    'body': 'Lang::setSelector(${1:selector})'

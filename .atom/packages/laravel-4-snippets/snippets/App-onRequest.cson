@@ -1,0 +1,4 @@
+'.source.php':
+  'App-onRequest':
+    'prefix': 'App-onRequest'
+    'body': 'App::onRequest(${1:method}, ${2:parameters})'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Auth-createDatabaseDriver':
+    'prefix': 'Auth-createDatabaseDriver'
+    'body': 'Auth::createDatabaseDriver()'

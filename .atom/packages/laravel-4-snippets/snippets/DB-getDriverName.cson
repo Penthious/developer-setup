@@ -1,0 +1,4 @@
+'.source.php':
+  'DB-getDriverName':
+    'prefix': 'DB-getDriverName'
+    'body': 'DB::getDriverName()'

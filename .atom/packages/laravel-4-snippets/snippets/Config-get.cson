@@ -1,0 +1,4 @@
+'.source.php':
+  'Config-get':
+    'prefix': 'Config-get'
+    'body': 'Config::get(${1:key}, ${2:default})'

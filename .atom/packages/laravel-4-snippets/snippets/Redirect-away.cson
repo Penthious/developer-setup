@@ -1,0 +1,4 @@
+'.source.php':
+  'Redirect-away':
+    'prefix': 'Redirect-away'
+    'body': 'Redirect::away(${1:path}, ${2:status}, ${3:headers})'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Auth-getName':
+    'prefix': 'Auth-getName'
+    'body': 'Auth::getName()'

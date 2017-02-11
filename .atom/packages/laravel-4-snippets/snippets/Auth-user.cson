@@ -1,0 +1,4 @@
+'.source.php':
+  'Auth-user':
+    'prefix': 'Auth-user'
+    'body': 'Auth::user()'

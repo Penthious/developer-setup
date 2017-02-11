@@ -1,0 +1,4 @@
+'.source.php':
+  'Session-flush':
+    'prefix': 'Session-flush'
+    'body': 'Session::flush()'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Input-createFromBase':
+    'prefix': 'Input-createFromBase'
+    'body': 'Input::createFromBase(${1:request})'

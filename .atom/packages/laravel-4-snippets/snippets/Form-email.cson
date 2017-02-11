@@ -1,0 +1,4 @@
+'.source.php':
+  'Form-email':
+    'prefix': 'Form-email'
+    'body': 'Form::email(${1:name}, ${2:value}, ${3:options})'

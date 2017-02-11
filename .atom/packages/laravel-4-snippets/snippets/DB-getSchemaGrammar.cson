@@ -1,0 +1,4 @@
+'.source.php':
+  'DB-getSchemaGrammar':
+    'prefix': 'DB-getSchemaGrammar'
+    'body': 'DB::getSchemaGrammar()'

@@ -1,0 +1,4 @@
+'.source.php':
+  'ClassLoader-getDirectories':
+    'prefix': 'ClassLoader-getDirectories'
+    'body': 'ClassLoader::getDirectories()'

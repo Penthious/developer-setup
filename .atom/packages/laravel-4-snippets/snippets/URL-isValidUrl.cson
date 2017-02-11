@@ -1,0 +1,4 @@
+'.source.php':
+  'URL-isValidUrl':
+    'prefix': 'URL-isValidUrl'
+    'body': 'URL::isValidUrl(${1:path})'

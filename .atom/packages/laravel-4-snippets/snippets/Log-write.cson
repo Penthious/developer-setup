@@ -1,0 +1,4 @@
+'.source.php':
+  'Log-write':
+    'prefix': 'Log-write'
+    'body': 'Log::write()'

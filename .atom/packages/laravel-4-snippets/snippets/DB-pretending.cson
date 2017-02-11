@@ -1,0 +1,4 @@
+'.source.php':
+  'DB-pretending':
+    'prefix': 'DB-pretending'
+    'body': 'DB::pretending()'

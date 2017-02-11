@@ -1,0 +1,4 @@
+'.source.php':
+  'App-isLocal':
+    'prefix': 'App-isLocal'
+    'body': 'App::isLocal()'

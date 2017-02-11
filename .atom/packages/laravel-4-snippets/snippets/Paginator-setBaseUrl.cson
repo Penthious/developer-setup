@@ -1,0 +1,4 @@
+'.source.php':
+  'Paginator-setBaseUrl':
+    'prefix': 'Paginator-setBaseUrl'
+    'body': 'Paginator::setBaseUrl(${1:baseUrl})'

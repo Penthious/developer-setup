@@ -1,0 +1,4 @@
+'.source.php':
+  'Paginator-getTranslator':
+    'prefix': 'Paginator-getTranslator'
+    'body': 'Paginator::getTranslator()'

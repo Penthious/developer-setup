@@ -1,0 +1,4 @@
+'.source.php':
+  'HTML-linkAction':
+    'prefix': 'HTML-linkAction'
+    'body': 'HTML::linkAction(${1:action}, ${2:title}, ${3:parameters}, ${4:attributes})'

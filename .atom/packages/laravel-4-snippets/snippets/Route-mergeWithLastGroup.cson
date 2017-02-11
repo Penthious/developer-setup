@@ -1,0 +1,4 @@
+'.source.php':
+  'Route-mergeWithLastGroup':
+    'prefix': 'Route-mergeWithLastGroup'
+    'body': 'Route::mergeWithLastGroup(${1:new})'

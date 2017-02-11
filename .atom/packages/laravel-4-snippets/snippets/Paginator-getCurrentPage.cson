@@ -1,0 +1,4 @@
+'.source.php':
+  'Paginator-getCurrentPage':
+    'prefix': 'Paginator-getCurrentPage'
+    'body': 'Paginator::getCurrentPage()'

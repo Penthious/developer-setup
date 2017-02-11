@@ -1,0 +1,4 @@
+'.source.php':
+  'Route-patch':
+    'prefix': 'Route-patch'
+    'body': 'Route::patch(${1:uri}, ${2:action})'

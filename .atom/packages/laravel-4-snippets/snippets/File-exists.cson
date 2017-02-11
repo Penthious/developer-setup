@@ -1,0 +1,4 @@
+'.source.php':
+  'File-exists':
+    'prefix': 'File-exists'
+    'body': 'File::exists(${1:path})'

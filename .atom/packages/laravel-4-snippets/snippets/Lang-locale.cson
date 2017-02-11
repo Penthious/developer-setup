@@ -1,0 +1,4 @@
+'.source.php':
+  'Lang-locale':
+    'prefix': 'Lang-locale'
+    'body': 'Lang::locale()'

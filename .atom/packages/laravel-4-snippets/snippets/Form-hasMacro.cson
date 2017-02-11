@@ -1,0 +1,4 @@
+'.source.php':
+  'Form-hasMacro':
+    'prefix': 'Form-hasMacro'
+    'body': 'Form::hasMacro(${1:name})'

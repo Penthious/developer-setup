@@ -1,0 +1,4 @@
+'.source.php':
+  'Request-flush':
+    'prefix': 'Request-flush'
+    'body': 'Request::flush()'

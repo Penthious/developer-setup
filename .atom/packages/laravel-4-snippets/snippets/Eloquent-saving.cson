@@ -1,0 +1,4 @@
+'.source.php':
+  'Eloquent-saving':
+    'prefix': 'Eloquent-saving'
+    'body': 'Eloquent::saving(${1:callback})'

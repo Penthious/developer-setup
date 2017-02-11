@@ -1,0 +1,4 @@
+'.source.php':
+  'Form-macro':
+    'prefix': 'Form-macro'
+    'body': 'Form::macro(${1:name}, ${2:macro})'

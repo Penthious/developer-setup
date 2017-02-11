@@ -1,0 +1,4 @@
+'.source.php':
+  'File-deleteDirectory':
+    'prefix': 'File-deleteDirectory'
+    'body': 'File::deleteDirectory(${1:directory}, ${2:preserve})'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Input-session':
+    'prefix': 'Input-session'
+    'body': 'Input::session()'

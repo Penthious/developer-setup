@@ -1,0 +1,4 @@
+'.source.php':
+  'DB-setEventDispatcher':
+    'prefix': 'DB-setEventDispatcher'
+    'body': 'DB::setEventDispatcher(${1:events})'

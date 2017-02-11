@@ -1,0 +1,4 @@
+'.source.php':
+  'View-addExtension':
+    'prefix': 'View-addExtension'
+    'body': 'View::addExtension(${1:extension}, ${2:engine}, ${3:resolver})'

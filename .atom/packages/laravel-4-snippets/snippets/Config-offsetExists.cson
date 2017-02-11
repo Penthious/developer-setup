@@ -1,0 +1,4 @@
+'.source.php':
+  'Config-offsetExists':
+    'prefix': 'Config-offsetExists'
+    'body': 'Config::offsetExists(${1:key})'

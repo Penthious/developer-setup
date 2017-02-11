@@ -1,0 +1,4 @@
+'.source.php':
+  'App-before':
+    'prefix': 'App-before'
+    'body': 'App::before(${1:callback})'

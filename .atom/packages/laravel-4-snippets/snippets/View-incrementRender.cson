@@ -1,0 +1,4 @@
+'.source.php':
+  'View-incrementRender':
+    'prefix': 'View-incrementRender'
+    'body': 'View::incrementRender()'

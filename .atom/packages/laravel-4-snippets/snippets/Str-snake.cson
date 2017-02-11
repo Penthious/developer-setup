@@ -1,0 +1,4 @@
+'.source.php':
+  'Str-snake':
+    'prefix': 'Str-snake'
+    'body': 'Str::snake(${1:value}, ${2:delimiter})'

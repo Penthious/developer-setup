@@ -1,0 +1,4 @@
+'.source.php':
+  'View-make':
+    'prefix': 'View-make'
+    'body': 'View::make(${1:view}, ${2:data}, ${3:mergeData})'

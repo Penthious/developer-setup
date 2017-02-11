@@ -1,0 +1,4 @@
+'.source.php':
+  'DB-beginTransaction':
+    'prefix': 'DB-beginTransaction'
+    'body': 'DB::beginTransaction()'

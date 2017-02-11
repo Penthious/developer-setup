@@ -1,0 +1,4 @@
+'.source.php':
+  'HTML-link':
+    'prefix': 'HTML-link'
+    'body': 'HTML::link(${1:url}, ${2:title}, ${3:attributes}, ${4:secure})'

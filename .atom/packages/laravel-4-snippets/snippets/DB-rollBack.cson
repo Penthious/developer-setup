@@ -1,0 +1,4 @@
+'.source.php':
+  'DB-rollBack':
+    'prefix': 'DB-rollBack'
+    'body': 'DB::rollBack()'

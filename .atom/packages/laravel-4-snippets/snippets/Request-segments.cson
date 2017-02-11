@@ -1,0 +1,4 @@
+'.source.php':
+  'Request-segments':
+    'prefix': 'Request-segments'
+    'body': 'Request::segments()'

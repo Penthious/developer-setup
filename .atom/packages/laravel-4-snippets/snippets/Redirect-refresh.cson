@@ -1,0 +1,4 @@
+'.source.php':
+  'Redirect-refresh':
+    'prefix': 'Redirect-refresh'
+    'body': 'Redirect::refresh(${1:status}, ${2:headers})'

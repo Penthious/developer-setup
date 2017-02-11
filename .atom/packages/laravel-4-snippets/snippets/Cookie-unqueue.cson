@@ -1,0 +1,4 @@
+'.source.php':
+  'Cookie-unqueue':
+    'prefix': 'Cookie-unqueue'
+    'body': 'Cookie::unqueue(${1:name})'

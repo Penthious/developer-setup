@@ -1,0 +1,4 @@
+'.source.php':
+  'SSH-run':
+    'prefix': 'SSH-run'
+    'body': 'SSH::run(${1:commands}, ${2:callback})'

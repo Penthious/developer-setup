@@ -1,0 +1,4 @@
+'.source.php':
+  'View-doneRendering':
+    'prefix': 'View-doneRendering'
+    'body': 'View::doneRendering()'

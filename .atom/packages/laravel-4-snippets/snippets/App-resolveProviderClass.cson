@@ -1,0 +1,4 @@
+'.source.php':
+  'App-resolveProviderClass':
+    'prefix': 'App-resolveProviderClass'
+    'body': 'App::resolveProviderClass(${1:provider})'

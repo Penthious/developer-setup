@@ -1,0 +1,4 @@
+'.source.php':
+  'Crypt-encrypt':
+    'prefix': 'Crypt-encrypt'
+    'body': 'Crypt::encrypt(${1:value})'

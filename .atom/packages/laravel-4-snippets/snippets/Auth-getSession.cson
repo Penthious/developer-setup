@@ -1,0 +1,4 @@
+'.source.php':
+  'Auth-getSession':
+    'prefix': 'Auth-getSession'
+    'body': 'Auth::getSession()'

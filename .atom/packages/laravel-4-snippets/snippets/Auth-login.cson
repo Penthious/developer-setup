@@ -1,0 +1,4 @@
+'.source.php':
+  'Auth-login':
+    'prefix': 'Auth-login'
+    'body': 'Auth::login(${1:user}, ${2:remember})'

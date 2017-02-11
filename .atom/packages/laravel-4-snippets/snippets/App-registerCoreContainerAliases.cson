@@ -1,0 +1,4 @@
+'.source.php':
+  'App-registerCoreContainerAliases':
+    'prefix': 'App-registerCoreContainerAliases'
+    'body': 'App::registerCoreContainerAliases()'

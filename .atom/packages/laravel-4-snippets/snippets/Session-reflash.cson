@@ -1,0 +1,4 @@
+'.source.php':
+  'Session-reflash':
+    'prefix': 'Session-reflash'
+    'body': 'Session::reflash()'

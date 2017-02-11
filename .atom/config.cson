@@ -1,0 +1,103 @@
+"*":
+  "atom-beautify":
+    apex: {}
+    arduino: {}
+    c: {}
+    cfml: {}
+    coffeescript: {}
+    cpp: {}
+    cs: {}
+    css: {}
+    d: {}
+    ejs: {}
+    erb: {}
+    fortran: {}
+    general:
+      _analyticsUserId: "af1d5fe7-8f6f-4daf-9992-619eda93b40d"
+    gherkin: {}
+    handlebars: {}
+    html: {}
+    jade: {}
+    java: {}
+    js: {}
+    json: {}
+    jsx: {}
+    latex: {}
+    less: {}
+    marko: {}
+    mustache: {}
+    objectivec: {}
+    pawn: {}
+    perl: {}
+    php: {}
+    python: {}
+    riot: {}
+    ruby: {}
+    rust: {}
+    sass: {}
+    scss: {}
+    spacebars: {}
+    sql: {}
+    svg: {}
+    swig: {}
+    tss: {}
+    twig: {}
+    typescript: {}
+    vala: {}
+    visualforce: {}
+    xml: {}
+    xtemplate: {}
+  "autocomplete-plus": {}
+  core:
+    disabledPackages: [
+      "color-picker"
+      "linter-jscs"
+    ]
+    projectHome: "/Users/tomas/vagrant-lamp/sites/"
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "an-old-hope-syntax"
+    ]
+  editor:
+    fontSize: 18
+    invisibles:
+      tab: "s"
+    preferredLineLength: 200
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    tabLength: 4
+  emmet:
+    useEmmetComments: true
+  "exception-reporting":
+    userId: "80741232-a0d3-d1ab-05b8-febfb1a4728d"
+  "git-plus": {}
+  linter: {}
+  "linter-eslint": {}
+  "linter-htmlhint":
+    executablePath: "/Users/tomas/.atom/packages/"
+  "linter-jscs":
+    preset: "crockford"
+  "linter-php": {}
+  pigments:
+    markerType: "dot"
+  "sync-settings":
+    _lastBackupHash: "10a9e7c76dfdff2a52fd92cfdab2419d26080ef1"
+    gistId: "ca3513ffe431ca82c688a0dfdaf2680a"
+    personalAccessToken: "90ee6553b0814416ff12899b592d8291e507055e"
+  "tree-view": {}
+  "vim-mode": {}
+  welcome:
+    showOnStartup: false
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "
+".diff.source":
+  editor:
+    preferredLineLength: 200
+".source.sql":
+  editor:
+    preferredLineLength: 105

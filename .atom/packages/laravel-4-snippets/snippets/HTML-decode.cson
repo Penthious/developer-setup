@@ -1,0 +1,4 @@
+'.source.php':
+  'HTML-decode':
+    'prefix': 'HTML-decode'
+    'body': 'HTML::decode(${1:value})'

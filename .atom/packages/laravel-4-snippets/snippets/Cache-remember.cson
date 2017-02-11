@@ -1,0 +1,4 @@
+'.source.php':
+  'Cache-remember':
+    'prefix': 'Cache-remember'
+    'body': 'Cache::remember(${1:key}, ${2:minutes}, ${3:callback})'

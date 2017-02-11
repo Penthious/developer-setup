@@ -1,0 +1,4 @@
+'.source.php':
+  'Event-forget':
+    'prefix': 'Event-forget'
+    'body': 'Event::forget(${1:event})'

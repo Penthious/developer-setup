@@ -1,0 +1,4 @@
+'.source.php':
+  'URL-route':
+    'prefix': 'URL-route'
+    'body': 'URL::route(${1:name}, ${2:parameters}, ${3:absolute}, ${4:route})'

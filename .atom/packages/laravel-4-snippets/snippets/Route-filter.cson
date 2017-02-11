@@ -1,0 +1,4 @@
+'.source.php':
+  'Route-filter':
+    'prefix': 'Route-filter'
+    'body': 'Route::filter(${1:name}, ${2:callback})'

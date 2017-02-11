@@ -1,0 +1,4 @@
+'.source.php':
+  'Str-is':
+    'prefix': 'Str-is'
+    'body': 'Str::is(${1:pattern}, ${2:value})'

@@ -1,0 +1,4 @@
+'.source.php':
+  'HTML-macro':
+    'prefix': 'HTML-macro'
+    'body': 'HTML::macro(${1:name}, ${2:macro})'

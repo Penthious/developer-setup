@@ -1,0 +1,4 @@
+'.source.php':
+  'View-creator':
+    'prefix': 'View-creator'
+    'body': 'View::creator(${1:views}, ${2:callback})'

@@ -1,0 +1,4 @@
+'.source.php':
+  'File-getRemote':
+    'prefix': 'File-getRemote'
+    'body': 'File::getRemote(${1:path})'

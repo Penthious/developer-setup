@@ -1,0 +1,4 @@
+'.source.php':
+  'Cache-offsetExists':
+    'prefix': 'Cache-offsetExists'
+    'body': 'Cache::offsetExists(${1:key})'

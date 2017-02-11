@@ -1,0 +1,4 @@
+'.source.php':
+  'View-flushSectionsIfDoneRendering':
+    'prefix': 'View-flushSectionsIfDoneRendering'
+    'body': 'View::flushSectionsIfDoneRendering()'

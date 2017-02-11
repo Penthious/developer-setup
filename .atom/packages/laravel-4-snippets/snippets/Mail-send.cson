@@ -1,0 +1,4 @@
+'.source.php':
+  'Mail-send':
+    'prefix': 'Mail-send'
+    'body': 'Mail::send(${1:view}, ${2:data}, ${3:callback})'

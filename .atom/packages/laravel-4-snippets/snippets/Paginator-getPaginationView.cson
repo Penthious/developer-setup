@@ -1,0 +1,4 @@
+'.source.php':
+  'Paginator-getPaginationView':
+    'prefix': 'Paginator-getPaginationView'
+    'body': 'Paginator::getPaginationView(${1:paginator}, ${2:view})'

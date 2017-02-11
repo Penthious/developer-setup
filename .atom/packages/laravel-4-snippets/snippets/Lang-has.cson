@@ -1,0 +1,4 @@
+'.source.php':
+  'Lang-has':
+    'prefix': 'Lang-has'
+    'body': 'Lang::has(${1:key}, ${2:locale})'

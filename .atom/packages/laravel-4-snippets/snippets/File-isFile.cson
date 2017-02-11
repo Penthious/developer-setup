@@ -1,0 +1,4 @@
+'.source.php':
+  'File-isFile':
+    'prefix': 'File-isFile'
+    'body': 'File::isFile(${1:file})'

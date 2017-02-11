@@ -1,0 +1,4 @@
+'.source.php':
+  'Schema-dropIfExists':
+    'prefix': 'Schema-dropIfExists'
+    'body': 'Schema::dropIfExists(${1:table})'

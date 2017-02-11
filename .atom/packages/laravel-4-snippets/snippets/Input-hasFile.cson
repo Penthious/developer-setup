@@ -1,0 +1,4 @@
+'.source.php':
+  'Input-hasFile':
+    'prefix': 'Input-hasFile'
+    'body': 'Input::hasFile(${1:key})'

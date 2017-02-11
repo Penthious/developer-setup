@@ -1,0 +1,4 @@
+'.source.php':
+  'Redirect-guest':
+    'prefix': 'Redirect-guest'
+    'body': 'Redirect::guest(${1:path}, ${2:status}, ${3:headers}, ${4:secure})'

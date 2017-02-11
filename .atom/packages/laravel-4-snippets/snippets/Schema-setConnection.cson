@@ -1,0 +1,4 @@
+'.source.php':
+  'Schema-setConnection':
+    'prefix': 'Schema-setConnection'
+    'body': 'Schema::setConnection(${1:connection})'

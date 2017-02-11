@@ -1,0 +1,4 @@
+'.source.php':
+  'Session-flash':
+    'prefix': 'Session-flash'
+    'body': 'Session::flash(${1:key}, ${2:value})'

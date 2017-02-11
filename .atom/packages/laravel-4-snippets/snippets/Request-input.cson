@@ -1,0 +1,4 @@
+'.source.php':
+  'Request-input':
+    'prefix': 'Request-input'
+    'body': 'Request::input(${1:key}, ${2:default})'

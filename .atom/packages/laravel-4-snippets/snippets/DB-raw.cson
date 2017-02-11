@@ -1,0 +1,4 @@
+'.source.php':
+  'DB-raw':
+    'prefix': 'DB-raw'
+    'body': 'DB::raw(${1:value})'

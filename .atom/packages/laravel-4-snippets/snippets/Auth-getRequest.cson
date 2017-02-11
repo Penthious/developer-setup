@@ -1,0 +1,4 @@
+'.source.php':
+  'Auth-getRequest':
+    'prefix': 'Auth-getRequest'
+    'body': 'Auth::getRequest()'

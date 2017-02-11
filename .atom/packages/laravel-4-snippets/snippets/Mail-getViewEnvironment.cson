@@ -1,0 +1,4 @@
+'.source.php':
+  'Mail-getViewEnvironment':
+    'prefix': 'Mail-getViewEnvironment'
+    'body': 'Mail::getViewEnvironment()'

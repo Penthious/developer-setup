@@ -1,0 +1,4 @@
+'.source.php':
+  'ClassLoader-addDirectories':
+    'prefix': 'ClassLoader-addDirectories'
+    'body': 'ClassLoader::addDirectories(${1:directories})'

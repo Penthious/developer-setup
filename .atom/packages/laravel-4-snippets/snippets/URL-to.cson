@@ -1,0 +1,4 @@
+'.source.php':
+  'URL-to':
+    'prefix': 'URL-to'
+    'body': 'URL::to(${1:path}, ${2:extra}, ${3:secure})'

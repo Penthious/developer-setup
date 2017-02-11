@@ -1,0 +1,4 @@
+'.source.php':
+  'Eloquent-withTrashed':
+    'prefix': 'Eloquent-withTrashed'
+    'body': 'Eloquent::withTrashed()'

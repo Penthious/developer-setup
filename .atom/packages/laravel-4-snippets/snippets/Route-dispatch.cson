@@ -1,0 +1,4 @@
+'.source.php':
+  'Route-dispatch':
+    'prefix': 'Route-dispatch'
+    'body': 'Route::dispatch(${1:request})'

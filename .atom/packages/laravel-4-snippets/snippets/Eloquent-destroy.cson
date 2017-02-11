@@ -1,0 +1,4 @@
+'.source.php':
+  'Eloquent-destroy':
+    'prefix': 'Eloquent-destroy'
+    'body': 'Eloquent::destroy(${1:ids})'

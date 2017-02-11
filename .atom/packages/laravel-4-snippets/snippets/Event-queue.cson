@@ -1,0 +1,4 @@
+'.source.php':
+  'Event-queue':
+    'prefix': 'Event-queue'
+    'body': 'Event::queue(${1:event}, ${2:payload})'

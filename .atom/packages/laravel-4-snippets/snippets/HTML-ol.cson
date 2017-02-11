@@ -1,0 +1,4 @@
+'.source.php':
+  'HTML-ol':
+    'prefix': 'HTML-ol'
+    'body': 'HTML::ol(${1:list}, ${2:attributes})'

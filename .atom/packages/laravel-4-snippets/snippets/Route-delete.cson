@@ -1,0 +1,4 @@
+'.source.php':
+  'Route-delete':
+    'prefix': 'Route-delete'
+    'body': 'Route::delete(${1:uri}, ${2:action})'

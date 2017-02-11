@@ -1,0 +1,4 @@
+'.source.php':
+  'Str-camel':
+    'prefix': 'Str-camel'
+    'body': 'Str::camel(${1:value})'

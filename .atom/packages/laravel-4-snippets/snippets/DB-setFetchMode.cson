@@ -1,0 +1,4 @@
+'.source.php':
+  'DB-setFetchMode':
+    'prefix': 'DB-setFetchMode'
+    'body': 'DB::setFetchMode(${1:fetchMode})'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Response-hasMacro':
+    'prefix': 'Response-hasMacro'
+    'body': 'Response::hasMacro(${1:name})'

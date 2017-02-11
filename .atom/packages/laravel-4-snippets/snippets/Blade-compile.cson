@@ -1,0 +1,4 @@
+'.source.php':
+  'Blade-compile':
+    'prefix': 'Blade-compile'
+    'body': 'Blade::compile(${1:path})'

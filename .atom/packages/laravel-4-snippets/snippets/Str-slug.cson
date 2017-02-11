@@ -1,0 +1,4 @@
+'.source.php':
+  'Str-slug':
+    'prefix': 'Str-slug'
+    'body': 'Str::slug(${1:title}, ${2:separator})'

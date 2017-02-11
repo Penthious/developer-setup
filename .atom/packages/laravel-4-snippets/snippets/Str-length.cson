@@ -1,0 +1,4 @@
+'.source.php':
+  'Str-length':
+    'prefix': 'Str-length'
+    'body': 'Str::length(${1:value})'

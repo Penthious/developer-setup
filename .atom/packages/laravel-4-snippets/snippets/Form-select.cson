@@ -1,0 +1,4 @@
+'.source.php':
+  'Form-select':
+    'prefix': 'Form-select'
+    'body': 'Form::select(${1:name}, ${2:list}, ${3:selected}, ${4:options})'

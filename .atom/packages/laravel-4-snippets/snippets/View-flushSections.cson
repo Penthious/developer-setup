@@ -1,0 +1,4 @@
+'.source.php':
+  'View-flushSections':
+    'prefix': 'View-flushSections'
+    'body': 'View::flushSections()'

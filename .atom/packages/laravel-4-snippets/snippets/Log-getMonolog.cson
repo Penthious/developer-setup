@@ -1,0 +1,4 @@
+'.source.php':
+  'Log-getMonolog':
+    'prefix': 'Log-getMonolog'
+    'body': 'Log::getMonolog()'

@@ -1,0 +1,4 @@
+'.source.php':
+  'DB-getDoctrineColumn':
+    'prefix': 'DB-getDoctrineColumn'
+    'body': 'DB::getDoctrineColumn(${1:table}, ${2:column})'

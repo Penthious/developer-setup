@@ -1,0 +1,4 @@
+'.source.php':
+  'File-isDirectory':
+    'prefix': 'File-isDirectory'
+    'body': 'File::isDirectory(${1:directory})'

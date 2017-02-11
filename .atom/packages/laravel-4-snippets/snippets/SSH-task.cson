@@ -1,0 +1,4 @@
+'.source.php':
+  'SSH-task':
+    'prefix': 'SSH-task'
+    'body': 'SSH::task(${1:task}, ${2:callback})'

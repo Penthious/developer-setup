@@ -1,0 +1,4 @@
+'.source.php':
+  'Cache-getDefaultCacheTime':
+    'prefix': 'Cache-getDefaultCacheTime'
+    'body': 'Cache::getDefaultCacheTime()'

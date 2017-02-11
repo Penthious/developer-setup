@@ -1,0 +1,4 @@
+'.source.php':
+  'Mail-plain':
+    'prefix': 'Mail-plain'
+    'body': 'Mail::plain(${1:view}, ${2:data}, ${3:callback})'

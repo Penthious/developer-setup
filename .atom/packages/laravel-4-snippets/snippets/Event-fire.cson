@@ -1,0 +1,4 @@
+'.source.php':
+  'Event-fire':
+    'prefix': 'Event-fire'
+    'body': 'Event::fire(${1:event}, ${2:payload}, ${3:halt})'

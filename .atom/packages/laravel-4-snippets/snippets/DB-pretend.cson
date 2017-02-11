@@ -1,0 +1,4 @@
+'.source.php':
+  'DB-pretend':
+    'prefix': 'DB-pretend'
+    'body': 'DB::pretend(${1:callback})'

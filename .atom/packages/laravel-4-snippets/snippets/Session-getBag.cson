@@ -1,0 +1,4 @@
+'.source.php':
+  'Session-getBag':
+    'prefix': 'Session-getBag'
+    'body': 'Session::getBag(${1:name})'

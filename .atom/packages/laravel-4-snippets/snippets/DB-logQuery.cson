@@ -1,0 +1,4 @@
+'.source.php':
+  'DB-logQuery':
+    'prefix': 'DB-logQuery'
+    'body': 'DB::logQuery(${1:query}, ${2:bindings}, ${3:time})'

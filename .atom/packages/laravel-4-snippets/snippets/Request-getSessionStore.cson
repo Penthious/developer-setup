@@ -1,0 +1,4 @@
+'.source.php':
+  'Request-getSessionStore':
+    'prefix': 'Request-getSessionStore'
+    'body': 'Request::getSessionStore()'

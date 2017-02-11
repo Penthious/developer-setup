@@ -1,0 +1,4 @@
+'.source.php':
+  'Request-flash':
+    'prefix': 'Request-flash'
+    'body': 'Request::flash(${1:filter}, ${2:keys})'

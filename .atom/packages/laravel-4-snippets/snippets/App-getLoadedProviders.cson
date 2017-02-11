@@ -1,0 +1,4 @@
+'.source.php':
+  'App-getLoadedProviders':
+    'prefix': 'App-getLoadedProviders'
+    'body': 'App::getLoadedProviders()'

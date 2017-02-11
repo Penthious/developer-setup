@@ -81,15 +81,18 @@ elif ! [[ $SHELL =~ .*zsh.* ]]; then
     git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 fi
 
-# Install composer
-echo "Downloading composer"
-php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-php -r "if (hash_file('SHA384', 'composer-setup.php') === '55d6ead61b29c7bdee5cccfb50076874187bd9f21f65d8991d46ec5cc90518f447387fb9f76ebae1fbbacf329e583e30') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
-php composer-setup.php
-php -r "unlink('composer-setup.php');"
+if ! command_exists composer; then
+    # Install composer
+    echo "Downloading composer"
+    php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+    php -r "if (hash_file('SHA384', 'composer-setup.php') === '55d6ead61b29c7bdee5cccfb50076874187bd9f21f65d8991d46ec5cc90518f447387fb9f76ebae1fbbacf329e583e30') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+    php composer-setup.php
+    php -r "unlink('composer-setup.php');"
 
-echo "Moving composer to the correct directory"
-mv composer.phar /usr/local/bin/composer
+    echo "Moving composer to the correct directory"
+    mv composer.phar /usr/local/bin/composer
+fi
+
 
 # Install laravel and laravel valet
 echo "Downloading laravel"
@@ -98,6 +101,10 @@ echo "Downloading laravel valet"
 composer global require laravel/valet
 
 rm ~/.zshrc
+rm ~/.gitconfig
+
+ln -sf ~/developer-setup/.gitconfig ~/.gitconfig
+ln -sf ~/developer-setup/.gitconfig ~/.gitconfig
 
 git clone git@github.com:Penthious/developer-setup.git ~/developer-setup
 

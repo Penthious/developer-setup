@@ -1,0 +1,4 @@
+'.source.php':
+  'View-getShared':
+    'prefix': 'View-getShared'
+    'body': 'View::getShared()'

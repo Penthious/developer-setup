@@ -1,0 +1,4 @@
+'.source.php':
+  'App-getBootstrapFile':
+    'prefix': 'App-getBootstrapFile'
+    'body': 'App::getBootstrapFile()'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Str-lower':
+    'prefix': 'Str-lower'
+    'body': 'Str::lower(${1:value})'

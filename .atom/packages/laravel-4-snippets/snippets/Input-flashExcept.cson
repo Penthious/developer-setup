@@ -1,0 +1,4 @@
+'.source.php':
+  'Input-flashExcept':
+    'prefix': 'Input-flashExcept'
+    'body': 'Input::flashExcept(${1:keys})'

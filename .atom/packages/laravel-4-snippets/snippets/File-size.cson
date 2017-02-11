@@ -1,0 +1,4 @@
+'.source.php':
+  'File-size':
+    'prefix': 'File-size'
+    'body': 'File::size(${1:path})'

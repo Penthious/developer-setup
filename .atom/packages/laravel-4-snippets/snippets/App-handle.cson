@@ -1,0 +1,4 @@
+'.source.php':
+  'App-handle':
+    'prefix': 'App-handle'
+    'body': 'App::handle(${1:request}, ${2:type}, ${3:catch})'

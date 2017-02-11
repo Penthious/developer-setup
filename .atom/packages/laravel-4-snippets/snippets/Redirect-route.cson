@@ -1,0 +1,4 @@
+'.source.php':
+  'Redirect-route':
+    'prefix': 'Redirect-route'
+    'body': 'Redirect::route(${1:route}, ${2:parameters}, ${3:status}, ${4:headers})'

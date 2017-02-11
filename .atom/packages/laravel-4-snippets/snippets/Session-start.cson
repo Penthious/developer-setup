@@ -1,0 +1,4 @@
+'.source.php':
+  'Session-start':
+    'prefix': 'Session-start'
+    'body': 'Session::start()'

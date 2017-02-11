@@ -1,0 +1,4 @@
+'.source.php':
+  'Session-getToken':
+    'prefix': 'Session-getToken'
+    'body': 'Session::getToken()'

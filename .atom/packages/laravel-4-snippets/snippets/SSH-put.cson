@@ -1,0 +1,4 @@
+'.source.php':
+  'SSH-put':
+    'prefix': 'SSH-put'
+    'body': 'SSH::put(${1:local}, ${2:remote})'

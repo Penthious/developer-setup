@@ -1,0 +1,4 @@
+'.source.php':
+  'Request-isJson':
+    'prefix': 'Request-isJson'
+    'body': 'Request::isJson()'

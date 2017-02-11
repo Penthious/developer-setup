@@ -1,0 +1,4 @@
+'.source.php':
+  'Cache-getDefaultDriver':
+    'prefix': 'Cache-getDefaultDriver'
+    'body': 'Cache::getDefaultDriver()'

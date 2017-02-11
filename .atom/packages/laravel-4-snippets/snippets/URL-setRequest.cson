@@ -1,0 +1,4 @@
+'.source.php':
+  'URL-setRequest':
+    'prefix': 'URL-setRequest'
+    'body': 'URL::setRequest(${1:request})'

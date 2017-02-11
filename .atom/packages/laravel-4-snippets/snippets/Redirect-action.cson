@@ -1,0 +1,4 @@
+'.source.php':
+  'Redirect-action':
+    'prefix': 'Redirect-action'
+    'body': 'Redirect::action(${1:action}, ${2:parameters}, ${3:status}, ${4:headers})'

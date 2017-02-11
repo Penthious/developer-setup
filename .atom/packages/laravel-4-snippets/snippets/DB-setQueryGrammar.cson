@@ -1,0 +1,4 @@
+'.source.php':
+  'DB-setQueryGrammar':
+    'prefix': 'DB-setQueryGrammar'
+    'body': 'DB::setQueryGrammar(${1:grammar})'

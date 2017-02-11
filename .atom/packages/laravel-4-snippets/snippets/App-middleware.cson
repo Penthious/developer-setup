@@ -1,0 +1,4 @@
+'.source.php':
+  'App-middleware':
+    'prefix': 'App-middleware'
+    'body': 'App::middleware(${1:class}, ${2:parameters})'

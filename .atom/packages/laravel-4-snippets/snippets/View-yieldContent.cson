@@ -1,0 +1,4 @@
+'.source.php':
+  'View-yieldContent':
+    'prefix': 'View-yieldContent'
+    'body': 'View::yieldContent(${1:section}, ${2:default})'

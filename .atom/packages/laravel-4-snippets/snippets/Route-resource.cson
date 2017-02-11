@@ -1,0 +1,4 @@
+'.source.php':
+  'Route-resource':
+    'prefix': 'Route-resource'
+    'body': 'Route::resource(${1:name}, ${2:controller}, ${3:options})'

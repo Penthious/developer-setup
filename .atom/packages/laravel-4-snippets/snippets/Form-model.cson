@@ -1,0 +1,4 @@
+'.source.php':
+  'Form-model':
+    'prefix': 'Form-model'
+    'body': 'Form::model(${1:model}, ${2:options})'

@@ -1,0 +1,4 @@
+'.source.php':
+  'View-startSection':
+    'prefix': 'View-startSection'
+    'body': 'View::startSection(${1:section}, ${2:content})'

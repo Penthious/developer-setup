@@ -1,0 +1,4 @@
+'.source.php':
+  'App-down':
+    'prefix': 'App-down'
+    'body': 'App::down(${1:callback})'

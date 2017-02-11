@@ -1,0 +1,4 @@
+'.source.php':
+  'Auth-setProvider':
+    'prefix': 'Auth-setProvider'
+    'body': 'Auth::setProvider(${1:provider})'

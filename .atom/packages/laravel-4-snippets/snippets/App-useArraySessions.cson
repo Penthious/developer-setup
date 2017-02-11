@@ -1,0 +1,4 @@
+'.source.php':
+  'App-useArraySessions':
+    'prefix': 'App-useArraySessions'
+    'body': 'App::useArraySessions(${1:callback})'

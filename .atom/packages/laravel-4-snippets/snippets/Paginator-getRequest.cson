@@ -1,0 +1,4 @@
+'.source.php':
+  'Paginator-getRequest':
+    'prefix': 'Paginator-getRequest'
+    'body': 'Paginator::getRequest()'

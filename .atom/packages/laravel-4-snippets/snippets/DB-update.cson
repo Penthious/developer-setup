@@ -1,0 +1,4 @@
+'.source.php':
+  'DB-update':
+    'prefix': 'DB-update'
+    'body': 'DB::update(${1:query}, ${2:bindings})'

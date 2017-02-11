@@ -1,0 +1,4 @@
+'.source.php':
+  'View-getEngineResolver':
+    'prefix': 'View-getEngineResolver'
+    'body': 'View::getEngineResolver()'

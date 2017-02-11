@@ -1,0 +1,4 @@
+'.source.php':
+  'Route-input':
+    'prefix': 'Route-input'
+    'body': 'Route::input(${1:key}, ${2:default})'

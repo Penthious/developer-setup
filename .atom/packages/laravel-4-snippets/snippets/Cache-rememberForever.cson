@@ -1,0 +1,4 @@
+'.source.php':
+  'Cache-rememberForever':
+    'prefix': 'Cache-rememberForever'
+    'body': 'Cache::rememberForever(${1:key}, ${2:callback})'

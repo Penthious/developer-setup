@@ -1,0 +1,4 @@
+'.source.php':
+  'Session-setExists':
+    'prefix': 'Session-setExists'
+    'body': 'Session::setExists(${1:value})'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Route-mergeGroup':
+    'prefix': 'Route-mergeGroup'
+    'body': 'Route::mergeGroup(${1:new}, ${2:old})'

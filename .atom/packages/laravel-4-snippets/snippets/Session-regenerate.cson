@@ -1,0 +1,4 @@
+'.source.php':
+  'Session-regenerate':
+    'prefix': 'Session-regenerate'
+    'body': 'Session::regenerate(${1:destroy})'

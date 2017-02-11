@@ -1,0 +1,4 @@
+'.source.php':
+  'View-decrementRender':
+    'prefix': 'View-decrementRender'
+    'body': 'View::decrementRender()'

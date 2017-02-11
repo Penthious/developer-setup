@@ -1,0 +1,4 @@
+'.source.php':
+  'Request-instance':
+    'prefix': 'Request-instance'
+    'body': 'Request::instance()'

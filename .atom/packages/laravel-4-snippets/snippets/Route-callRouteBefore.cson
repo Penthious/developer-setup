@@ -1,0 +1,4 @@
+'.source.php':
+  'Route-callRouteBefore':
+    'prefix': 'Route-callRouteBefore'
+    'body': 'Route::callRouteBefore(${1:route}, ${2:request})'

@@ -1,0 +1,4 @@
+'.source.php':
+  'HTML-linkAsset':
+    'prefix': 'HTML-linkAsset'
+    'body': 'HTML::linkAsset(${1:url}, ${2:title}, ${3:attributes}, ${4:secure})'

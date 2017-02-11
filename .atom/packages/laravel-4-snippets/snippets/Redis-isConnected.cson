@@ -1,0 +1,4 @@
+'.source.php':
+  'Redis-isConnected':
+    'prefix': 'Redis-isConnected'
+    'body': 'Redis::isConnected()'

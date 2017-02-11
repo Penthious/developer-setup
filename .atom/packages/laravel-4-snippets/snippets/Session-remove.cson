@@ -1,0 +1,4 @@
+'.source.php':
+  'Session-remove':
+    'prefix': 'Session-remove'
+    'body': 'Session::remove(${1:name})'

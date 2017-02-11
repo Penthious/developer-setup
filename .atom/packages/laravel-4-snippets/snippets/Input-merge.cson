@@ -1,0 +1,4 @@
+'.source.php':
+  'Input-merge':
+    'prefix': 'Input-merge'
+    'body': 'Input::merge(${1:input})'

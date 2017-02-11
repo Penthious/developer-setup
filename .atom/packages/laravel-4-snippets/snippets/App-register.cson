@@ -1,0 +1,4 @@
+'.source.php':
+  'App-register':
+    'prefix': 'App-register'
+    'body': 'App::register(${1:provider}, ${2:options}, ${3:force})'

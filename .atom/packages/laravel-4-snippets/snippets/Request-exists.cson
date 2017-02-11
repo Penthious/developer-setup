@@ -1,0 +1,4 @@
+'.source.php':
+  'Request-exists':
+    'prefix': 'Request-exists'
+    'body': 'Request::exists(${1:key})'

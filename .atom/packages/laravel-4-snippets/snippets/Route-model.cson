@@ -1,0 +1,4 @@
+'.source.php':
+  'Route-model':
+    'prefix': 'Route-model'
+    'body': 'Route::model(${1:key}, ${2:class}, ${3:callback})'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Event-subscribe':
+    'prefix': 'Event-subscribe'
+    'body': 'Event::subscribe(${1:subscriber})'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Input-is':
+    'prefix': 'Input-is'
+    'body': 'Input::is()'

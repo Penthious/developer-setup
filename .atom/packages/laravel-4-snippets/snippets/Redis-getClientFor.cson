@@ -1,0 +1,4 @@
+'.source.php':
+  'Redis-getClientFor':
+    'prefix': 'Redis-getClientFor'
+    'body': 'Redis::getClientFor(${1:connectionID})'

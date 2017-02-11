@@ -1,0 +1,4 @@
+'.source.php':
+  'Mail-setContainer':
+    'prefix': 'Mail-setContainer'
+    'body': 'Mail::setContainer(${1:container})'

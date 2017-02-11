@@ -1,0 +1,4 @@
+'.source.php':
+  'Redis-multiExec':
+    'prefix': 'Redis-multiExec'
+    'body': 'Redis::multiExec()'

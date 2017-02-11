@@ -1,0 +1,4 @@
+'.source.php':
+  'DB-getConfig':
+    'prefix': 'DB-getConfig'
+    'body': 'DB::getConfig(${1:option})'

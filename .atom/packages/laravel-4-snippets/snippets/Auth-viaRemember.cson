@@ -1,0 +1,4 @@
+'.source.php':
+  'Auth-viaRemember':
+    'prefix': 'Auth-viaRemember'
+    'body': 'Auth::viaRemember()'

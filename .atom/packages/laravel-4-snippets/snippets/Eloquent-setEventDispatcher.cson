@@ -1,0 +1,4 @@
+'.source.php':
+  'Eloquent-setEventDispatcher':
+    'prefix': 'Eloquent-setEventDispatcher'
+    'body': 'Eloquent::setEventDispatcher(${1:dispatcher})'

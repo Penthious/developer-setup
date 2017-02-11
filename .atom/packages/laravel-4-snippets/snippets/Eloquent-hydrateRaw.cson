@@ -1,0 +1,4 @@
+'.source.php':
+  'Eloquent-hydrateRaw':
+    'prefix': 'Eloquent-hydrateRaw'
+    'body': 'Eloquent::hydrateRaw(${1:query}, ${2:bindings}, ${3:connection})'

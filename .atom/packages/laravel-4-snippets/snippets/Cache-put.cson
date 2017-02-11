@@ -1,0 +1,4 @@
+'.source.php':
+  'Cache-put':
+    'prefix': 'Cache-put'
+    'body': 'Cache::put(${1:key}, ${2:value}, ${3:minutes})'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Config-getEnvironment':
+    'prefix': 'Config-getEnvironment'
+    'body': 'Config::getEnvironment()'

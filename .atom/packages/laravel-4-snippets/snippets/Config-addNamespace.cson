@@ -1,0 +1,4 @@
+'.source.php':
+  'Config-addNamespace':
+    'prefix': 'Config-addNamespace'
+    'body': 'Config::addNamespace(${1:namespace}, ${2:hint})'

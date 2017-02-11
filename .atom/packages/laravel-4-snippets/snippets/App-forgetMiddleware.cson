@@ -1,0 +1,4 @@
+'.source.php':
+  'App-forgetMiddleware':
+    'prefix': 'App-forgetMiddleware'
+    'body': 'App::forgetMiddleware(${1:class})'

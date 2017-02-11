@@ -1,0 +1,4 @@
+'.source.php':
+  'Redirect-getUrlGenerator':
+    'prefix': 'Redirect-getUrlGenerator'
+    'body': 'Redirect::getUrlGenerator()'

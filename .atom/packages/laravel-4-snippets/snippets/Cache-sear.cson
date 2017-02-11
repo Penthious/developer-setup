@@ -1,0 +1,4 @@
+'.source.php':
+  'Cache-sear':
+    'prefix': 'Cache-sear'
+    'body': 'Cache::sear(${1:key}, ${2:callback})'

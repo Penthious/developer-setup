@@ -1,0 +1,4 @@
+'.source.php':
+  'App-isDownForMaintenance':
+    'prefix': 'App-isDownForMaintenance'
+    'body': 'App::isDownForMaintenance()'

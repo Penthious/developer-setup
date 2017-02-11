@@ -1,0 +1,4 @@
+'.source.php':
+  'Request-path':
+    'prefix': 'Request-path'
+    'body': 'Request::path()'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Cookie-make':
+    'prefix': 'Cookie-make'
+    'body': 'Cookie::make(${1:name}, ${2:value}, ${3:minutes}, ${4:path}, ${5:domain}, ${6:secure}, ${7:httpOnly})'

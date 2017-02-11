@@ -1,0 +1,4 @@
+'.source.php':
+  'DB-getDoctrineConnection':
+    'prefix': 'DB-getDoctrineConnection'
+    'body': 'DB::getDoctrineConnection()'

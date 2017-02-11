@@ -1,0 +1,4 @@
+'.source.php':
+  'Auth-getDispatcher':
+    'prefix': 'Auth-getDispatcher'
+    'body': 'Auth::getDispatcher()'

@@ -1,0 +1,4 @@
+'.source.php':
+  'DB-flushQueryLog':
+    'prefix': 'DB-flushQueryLog'
+    'body': 'DB::flushQueryLog()'

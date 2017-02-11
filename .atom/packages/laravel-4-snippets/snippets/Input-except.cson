@@ -1,0 +1,4 @@
+'.source.php':
+  'Input-except':
+    'prefix': 'Input-except'
+    'body': 'Input::except(${1:keys})'

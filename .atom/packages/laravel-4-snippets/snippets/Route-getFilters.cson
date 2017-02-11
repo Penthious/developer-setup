@@ -1,0 +1,4 @@
+'.source.php':
+  'Route-getFilters':
+    'prefix': 'Route-getFilters'
+    'body': 'Route::getFilters()'

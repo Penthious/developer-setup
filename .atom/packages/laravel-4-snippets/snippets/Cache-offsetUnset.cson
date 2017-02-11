@@ -1,0 +1,4 @@
+'.source.php':
+  'Cache-offsetUnset':
+    'prefix': 'Cache-offsetUnset'
+    'body': 'Cache::offsetUnset(${1:key})'

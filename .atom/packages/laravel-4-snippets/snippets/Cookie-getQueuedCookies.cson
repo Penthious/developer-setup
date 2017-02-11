@@ -1,0 +1,4 @@
+'.source.php':
+  'Cookie-getQueuedCookies':
+    'prefix': 'Cookie-getQueuedCookies'
+    'body': 'Cookie::getQueuedCookies()'

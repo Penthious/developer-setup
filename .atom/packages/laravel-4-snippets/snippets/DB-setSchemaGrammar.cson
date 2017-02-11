@@ -1,0 +1,4 @@
+'.source.php':
+  'DB-setSchemaGrammar':
+    'prefix': 'DB-setSchemaGrammar'
+    'body': 'DB::setSchemaGrammar(${1:grammar})'

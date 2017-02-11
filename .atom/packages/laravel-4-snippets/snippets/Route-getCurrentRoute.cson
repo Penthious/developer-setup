@@ -1,0 +1,4 @@
+'.source.php':
+  'Route-getCurrentRoute':
+    'prefix': 'Route-getCurrentRoute'
+    'body': 'Route::getCurrentRoute()'

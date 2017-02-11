@@ -1,0 +1,4 @@
+'.source.php':
+  'Auth-getProvider':
+    'prefix': 'Auth-getProvider'
+    'body': 'Auth::getProvider()'

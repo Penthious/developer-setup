@@ -1,0 +1,4 @@
+'.source.php':
+  'Auth-onceUsingId':
+    'prefix': 'Auth-onceUsingId'
+    'body': 'Auth::onceUsingId(${1:id})'

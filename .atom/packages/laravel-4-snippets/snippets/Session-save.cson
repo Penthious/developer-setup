@@ -1,0 +1,4 @@
+'.source.php':
+  'Session-save':
+    'prefix': 'Session-save'
+    'body': 'Session::save()'

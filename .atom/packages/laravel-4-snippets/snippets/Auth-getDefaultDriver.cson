@@ -1,0 +1,4 @@
+'.source.php':
+  'Auth-getDefaultDriver':
+    'prefix': 'Auth-getDefaultDriver'
+    'body': 'Auth::getDefaultDriver()'

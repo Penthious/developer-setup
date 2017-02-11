@@ -1,0 +1,4 @@
+'.source.php':
+  'View-prependNamespace':
+    'prefix': 'View-prependNamespace'
+    'body': 'View::prependNamespace(${1:namespace}, ${2:hints})'

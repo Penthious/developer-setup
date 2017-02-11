@@ -1,0 +1,4 @@
+'.source.php':
+  'Cache-setPrefix':
+    'prefix': 'Cache-setPrefix'
+    'body': 'Cache::setPrefix(${1:name})'

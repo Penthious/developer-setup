@@ -1,0 +1,4 @@
+'.source.php':
+  'DB-setTablePrefix':
+    'prefix': 'DB-setTablePrefix'
+    'body': 'DB::setTablePrefix(${1:prefix})'

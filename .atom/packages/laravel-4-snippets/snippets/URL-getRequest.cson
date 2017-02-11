@@ -1,0 +1,4 @@
+'.source.php':
+  'URL-getRequest':
+    'prefix': 'URL-getRequest'
+    'body': 'URL::getRequest()'

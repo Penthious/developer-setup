@@ -1,0 +1,4 @@
+'.source.php':
+  'Event-createClassListener':
+    'prefix': 'Event-createClassListener'
+    'body': 'Event::createClassListener(${1:listener})'

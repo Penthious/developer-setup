@@ -1,0 +1,4 @@
+'.source.php':
+  'HTML-secureLink':
+    'prefix': 'HTML-secureLink'
+    'body': 'HTML::secureLink(${1:url}, ${2:title}, ${3:attributes})'

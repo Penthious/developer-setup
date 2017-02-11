@@ -1,0 +1,4 @@
+'.source.php':
+  'Request-fullUrl':
+    'prefix': 'Request-fullUrl'
+    'body': 'Request::fullUrl()'

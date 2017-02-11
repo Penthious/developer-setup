@@ -1,0 +1,4 @@
+'.source.php':
+  'Auth-loginUsingId':
+    'prefix': 'Auth-loginUsingId'
+    'body': 'Auth::loginUsingId(${1:id}, ${2:remember})'

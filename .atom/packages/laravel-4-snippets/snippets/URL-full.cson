@@ -1,0 +1,4 @@
+'.source.php':
+  'URL-full':
+    'prefix': 'URL-full'
+    'body': 'URL::full()'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Route-disableFilters':
+    'prefix': 'Route-disableFilters'
+    'body': 'Route::disableFilters()'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Str-plural':
+    'prefix': 'Str-plural'
+    'body': 'Str::plural(${1:value}, ${2:count})'

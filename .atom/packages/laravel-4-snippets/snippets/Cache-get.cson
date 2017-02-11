@@ -1,0 +1,4 @@
+'.source.php':
+  'Cache-get':
+    'prefix': 'Cache-get'
+    'body': 'Cache::get(${1:key}, ${2:default})'

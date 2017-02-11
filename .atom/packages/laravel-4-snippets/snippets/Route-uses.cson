@@ -1,0 +1,4 @@
+'.source.php':
+  'Route-uses':
+    'prefix': 'Route-uses'
+    'body': 'Route::uses()'

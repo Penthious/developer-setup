@@ -1,0 +1,4 @@
+'.source.php':
+  'SoftDeletingTrait-bootSoftDeletingTrait':
+    'prefix': 'SoftDeletingTrait-bootSoftDeletingTrait'
+    'body': 'SoftDeletingTrait::bootSoftDeletingTrait()'

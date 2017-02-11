@@ -1,0 +1,4 @@
+'.source.php':
+  'File-requireOnce':
+    'prefix': 'File-requireOnce'
+    'body': 'File::requireOnce(${1:file})'

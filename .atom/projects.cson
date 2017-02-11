@@ -1,0 +1,10 @@
+skatelister:
+  title: "Skatelister"
+  paths: [
+    "/Users/tomas/vagrant-lamp/sites/skatelister.dev"
+  ]
+sweetyamsdev:
+  title: "Sweetyams Dev"
+  paths: [
+    "/Users/tomas/vagrant-lamp/sites/sweetyams.dev"
+  ]

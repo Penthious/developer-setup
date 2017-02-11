@@ -1,0 +1,4 @@
+'.source.php':
+  'Route-put':
+    'prefix': 'Route-put'
+    'body': 'Route::put(${1:uri}, ${2:action})'

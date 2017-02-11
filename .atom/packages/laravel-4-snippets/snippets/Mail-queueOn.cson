@@ -1,0 +1,4 @@
+'.source.php':
+  'Mail-queueOn':
+    'prefix': 'Mail-queueOn'
+    'body': 'Mail::queueOn(${1:queue}, ${2:view}, ${3:data}, ${4:callback})'

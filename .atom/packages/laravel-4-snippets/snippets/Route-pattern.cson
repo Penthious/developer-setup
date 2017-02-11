@@ -1,0 +1,4 @@
+'.source.php':
+  'Route-pattern':
+    'prefix': 'Route-pattern'
+    'body': 'Route::pattern(${1:key}, ${2:pattern})'

@@ -1,0 +1,4 @@
+'.source.php':
+  'DB-setDatabaseName':
+    'prefix': 'DB-setDatabaseName'
+    'body': 'DB::setDatabaseName(${1:database})'

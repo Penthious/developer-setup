@@ -1,0 +1,4 @@
+'.source.php':
+  'Form-setSessionStore':
+    'prefix': 'Form-setSessionStore'
+    'body': 'Form::setSessionStore(${1:session})'

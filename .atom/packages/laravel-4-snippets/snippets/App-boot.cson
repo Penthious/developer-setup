@@ -1,0 +1,4 @@
+'.source.php':
+  'App-boot':
+    'prefix': 'App-boot'
+    'body': 'App::boot()'

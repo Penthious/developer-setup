@@ -1,0 +1,4 @@
+'.source.php':
+  'HTML-attributes':
+    'prefix': 'HTML-attributes'
+    'body': 'HTML::attributes(${1:attributes})'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Cache-macro':
+    'prefix': 'Cache-macro'
+    'body': 'Cache::macro(${1:name}, ${2:macro})'

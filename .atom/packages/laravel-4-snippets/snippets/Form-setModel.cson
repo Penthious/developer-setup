@@ -1,0 +1,4 @@
+'.source.php':
+  'Form-setModel':
+    'prefix': 'Form-setModel'
+    'body': 'Form::setModel(${1:model})'

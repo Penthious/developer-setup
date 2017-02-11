@@ -1,0 +1,4 @@
+'.source.php':
+  'File-put':
+    'prefix': 'File-put'
+    'body': 'File::put(${1:path}, ${2:contents})'

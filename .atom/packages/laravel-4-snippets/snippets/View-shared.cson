@@ -1,0 +1,4 @@
+'.source.php':
+  'View-shared':
+    'prefix': 'View-shared'
+    'body': 'View::shared(${1:key}, ${2:default})'

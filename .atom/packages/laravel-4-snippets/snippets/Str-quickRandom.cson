@@ -1,0 +1,4 @@
+'.source.php':
+  'Str-quickRandom':
+    'prefix': 'Str-quickRandom'
+    'body': 'Str::quickRandom(${1:length})'

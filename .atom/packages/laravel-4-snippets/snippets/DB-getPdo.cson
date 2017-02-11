@@ -1,0 +1,4 @@
+'.source.php':
+  'DB-getPdo':
+    'prefix': 'DB-getPdo'
+    'body': 'DB::getPdo()'

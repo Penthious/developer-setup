@@ -1,0 +1,4 @@
+'.source.php':
+  'DB-getReadPdo':
+    'prefix': 'DB-getReadPdo'
+    'body': 'DB::getReadPdo()'

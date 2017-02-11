@@ -1,0 +1,4 @@
+'.source.php':
+  'Response-download':
+    'prefix': 'Response-download'
+    'body': 'Response::download(${1:file}, ${2:name}, ${3:headers}, ${4:disposition})'

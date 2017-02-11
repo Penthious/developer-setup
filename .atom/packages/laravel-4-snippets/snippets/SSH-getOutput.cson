@@ -1,0 +1,4 @@
+'.source.php':
+  'SSH-getOutput':
+    'prefix': 'SSH-getOutput'
+    'body': 'SSH::getOutput()'

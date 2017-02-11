@@ -1,0 +1,4 @@
+'.source.php':
+  'View-addLocation':
+    'prefix': 'View-addLocation'
+    'body': 'View::addLocation(${1:location})'

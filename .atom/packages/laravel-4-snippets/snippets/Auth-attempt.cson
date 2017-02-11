@@ -1,0 +1,4 @@
+'.source.php':
+  'Auth-attempt':
+    'prefix': 'Auth-attempt'
+    'body': 'Auth::attempt(${1:credentials}, ${2:remember}, ${3:login})'

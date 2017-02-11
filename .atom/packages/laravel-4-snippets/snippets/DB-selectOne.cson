@@ -1,0 +1,4 @@
+'.source.php':
+  'DB-selectOne':
+    'prefix': 'DB-selectOne'
+    'body': 'DB::selectOne(${1:query}, ${2:bindings})'

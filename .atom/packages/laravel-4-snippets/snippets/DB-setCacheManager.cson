@@ -1,0 +1,4 @@
+'.source.php':
+  'DB-setCacheManager':
+    'prefix': 'DB-setCacheManager'
+    'body': 'DB::setCacheManager(${1:cache})'

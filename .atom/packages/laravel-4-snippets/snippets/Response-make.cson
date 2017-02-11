@@ -1,0 +1,4 @@
+'.source.php':
+  'Response-make':
+    'prefix': 'Response-make'
+    'body': 'Response::make(${1:content}, ${2:status}, ${3:headers})'

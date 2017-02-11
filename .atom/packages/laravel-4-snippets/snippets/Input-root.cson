@@ -1,0 +1,4 @@
+'.source.php':
+  'Input-root':
+    'prefix': 'Input-root'
+    'body': 'Input::root()'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Response-stream':
+    'prefix': 'Response-stream'
+    'body': 'Response::stream(${1:callback}, ${2:status}, ${3:headers})'

@@ -1,0 +1,4 @@
+'.source.php':
+  'App-runningUnitTests':
+    'prefix': 'App-runningUnitTests'
+    'body': 'App::runningUnitTests()'

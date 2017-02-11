@@ -1,0 +1,4 @@
+'.source.php':
+  'App-make':
+    'prefix': 'App-make'
+    'body': 'App::make(${1:abstract}, ${2:parameters})'

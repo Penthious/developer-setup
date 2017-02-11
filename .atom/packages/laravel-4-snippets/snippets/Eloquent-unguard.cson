@@ -1,0 +1,4 @@
+'.source.php':
+  'Eloquent-unguard':
+    'prefix': 'Eloquent-unguard'
+    'body': 'Eloquent::unguard()'

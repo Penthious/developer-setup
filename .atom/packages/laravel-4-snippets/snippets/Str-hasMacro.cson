@@ -1,0 +1,4 @@
+'.source.php':
+  'Str-hasMacro':
+    'prefix': 'Str-hasMacro'
+    'body': 'Str::hasMacro(${1:name})'

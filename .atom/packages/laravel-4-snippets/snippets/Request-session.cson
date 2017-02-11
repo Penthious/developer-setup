@@ -1,0 +1,4 @@
+'.source.php':
+  'Request-session':
+    'prefix': 'Request-session'
+    'body': 'Request::session()'

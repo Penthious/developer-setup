@@ -1,0 +1,4 @@
+'.source.php':
+  'Input-fullUrl':
+    'prefix': 'Input-fullUrl'
+    'body': 'Input::fullUrl()'

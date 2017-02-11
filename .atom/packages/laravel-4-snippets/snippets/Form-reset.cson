@@ -1,0 +1,4 @@
+'.source.php':
+  'Form-reset':
+    'prefix': 'Form-reset'
+    'body': 'Form::reset(${1:value}, ${2:attributes})'

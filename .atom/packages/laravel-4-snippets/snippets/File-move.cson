@@ -1,0 +1,4 @@
+'.source.php':
+  'File-move':
+    'prefix': 'File-move'
+    'body': 'File::move(${1:path}, ${2:target})'

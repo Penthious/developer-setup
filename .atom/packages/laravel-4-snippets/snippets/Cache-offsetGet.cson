@@ -1,0 +1,4 @@
+'.source.php':
+  'Cache-offsetGet':
+    'prefix': 'Cache-offsetGet'
+    'body': 'Cache::offsetGet(${1:key})'

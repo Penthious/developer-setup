@@ -1,0 +1,4 @@
+'.source.php':
+  'App-getConfigLoader':
+    'prefix': 'App-getConfigLoader'
+    'body': 'App::getConfigLoader()'

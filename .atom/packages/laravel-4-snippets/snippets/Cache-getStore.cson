@@ -1,0 +1,4 @@
+'.source.php':
+  'Cache-getStore':
+    'prefix': 'Cache-getStore'
+    'body': 'Cache::getStore()'

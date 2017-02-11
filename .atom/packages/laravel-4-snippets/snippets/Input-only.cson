@@ -1,0 +1,4 @@
+'.source.php':
+  'Input-only':
+    'prefix': 'Input-only'
+    'body': 'Input::only(${1:keys})'

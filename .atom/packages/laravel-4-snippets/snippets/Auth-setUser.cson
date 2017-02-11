@@ -1,0 +1,4 @@
+'.source.php':
+  'Auth-setUser':
+    'prefix': 'Auth-setUser'
+    'body': 'Auth::setUser(${1:user})'

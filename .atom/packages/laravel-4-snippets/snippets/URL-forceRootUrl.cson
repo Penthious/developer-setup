@@ -1,0 +1,4 @@
+'.source.php':
+  'URL-forceRootUrl':
+    'prefix': 'URL-forceRootUrl'
+    'body': 'URL::forceRootUrl(${1:root})'

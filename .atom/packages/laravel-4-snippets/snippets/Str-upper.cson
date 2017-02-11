@@ -1,0 +1,4 @@
+'.source.php':
+  'Str-upper':
+    'prefix': 'Str-upper'
+    'body': 'Str::upper(${1:value})'

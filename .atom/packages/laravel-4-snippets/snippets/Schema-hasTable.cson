@@ -1,0 +1,4 @@
+'.source.php':
+  'Schema-hasTable':
+    'prefix': 'Schema-hasTable'
+    'body': 'Schema::hasTable(${1:table})'

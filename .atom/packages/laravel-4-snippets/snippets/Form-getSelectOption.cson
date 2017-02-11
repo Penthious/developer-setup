@@ -1,0 +1,4 @@
+'.source.php':
+  'Form-getSelectOption':
+    'prefix': 'Form-getSelectOption'
+    'body': 'Form::getSelectOption(${1:display}, ${2:value}, ${3:selected})'

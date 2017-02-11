@@ -1,0 +1,36 @@
+{
+  "name": "laravel-4-snippets",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Laravel 4.2 snippets, created using https://github.com/james2doyle/sublime-to-atom-snippets ",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anothergituser/laravel-4.2-snippets.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "readme": "# laravel-4.2-snippets package\n\nLaravel 4.2 snippets, created using https://github.com/james2doyle/sublime-to-atom-snippets\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/anothergituser/laravel-4.2-snippets/issues"
+  },
+  "homepage": "https://github.com/anothergituser/laravel-4.2-snippets#readme",
+  "_id": "laravel-4-snippets@0.1.0",
+  "_shasum": "711dd28038de40d3e45b7f2e52b49cfd38b12857",
+  "_resolved": "file:../d-116312-1638-ie2u1i/package.tgz",
+  "_from": "../d-116312-1638-ie2u1i/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

@@ -1,0 +1,4 @@
+'.source.php':
+  'Cookie-get':
+    'prefix': 'Cookie-get'
+    'body': 'Cookie::get(${1:key}, ${2:default})'

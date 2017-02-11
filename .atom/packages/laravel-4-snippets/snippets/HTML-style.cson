@@ -1,0 +1,4 @@
+'.source.php':
+  'HTML-style':
+    'prefix': 'HTML-style'
+    'body': 'HTML::style(${1:url}, ${2:attributes}, ${3:secure})'

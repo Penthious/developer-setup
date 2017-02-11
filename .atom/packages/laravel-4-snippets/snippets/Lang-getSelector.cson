@@ -1,0 +1,4 @@
+'.source.php':
+  'Lang-getSelector':
+    'prefix': 'Lang-getSelector'
+    'body': 'Lang::getSelector()'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Redis-transaction':
+    'prefix': 'Redis-transaction'
+    'body': 'Redis::transaction()'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Queue-pushRaw':
+    'prefix': 'Queue-pushRaw'
+    'body': 'Queue::pushRaw(${1:payload}, ${2:queue}, ${3:options})'

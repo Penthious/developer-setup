@@ -1,0 +1,4 @@
+'.source.php':
+  'Eloquent-on':
+    'prefix': 'Eloquent-on'
+    'body': 'Eloquent::on(${1:connection})'

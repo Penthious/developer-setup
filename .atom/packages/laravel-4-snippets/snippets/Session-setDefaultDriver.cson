@@ -1,0 +1,4 @@
+'.source.php':
+  'Session-setDefaultDriver':
+    'prefix': 'Session-setDefaultDriver'
+    'body': 'Session::setDefaultDriver(${1:name})'

@@ -1,0 +1,4 @@
+'.source.php':
+  'SoftDeletingTrait-withTrashed':
+    'prefix': 'SoftDeletingTrait-withTrashed'
+    'body': 'SoftDeletingTrait::withTrashed()'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Validator-getTranslator':
+    'prefix': 'Validator-getTranslator'
+    'body': 'Validator::getTranslator()'

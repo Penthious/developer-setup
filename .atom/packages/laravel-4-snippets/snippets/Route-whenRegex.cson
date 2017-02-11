@@ -1,0 +1,4 @@
+'.source.php':
+  'Route-whenRegex':
+    'prefix': 'Route-whenRegex'
+    'body': 'Route::whenRegex(${1:pattern}, ${2:name}, ${3:methods})'

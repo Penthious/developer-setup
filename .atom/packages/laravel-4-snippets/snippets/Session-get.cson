@@ -1,0 +1,4 @@
+'.source.php':
+  'Session-get':
+    'prefix': 'Session-get'
+    'body': 'Session::get(${1:name}, ${2:default})'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Session-migrate':
+    'prefix': 'Session-migrate'
+    'body': 'Session::migrate(${1:destroy}, ${2:lifetime})'

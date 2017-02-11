@@ -1,0 +1,4 @@
+'.source.php':
+  'SSH-get':
+    'prefix': 'SSH-get'
+    'body': 'SSH::get(${1:remote}, ${2:local})'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Eloquent-created':
+    'prefix': 'Eloquent-created'
+    'body': 'Eloquent::created(${1:callback})'

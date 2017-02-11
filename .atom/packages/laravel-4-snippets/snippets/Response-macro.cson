@@ -1,0 +1,4 @@
+'.source.php':
+  'Response-macro':
+    'prefix': 'Response-macro'
+    'body': 'Response::macro(${1:name}, ${2:macro})'

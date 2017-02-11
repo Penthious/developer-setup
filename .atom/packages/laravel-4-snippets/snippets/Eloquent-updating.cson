@@ -1,0 +1,4 @@
+'.source.php':
+  'Eloquent-updating':
+    'prefix': 'Eloquent-updating'
+    'body': 'Eloquent::updating(${1:callback})'

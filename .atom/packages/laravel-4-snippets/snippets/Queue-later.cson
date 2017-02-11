@@ -1,0 +1,4 @@
+'.source.php':
+  'Queue-later':
+    'prefix': 'Queue-later'
+    'body': 'Queue::later(${1:delay}, ${2:job}, ${3:data}, ${4:queue})'

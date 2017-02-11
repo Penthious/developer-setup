@@ -1,0 +1,4 @@
+'.source.php':
+  'Auth-getCookieJar':
+    'prefix': 'Auth-getCookieJar'
+    'body': 'Auth::getCookieJar()'

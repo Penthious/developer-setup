@@ -1,0 +1,4 @@
+'.source.php':
+  'Redis-getProfile':
+    'prefix': 'Redis-getProfile'
+    'body': 'Redis::getProfile()'

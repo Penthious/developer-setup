@@ -1,0 +1,4 @@
+'.source.php':
+  'Event-makeListener':
+    'prefix': 'Event-makeListener'
+    'body': 'Event::makeListener(${1:listener})'

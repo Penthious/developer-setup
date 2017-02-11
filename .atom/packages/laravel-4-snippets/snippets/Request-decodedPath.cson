@@ -1,0 +1,4 @@
+'.source.php':
+  'Request-decodedPath':
+    'prefix': 'Request-decodedPath'
+    'body': 'Request::decodedPath()'

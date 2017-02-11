@@ -1,0 +1,4 @@
+'.source.php':
+  'View-yieldSection':
+    'prefix': 'View-yieldSection'
+    'body': 'View::yieldSection()'

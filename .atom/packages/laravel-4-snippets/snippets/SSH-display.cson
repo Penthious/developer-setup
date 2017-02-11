@@ -1,0 +1,4 @@
+'.source.php':
+  'SSH-display':
+    'prefix': 'SSH-display'
+    'body': 'SSH::display(${1:line})'

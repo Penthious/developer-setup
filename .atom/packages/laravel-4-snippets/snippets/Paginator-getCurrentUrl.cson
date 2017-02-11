@@ -1,0 +1,4 @@
+'.source.php':
+  'Paginator-getCurrentUrl':
+    'prefix': 'Paginator-getCurrentUrl'
+    'body': 'Paginator::getCurrentUrl()'

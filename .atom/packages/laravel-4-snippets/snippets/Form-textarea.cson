@@ -1,0 +1,4 @@
+'.source.php':
+  'Form-textarea':
+    'prefix': 'Form-textarea'
+    'body': 'Form::textarea(${1:name}, ${2:value}, ${3:options})'

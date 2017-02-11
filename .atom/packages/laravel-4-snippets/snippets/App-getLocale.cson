@@ -1,0 +1,4 @@
+'.source.php':
+  'App-getLocale':
+    'prefix': 'App-getLocale'
+    'body': 'App::getLocale()'

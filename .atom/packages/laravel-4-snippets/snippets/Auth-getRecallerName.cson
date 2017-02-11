@@ -1,0 +1,4 @@
+'.source.php':
+  'Auth-getRecallerName':
+    'prefix': 'Auth-getRecallerName'
+    'body': 'Auth::getRecallerName()'

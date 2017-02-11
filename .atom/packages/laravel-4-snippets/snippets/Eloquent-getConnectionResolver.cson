@@ -1,0 +1,4 @@
+'.source.php':
+  'Eloquent-getConnectionResolver':
+    'prefix': 'Eloquent-getConnectionResolver'
+    'body': 'Eloquent::getConnectionResolver()'

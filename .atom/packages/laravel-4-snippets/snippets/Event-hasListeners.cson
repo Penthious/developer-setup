@@ -1,0 +1,4 @@
+'.source.php':
+  'Event-hasListeners':
+    'prefix': 'Event-hasListeners'
+    'body': 'Event::hasListeners(${1:eventName})'

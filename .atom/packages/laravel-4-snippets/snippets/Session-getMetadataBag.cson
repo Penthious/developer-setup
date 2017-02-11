@@ -1,0 +1,4 @@
+'.source.php':
+  'Session-getMetadataBag':
+    'prefix': 'Session-getMetadataBag'
+    'body': 'Session::getMetadataBag()'

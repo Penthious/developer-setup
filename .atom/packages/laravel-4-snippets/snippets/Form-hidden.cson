@@ -1,0 +1,4 @@
+'.source.php':
+  'Form-hidden':
+    'prefix': 'Form-hidden'
+    'body': 'Form::hidden(${1:name}, ${2:value}, ${3:options})'

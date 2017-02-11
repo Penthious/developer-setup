@@ -1,0 +1,4 @@
+'.source.php':
+  'DB-getDoctrineSchemaManager':
+    'prefix': 'DB-getDoctrineSchemaManager'
+    'body': 'DB::getDoctrineSchemaManager()'

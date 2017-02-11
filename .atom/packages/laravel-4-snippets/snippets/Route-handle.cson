@@ -1,0 +1,4 @@
+'.source.php':
+  'Route-handle':
+    'prefix': 'Route-handle'
+    'body': 'Route::handle(${1:request}, ${2:type}, ${3:catch})'

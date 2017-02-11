@@ -1,0 +1,4 @@
+'.source.php':
+  'Blade-getPath':
+    'prefix': 'Blade-getPath'
+    'body': 'Blade::getPath()'

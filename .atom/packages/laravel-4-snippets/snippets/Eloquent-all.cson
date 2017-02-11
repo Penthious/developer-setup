@@ -1,0 +1,4 @@
+'.source.php':
+  'Eloquent-all':
+    'prefix': 'Eloquent-all'
+    'body': 'Eloquent::all(${1:columns})'

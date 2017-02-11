@@ -1,0 +1,4 @@
+'.source.php':
+  'DB-getQueryLog':
+    'prefix': 'DB-getQueryLog'
+    'body': 'DB::getQueryLog()'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Input-flashOnly':
+    'prefix': 'Input-flashOnly'
+    'body': 'Input::flashOnly(${1:keys})'

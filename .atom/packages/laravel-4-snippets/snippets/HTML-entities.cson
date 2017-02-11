@@ -1,0 +1,4 @@
+'.source.php':
+  'HTML-entities':
+    'prefix': 'HTML-entities'
+    'body': 'HTML::entities(${1:value})'

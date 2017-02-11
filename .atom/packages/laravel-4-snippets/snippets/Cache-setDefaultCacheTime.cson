@@ -1,0 +1,4 @@
+'.source.php':
+  'Cache-setDefaultCacheTime':
+    'prefix': 'Cache-setDefaultCacheTime'
+    'body': 'Cache::setDefaultCacheTime(${1:minutes})'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Input-instance':
+    'prefix': 'Input-instance'
+    'body': 'Input::instance()'

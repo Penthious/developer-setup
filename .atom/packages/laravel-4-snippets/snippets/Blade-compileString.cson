@@ -1,0 +1,4 @@
+'.source.php':
+  'Blade-compileString':
+    'prefix': 'Blade-compileString'
+    'body': 'Blade::compileString(${1:value})'

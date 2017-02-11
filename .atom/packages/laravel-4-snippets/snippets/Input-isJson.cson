@@ -1,0 +1,4 @@
+'.source.php':
+  'Input-isJson':
+    'prefix': 'Input-isJson'
+    'body': 'Input::isJson()'

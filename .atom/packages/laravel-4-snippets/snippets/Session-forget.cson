@@ -1,0 +1,4 @@
+'.source.php':
+  'Session-forget':
+    'prefix': 'Session-forget'
+    'body': 'Session::forget(${1:key})'

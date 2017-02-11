@@ -1,0 +1,4 @@
+'.source.php':
+  'Schema-getColumnListing':
+    'prefix': 'Schema-getColumnListing'
+    'body': 'Schema::getColumnListing(${1:table})'

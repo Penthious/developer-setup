@@ -1,0 +1,4 @@
+'.source.php':
+  'File-files':
+    'prefix': 'File-files'
+    'body': 'File::files(${1:directory})'

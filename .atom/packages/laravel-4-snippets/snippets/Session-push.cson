@@ -1,0 +1,4 @@
+'.source.php':
+  'Session-push':
+    'prefix': 'Session-push'
+    'body': 'Session::push(${1:key}, ${2:value})'

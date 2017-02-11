@@ -1,0 +1,4 @@
+'.source.php':
+  'Eloquent-firstOrNew':
+    'prefix': 'Eloquent-firstOrNew'
+    'body': 'Eloquent::firstOrNew(${1:attributes})'

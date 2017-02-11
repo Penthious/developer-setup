@@ -1,0 +1,4 @@
+'.source.php':
+  'Blade-createOpenMatcher':
+    'prefix': 'Blade-createOpenMatcher'
+    'body': 'Blade::createOpenMatcher(${1:function})'

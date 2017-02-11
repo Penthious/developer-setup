@@ -1,0 +1,4 @@
+'.source.php':
+  'Config-getLoader':
+    'prefix': 'Config-getLoader'
+    'body': 'Config::getLoader()'

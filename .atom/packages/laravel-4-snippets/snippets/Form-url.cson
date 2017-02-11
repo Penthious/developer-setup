@@ -1,0 +1,4 @@
+'.source.php':
+  'Form-url':
+    'prefix': 'Form-url'
+    'body': 'Form::url(${1:name}, ${2:value}, ${3:options})'

@@ -1,0 +1,4 @@
+'.source.php':
+  'SSH-setOutput':
+    'prefix': 'SSH-setOutput'
+    'body': 'SSH::setOutput(${1:output})'

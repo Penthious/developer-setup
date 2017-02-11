@@ -1,0 +1,4 @@
+'.source.php':
+  'App-requestClass':
+    'prefix': 'App-requestClass'
+    'body': 'App::requestClass(${1:class})'

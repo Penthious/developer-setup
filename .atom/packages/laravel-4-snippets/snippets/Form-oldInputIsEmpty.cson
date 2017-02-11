@@ -1,0 +1,4 @@
+'.source.php':
+  'Form-oldInputIsEmpty':
+    'prefix': 'Form-oldInputIsEmpty'
+    'body': 'Form::oldInputIsEmpty()'

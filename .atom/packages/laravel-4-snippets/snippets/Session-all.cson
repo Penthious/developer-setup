@@ -1,0 +1,4 @@
+'.source.php':
+  'Session-all':
+    'prefix': 'Session-all'
+    'body': 'Session::all()'

@@ -1,0 +1,4 @@
+'.source.php':
+  'Log-useErrorLog':
+    'prefix': 'Log-useErrorLog'
+    'body': 'Log::useErrorLog(${1:level}, ${2:messageType})'

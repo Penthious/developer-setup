@@ -1,0 +1,4 @@
+'.source.php':
+  'View-name':
+    'prefix': 'View-name'
+    'body': 'View::name(${1:view}, ${2:name})'

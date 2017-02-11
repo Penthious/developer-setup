@@ -1,0 +1,4 @@
+'.source.php':
+  'Validator-extend':
+    'prefix': 'Validator-extend'
+    'body': 'Validator::extend(${1:rule}, ${2:extension}, ${3:message})'

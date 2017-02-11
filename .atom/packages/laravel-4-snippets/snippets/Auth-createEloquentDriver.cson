@@ -1,0 +1,4 @@
+'.source.php':
+  'Auth-createEloquentDriver':
+    'prefix': 'Auth-createEloquentDriver'
+    'body': 'Auth::createEloquentDriver()'

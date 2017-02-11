@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/d-11719-16143-q0wyq1/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/d-11719-16143-q0wyq1/package.tgz",
+        "spec": "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/d-11719-16143-q0wyq1/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/apm-install-dir-11719-16143-9ilt2j"
+    ]
+  ],
+  "_from": "../d-11719-16143-q0wyq1/package.tgz",
+  "_id": "language-blade@0.27.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/language-blade",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/d-11719-16143-q0wyq1/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/d-11719-16143-q0wyq1/package.tgz",
+    "spec": "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/d-11719-16143-q0wyq1/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11719-16143-q0wyq1/package.tgz",
+  "_shasum": "c5b348293fc048e1fd7ebac6e37c32804e7922ce",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/d-11719-16143-q0wyq1/package.tgz",
+  "_where": "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/apm-install-dir-11719-16143-9ilt2j",
+  "bugs": {
+    "url": "https://github.com/jawee/language-blade/issues"
+  },
+  "dependencies": {},
+  "description": "Syntax highlighter for the Blade templating engine used in Laravel",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/jawee/language-blade#readme",
+  "license": "MIT",
+  "main": "./lib/language-blade",
+  "name": "language-blade",
+  "optionalDependencies": {},
+  "readme": "# Blade templating support in Atom\n\nOriginally [Converted](http://atom.io/docs/latest/converting-a-text-mate-bundle) from [Blade textmate tmbundle](https://github.com/outofcontrol/Blade.tmbundle)\n\nContributions are greatly appreciated. Please fork this repository and open a\npull request to add snippets, make grammar tweaks, etc.\n\n## Contributing\n\n1. Fork it\n2. Create your feature branch (`git checkout -b my-new-feature`)\n3. Commit your changes (`git commit -am 'Add some feature'`)\n4. Push to the branch (`git push origin my-new-feature`)\n5. Create new Pull Request\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jawee/language-blade.git"
+  },
+  "version": "0.27.1"
+}

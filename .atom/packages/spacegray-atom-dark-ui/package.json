@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/d-11719-16173-1s0cpzz/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/d-11719-16173-1s0cpzz/package.tgz",
+        "spec": "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/d-11719-16173-1s0cpzz/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/apm-install-dir-11719-16173-39mzjj"
+    ]
+  ],
+  "_from": "../d-11719-16173-1s0cpzz/package.tgz",
+  "_id": "spacegray-atom-dark-ui@1.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/spacegray-atom-dark-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/d-11719-16173-1s0cpzz/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/d-11719-16173-1s0cpzz/package.tgz",
+    "spec": "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/d-11719-16173-1s0cpzz/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11719-16173-1s0cpzz/package.tgz",
+  "_shasum": "dd26628ce2c6e6b47b31166b45bc88749847aec9",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/d-11719-16173-1s0cpzz/package.tgz",
+  "_where": "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/apm-install-dir-11719-16173-39mzjj",
+  "bugs": {
+    "url": "https://github.com/jchouse/spacegray-atom-dark-ui/issues"
+  },
+  "dependencies": {},
+  "description": "This theme based on defalt UI theme Atom Dark and base16-ocean-spacegray-dark theme for ST2",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.40.0"
+  },
+  "homepage": "https://github.com/jchouse/spacegray-atom-dark-ui#readme",
+  "license": "MIT",
+  "name": "spacegray-atom-dark-ui",
+  "optionalDependencies": {},
+  "readme": "# Spacegray Atom Dark UI theme\n\nThis theme based on defalt UI theme Atom Dark and base16-ocean-spacegray-dark theme for ST2\n\nTaking care of every detail\n\nMinimalistik theme for atom. Best use with `spacegray-atom-dark-syntax`.\n\n![image](http://img-fotki.yandex.ru/get/9746/54504136.7/0_de60f_e2ce8495_orig.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jchouse/spacegray-atom-dark-ui.git"
+  },
+  "theme": "ui",
+  "version": "1.0.1"
+}

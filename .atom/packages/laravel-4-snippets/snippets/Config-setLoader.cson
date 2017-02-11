@@ -1,0 +1,4 @@
+'.source.php':
+  'Config-setLoader':
+    'prefix': 'Config-setLoader'
+    'body': 'Config::setLoader(${1:loader})'

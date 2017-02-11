@@ -1,0 +1,4 @@
+'.source.php':
+  'File-prepend':
+    'prefix': 'File-prepend'
+    'body': 'File::prepend(${1:path}, ${2:data})'

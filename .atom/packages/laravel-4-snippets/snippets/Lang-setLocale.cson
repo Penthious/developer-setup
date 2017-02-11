@@ -1,0 +1,4 @@
+'.source.php':
+  'Lang-setLocale':
+    'prefix': 'Lang-setLocale'
+    'body': 'Lang::setLocale(${1:locale})'
