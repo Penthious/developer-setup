@@ -5,6 +5,11 @@ command_exists(){
     type "$1" > /dev/null 2>&1
 }
 
+if [ ! -d ~/.config ]; then
+  echo "    Creating .config folder"
+  mkdir ~/.config
+fi
+
 if test ! $(which brew); then
     echo "Installing homebrew"
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -43,16 +48,23 @@ caskApps=(
 if ! command_exists brew; then
     echo "Some reason brew did not install"
 else
+    brew update
+    brew upgrade
+    brew tap homebrew/dupes
+    brew tap homebrew/versions
+    brew tap homebrew/homebrew-php
+    echo "Tapping caskroom"
+    brew tap caskroom/cask
     for app in "${brewApps[@]}"; do
         if brew list "$app" > /dev/null 2>&1; then
+            echo "Upgrading $app"
             brew upgrade $app
         else
+            echo "Installing $app"
             brew install $app
         fi
     done
 
-    echo "Tapping caskroom"
-    brew tap caskroom/cask
 
     if [ -d /opt/homebrew-cask/Caskroom ]; then
         echo "Moving caskroom folder"
@@ -68,6 +80,12 @@ else
     done
 fi
 
+if pip3 list neovim > /dev/null 2>&1; then
+    pip3 install --upgrade neovim
+else
+    pip3 install neovim
+    pip3 install --upgrade neovim
+fi
 
 if ! command_exists yarn; then
     echo "yarn not found. Please install and then re-run installation scripts"
@@ -87,6 +105,8 @@ elif ! [[ $SHELL =~ .*zsh.* ]]; then
     echo "Adding zsh auto complete"
     git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 fi
+    echo "Adding zsh auto complete"
+    sudo git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 
 if ! command_exists composer; then
     # Install composer
@@ -102,27 +122,40 @@ fi
 
 
 # Install laravel and laravel valet
-echo "Downloading laravel"
-composer global require "laravel/installer"
-echo "Downloading laravel valet"
-composer global require laravel/valet
+if ! command_exists laravel; then
+  echo "Downloading laravel"
+  composer global require "laravel/installer"
+fi
+if ! command_exists valet; then
+  echo "Downloading laravel valet"
+  composer global require laravel/valet
+fi
+if [ ! -d ~/developer-setup ]; then
+  echo "Cloning developer-setup"
+  git clone git@github.com:Penthious/developer-setup.git ~/developer-setup
+fi
 
+echo "Removing current zshrc file"
 rm ~/.zshrc
+echo "Removing current gitconfig file"
 rm ~/.gitconfig
+
 if [ ! -d ~/.config/karabiner ]; then
+  echo "Making directory .config/karabiner"
   mkdir ~/.config/karabiner
 else
+  echo "Removing current karabiner file"
   rm ~/.config/karabiner/karabiner.json
 fi
 
+echo "Symlinking gitconfig"
 ln -sf ~/developer-setup/.gitconfig ~/.gitconfig
-ln -sf ~/developer-setup/.gitconfig ~/.gitconfig
+echo "Symlinking karabiner"
 ln -sf ~/developer-setup/karabiner.json ~/.config/karabiner/karabiner.json
 
-git clone git@github.com:Penthious/developer-setup.git ~/developer-setup
 
 if [ ! -f ~/.zshrc ]; then
-    echo "Creating zshrc!"
+    echo "Symlinking zshrc"
     ln -sf ~/developer-setup/.zshrc ~/.zshrc
 else
     echo "Keeping existing zshrc!"
@@ -131,9 +164,11 @@ fi
 if [ ! -d ~/.config/nvim ]; then
   echo "    Creating nvim folder!"
   mkdir ~/.config/nvim
+  echo "Symlinking neovim"
   ln -sf ~/developer-setup/init.vim ~/.config/nvim/init.vim
 else
-  echo "    Keeping existing nvim folder!"
+  echo "Removing current neovim files"
   rm ~/.config/nvim/init.vim
+  echo "Symlinking neovim"
   ln -sf ~/developer-setup/init.vim ~/.config/nvim/init.vim
 fi
