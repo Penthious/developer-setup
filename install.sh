@@ -235,16 +235,9 @@ echo "Removing current gitconfig file"
 rm ~/.gitconfig
 echo "Removing current atom settings"
 rm -rf ~/.atom
+echo "Removing current ideavimcr"
 rm ~/.ideavimrc
-# rm -rf ~/Library/Preferences/PhpStorm2016.3
-# rm -rf ~/Library/Caches/PhpStorm2016.3
-# rm -rf ~/Library/Logs/PhpStorm2016.3
-# rm -rf ~/Library/Application\ Support/PhpStorm2016.3
-
-# ln -sf ~/developer-setup/phpstorm/config ~/Library/Preferences/PhpStorm2016.3
-# ln -sf ~/developer-setup/phpstorm/caches ~/Library/Caches/PhpStorm2016.3
-# ln -sf ~/developer-setup/phpstorm/logs ~/Library/Logs/PhpStorm2016.3
-# ln -sf ~/developer-setup/phpstorm/plugins ~/Library/Application\ Support/PhpStorm2016.3
+echo "Symlinking ideavimcr"
 ln -sf ~/developer-setup/phpstorm/.ideavimcr ~/.ideavimrc
 
 if [ ! -d ~/.config/karabiner ]; then
