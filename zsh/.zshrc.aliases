@@ -4,7 +4,8 @@
 alias vim="nvim"
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
-alias ls="ls -la"
+alias ll="ls -la"
+alias refresh="source ~/.zshrc"
 
 #
 # Github settings
@@ -18,4 +19,12 @@ alias gd="git checkout dev"
 #
 alias venues="cd ~/projects/venues-api"
 
+#
+# Laravel commands
+#
+alias pa="php artisan"
+alias pam="pa migrate"
+alias pams="pam --seed"
+alias pamr="pa migrate:refresh"
+alias pae="pa env:generate"
 

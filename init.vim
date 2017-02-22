@@ -7,6 +7,8 @@
 " Author: Tomas Leffew
 " repo  : https://github.com/penthious/dotfiles/
 "Setup ---- -----------------------------------------------------------------{{{ 
+
+let g:python3_host_prog = "/usr/local/bin/python3"
 if (!isdirectory(expand("$HOME/.config/nvim/repos/github.com/Shougo/dein.vim")))
   call system(expand("mkdir -p $HOME/.config/nvim/repos/github.com"))
   call system(expand("git clone https://github.com/Shougo/dein.vim $HOME/.config/nvim/repos/github.com/Shougo/dein.vim"))

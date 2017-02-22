@@ -44,9 +44,12 @@ brewApps=(
     node
     php71
     php71-xdebug
+    phpunit
     python3
     yarn
+    dnsmasq
     mysql
+    nginx
 )
 
 caskApps=(
@@ -85,11 +88,11 @@ else
     brew tap homebrew/homebrew-php
     echo "Tapping caskroom"
     brew tap caskroom/cask
+    echo "Checking for apps to install"
     for app in "${brewApps[@]}"; do
-        if brew list "$app" > /dev/null 2>&1; then
-            echo "Upgrading $app"
-            brew upgrade $app
-        else
+        if  brew list "$app" > /dev/null 2>&1; then
+            echo "$app already installed"
+        else  
             echo "Installing $app"
             brew install $app
         fi
@@ -108,9 +111,10 @@ else
     for app in "${caskApps[@]}"; do
         if  brew cask list "$app" > /dev/null; then
             echo "$app already installed"
+        else
+          echo "Installing $app"
+          brew cask install $app
         fi
-        echo "Installing $app"
-        brew cask install $app
     done
 fi
 
@@ -231,15 +235,17 @@ echo "Removing current gitconfig file"
 rm ~/.gitconfig
 echo "Removing current atom settings"
 rm -rf ~/.atom
-rm -rf ~/Library/Preferences/PhpStorm2016.3
-rm -rf ~/Library/Caches/PhpStorm2016.3
-rm -rf ~/Library/Logs/PhpStorm2016.3
-rm -rf ~/Library/Application\ Support/PhpStorm2016.3
+rm ~/.ideavimrc
+# rm -rf ~/Library/Preferences/PhpStorm2016.3
+# rm -rf ~/Library/Caches/PhpStorm2016.3
+# rm -rf ~/Library/Logs/PhpStorm2016.3
+# rm -rf ~/Library/Application\ Support/PhpStorm2016.3
 
-ln -sf ~/developer-setup/phpstorm/config ~/Library/Preferences/PhpStorm2016.3
-ln -sf ~/developer-setup/phpstorm/caches ~/Library/Caches/PhpStorm2016.3
-ln -sf ~/developer-setup/phpstorm/logs ~/Library/Logs/PhpStorm2016.3
-ln -sf ~/developer-setup/phpstorm/plugins ~/Library/Application\ Support/PhpStorm2016.3
+# ln -sf ~/developer-setup/phpstorm/config ~/Library/Preferences/PhpStorm2016.3
+# ln -sf ~/developer-setup/phpstorm/caches ~/Library/Caches/PhpStorm2016.3
+# ln -sf ~/developer-setup/phpstorm/logs ~/Library/Logs/PhpStorm2016.3
+# ln -sf ~/developer-setup/phpstorm/plugins ~/Library/Application\ Support/PhpStorm2016.3
+ln -sf ~/developer-setup/phpstorm/.ideavimcr ~/.ideavimrc
 
 if [ ! -d ~/.config/karabiner ]; then
   echo "Making directory .config/karabiner"

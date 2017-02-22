@@ -2,10 +2,11 @@
 #export PATH=$HOME/bin:/usr/local/bin:$HOME/.composer/vendor/bin:$PATH
 export PATH=$PATH:$HOME/bin
 export PATH=$PATH:/usr/local/bin
+export PATH=$PATH:/usr/local/sbin
 export PATH=$PATH:$HOME/.composer/vendor/bin
 export PATH="$PATH:`yarn global bin`"
 export ZSH=/Users/tomas/.oh-my-zsh
-
+export TERM="xterm-256color"
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/

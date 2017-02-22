@@ -1,9 +1,0 @@
-<templateSet group="Hbs">
-  <template name="linkto" value="{{#link-to '$PARMAETER$'}}$NAME${{/link-to}}" description="link-to" toReformat="false" toShortenFQNames="true">
-    <variable name="PARMAETER" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Handlebars" value="true" />
-    </context>
-  </template>
-</templateSet>

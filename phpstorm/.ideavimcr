@@ -1,0 +1,7 @@
+noremap H ^
+noremap L g_
+noremap K 5k
+noremap J 5j
+set surround
+set showmode
+nnoremap ; :
