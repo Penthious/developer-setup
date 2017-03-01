@@ -17,7 +17,8 @@ alias gd="git checkout dev"
 #
 # Project settings
 #
-alias venues="cd ~/projects/venues-api"
+alias venues="cd ~/projects/redolive/venues-api"
+alias license="cd ~/projects/redolive/licensing-service-api"
 
 #
 # Laravel commands

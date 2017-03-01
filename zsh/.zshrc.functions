@@ -8,5 +8,5 @@ function homestead() {
 function lgp() {
   git add .
   git commit -a -m "$1"
-  git push origin "$2"
+  git push origin tomas
 }
