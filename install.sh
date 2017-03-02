@@ -197,6 +197,8 @@ if ! command_exists composer; then
 else
     echo "Updating composer"
     composer self-update
+    echo "Updating global composer dependencies"
+    composer global update
 fi
 
 #
@@ -205,17 +207,11 @@ fi
 if [ ! -d ~/.composer/vendor/laravel ]; then
   echo "Downloading laravel"
   composer global require "laravel/installer"
-else
-  echo "Updating laravel"
-  composer global require "laravel/installer"
 fi
 
 if [ ! -d ~/.composer/vendor/laravel/valet ]; then
   echo "Downloading laravel valet"
   composer global require laravel/valet
-else
-  echo "Updating laravel valet"
-  composer global update laravel/valet
 fi
 
 #
