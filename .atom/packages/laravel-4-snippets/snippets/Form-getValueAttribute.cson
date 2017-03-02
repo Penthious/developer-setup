@@ -1,4 +1,0 @@
-'.source.php':
-  'Form-getValueAttribute':
-    'prefix': 'Form-getValueAttribute'
-    'body': 'Form::getValueAttribute(${1:name}, ${2:value})'

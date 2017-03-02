@@ -1,4 +1,0 @@
-'.source.php':
-  'Input-flash':
-    'prefix': 'Input-flash'
-    'body': 'Input::flash(${1:filter}, ${2:keys})'

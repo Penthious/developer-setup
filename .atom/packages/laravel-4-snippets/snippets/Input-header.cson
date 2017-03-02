@@ -1,4 +1,0 @@
-'.source.php':
-  'Input-header':
-    'prefix': 'Input-header'
-    'body': 'Input::header(${1:key}, ${2:default})'

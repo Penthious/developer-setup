@@ -1,4 +1,0 @@
-'.source.php':
-  'Str-random':
-    'prefix': 'Str-random'
-    'body': 'Str::random(${1:length})'

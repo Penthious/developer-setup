@@ -1,4 +1,0 @@
-'.source.php':
-  'Request-file':
-    'prefix': 'Request-file'
-    'body': 'Request::file(${1:key}, ${2:default})'

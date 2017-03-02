@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-matched':
-    'prefix': 'Route-matched'
-    'body': 'Route::matched(${1:callback})'

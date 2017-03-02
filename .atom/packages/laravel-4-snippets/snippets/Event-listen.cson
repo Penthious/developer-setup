@@ -1,4 +1,0 @@
-'.source.php':
-  'Event-listen':
-    'prefix': 'Event-listen'
-    'body': 'Event::listen(${1:events}, ${2:listener}, ${3:priority})'

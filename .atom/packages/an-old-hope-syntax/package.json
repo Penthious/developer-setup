@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/d-11719-16095-hcv6z3/package.tgz",
+        "raw": "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/d-11722-48149-xr79n9/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/d-11719-16095-hcv6z3/package.tgz",
-        "spec": "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/d-11719-16095-hcv6z3/package.tgz",
+        "rawSpec": "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/d-11722-48149-xr79n9/package.tgz",
+        "spec": "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/d-11722-48149-xr79n9/package.tgz",
         "type": "local"
       },
-      "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/apm-install-dir-11719-16095-1q7dv7h"
+      "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/apm-install-dir-11722-48149-jec02t"
     ]
   ],
-  "_from": "../d-11719-16095-hcv6z3/package.tgz",
-  "_id": "an-old-hope-syntax@1.0.1",
+  "_from": "../d-11722-48149-xr79n9/package.tgz",
+  "_id": "an-old-hope-syntax@1.0.4",
   "_inCache": true,
   "_installable": true,
   "_location": "/an-old-hope-syntax",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/d-11719-16095-hcv6z3/package.tgz",
+    "raw": "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/d-11722-48149-xr79n9/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/d-11719-16095-hcv6z3/package.tgz",
-    "spec": "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/d-11719-16095-hcv6z3/package.tgz",
+    "rawSpec": "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/d-11722-48149-xr79n9/package.tgz",
+    "spec": "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/d-11722-48149-xr79n9/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-11719-16095-hcv6z3/package.tgz",
-  "_shasum": "59b8cfedf14dfac7f2864f37c62870c1453e017e",
+  "_resolved": "file:../d-11722-48149-xr79n9/package.tgz",
+  "_shasum": "578425dc6ea254c39ce9c82206a556e5f299a915",
   "_shrinkwrap": null,
-  "_spec": "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/d-11719-16095-hcv6z3/package.tgz",
-  "_where": "/private/var/folders/px/fgf21_3n4f1fjs8k9w34pn1c0000gn/T/apm-install-dir-11719-16095-1q7dv7h",
+  "_spec": "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/d-11722-48149-xr79n9/package.tgz",
+  "_where": "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/apm-install-dir-11722-48149-jec02t",
   "bugs": {
     "url": "https://github.com/jesseleite/an-old-hope-syntax-atom/issues"
   },
@@ -61,5 +61,5 @@
     "url": "git+https://github.com/jesseleite/an-old-hope-syntax-atom.git"
   },
   "theme": "syntax",
-  "version": "1.0.1"
+  "version": "1.0.4"
 }

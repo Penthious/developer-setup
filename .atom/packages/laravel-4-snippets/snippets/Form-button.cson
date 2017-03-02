@@ -1,4 +1,0 @@
-'.source.php':
-  'Form-button':
-    'prefix': 'Form-button'
-    'body': 'Form::button(${1:value}, ${2:options})'

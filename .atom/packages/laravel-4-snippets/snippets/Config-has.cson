@@ -1,4 +1,0 @@
-'.source.php':
-  'Config-has':
-    'prefix': 'Config-has'
-    'body': 'Config::has(${1:key})'

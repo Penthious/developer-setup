@@ -1,4 +1,0 @@
-'.source.php':
-  'Session-clear':
-    'prefix': 'Session-clear'
-    'body': 'Session::clear()'

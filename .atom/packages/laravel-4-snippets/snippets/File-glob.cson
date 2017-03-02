@@ -1,4 +1,0 @@
-'.source.php':
-  'File-glob':
-    'prefix': 'File-glob'
-    'body': 'File::glob(${1:pattern}, ${2:flags})'

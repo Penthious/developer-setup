@@ -1,4 +1,0 @@
-'.source.php':
-  'Str-startsWith':
-    'prefix': 'Str-startsWith'
-    'body': 'Str::startsWith(${1:haystack}, ${2:needles})'

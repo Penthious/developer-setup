@@ -1,4 +1,0 @@
-'.source.php':
-  'DB-enableQueryLog':
-    'prefix': 'DB-enableQueryLog'
-    'body': 'DB::enableQueryLog()'

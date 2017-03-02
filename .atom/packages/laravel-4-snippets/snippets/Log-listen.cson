@@ -1,4 +1,0 @@
-'.source.php':
-  'Log-listen':
-    'prefix': 'Log-listen'
-    'body': 'Log::listen(${1:callback})'

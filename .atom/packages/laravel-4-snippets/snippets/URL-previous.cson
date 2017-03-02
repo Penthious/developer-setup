@@ -1,4 +1,0 @@
-'.source.php':
-  'URL-previous':
-    'prefix': 'URL-previous'
-    'body': 'URL::previous()'

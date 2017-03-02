@@ -1,4 +1,0 @@
-'.source.php':
-  'DB-withTablePrefix':
-    'prefix': 'DB-withTablePrefix'
-    'body': 'DB::withTablePrefix(${1:grammar})'

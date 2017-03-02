@@ -1,4 +1,0 @@
-'.source.php':
-  'Redis-pubSubLoop':
-    'prefix': 'Redis-pubSubLoop'
-    'body': 'Redis::pubSubLoop()'

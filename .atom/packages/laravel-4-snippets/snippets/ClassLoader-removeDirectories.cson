@@ -1,4 +1,0 @@
-'.source.php':
-  'ClassLoader-removeDirectories':
-    'prefix': 'ClassLoader-removeDirectories'
-    'body': 'ClassLoader::removeDirectories(${1:directories})'

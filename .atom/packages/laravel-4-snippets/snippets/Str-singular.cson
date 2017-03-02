@@ -1,4 +1,0 @@
-'.source.php':
-  'Str-singular':
-    'prefix': 'Str-singular'
-    'body': 'Str::singular(${1:value})'

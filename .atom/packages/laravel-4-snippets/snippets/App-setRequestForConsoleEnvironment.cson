@@ -1,4 +1,0 @@
-'.source.php':
-  'App-setRequestForConsoleEnvironment':
-    'prefix': 'App-setRequestForConsoleEnvironment'
-    'body': 'App::setRequestForConsoleEnvironment()'

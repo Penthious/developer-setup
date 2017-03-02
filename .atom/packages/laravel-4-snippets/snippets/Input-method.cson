@@ -1,4 +1,0 @@
-'.source.php':
-  'Input-method':
-    'prefix': 'Input-method'
-    'body': 'Input::method()'

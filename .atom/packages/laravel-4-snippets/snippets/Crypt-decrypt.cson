@@ -1,4 +1,0 @@
-'.source.php':
-  'Crypt-decrypt':
-    'prefix': 'Crypt-decrypt'
-    'body': 'Crypt::decrypt(${1:payload})'

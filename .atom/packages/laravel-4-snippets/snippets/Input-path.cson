@@ -1,4 +1,0 @@
-'.source.php':
-  'Input-path':
-    'prefix': 'Input-path'
-    'body': 'Input::path()'

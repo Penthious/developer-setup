@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-withoutFilters':
-    'prefix': 'Route-withoutFilters'
-    'body': 'Route::withoutFilters(${1:callback})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Mail-laterOn':
-    'prefix': 'Mail-laterOn'
-    'body': 'Mail::laterOn(${1:queue}, ${2:delay}, ${3:view}, ${4:data}, ${5:callback})'

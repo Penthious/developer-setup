@@ -1,4 +1,0 @@
-'.source.php':
-  'Eloquent-onlyTrashed':
-    'prefix': 'Eloquent-onlyTrashed'
-    'body': 'Eloquent::onlyTrashed()'

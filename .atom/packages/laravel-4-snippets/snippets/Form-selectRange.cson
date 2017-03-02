@@ -1,4 +1,0 @@
-'.source.php':
-  'Form-selectRange':
-    'prefix': 'Form-selectRange'
-    'body': 'Form::selectRange(${1:name}, ${2:begin}, ${3:end}, ${4:selected}, ${5:options})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'App-loadDeferredProviders':
-    'prefix': 'App-loadDeferredProviders'
-    'body': 'App::loadDeferredProviders()'

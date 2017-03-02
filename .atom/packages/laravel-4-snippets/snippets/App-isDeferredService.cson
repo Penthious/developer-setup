@@ -1,4 +1,0 @@
-'.source.php':
-  'App-isDeferredService':
-    'prefix': 'App-isDeferredService'
-    'body': 'App::isDeferredService(${1:service})'

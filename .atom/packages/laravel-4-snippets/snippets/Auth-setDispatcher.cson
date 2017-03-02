@@ -1,4 +1,0 @@
-'.source.php':
-  'Auth-setDispatcher':
-    'prefix': 'Auth-setDispatcher'
-    'body': 'Auth::setDispatcher(${1:events})'

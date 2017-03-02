@@ -1,4 +1,0 @@
-'.source.php':
-  'Cookie-setDefaultPathAndDomain':
-    'prefix': 'Cookie-setDefaultPathAndDomain'
-    'body': 'Cookie::setDefaultPathAndDomain(${1:path}, ${2:domain})'

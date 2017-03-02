@@ -1,4 +1,0 @@
-'.source.php':
-  'Cache-add':
-    'prefix': 'Cache-add'
-    'body': 'Cache::add(${1:key}, ${2:value}, ${3:minutes})'

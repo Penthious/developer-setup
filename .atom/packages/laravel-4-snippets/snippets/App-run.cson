@@ -1,4 +1,0 @@
-'.source.php':
-  'App-run':
-    'prefix': 'App-run'
-    'body': 'App::run(${1:request})'

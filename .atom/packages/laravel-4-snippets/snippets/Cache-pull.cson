@@ -1,4 +1,0 @@
-'.source.php':
-  'Cache-pull':
-    'prefix': 'Cache-pull'
-    'body': 'Cache::pull(${1:key}, ${2:default})'

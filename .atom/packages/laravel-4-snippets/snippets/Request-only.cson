@@ -1,4 +1,0 @@
-'.source.php':
-  'Request-only':
-    'prefix': 'Request-only'
-    'body': 'Request::only(${1:keys})'

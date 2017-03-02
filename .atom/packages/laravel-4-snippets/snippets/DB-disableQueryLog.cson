@@ -1,4 +1,0 @@
-'.source.php':
-  'DB-disableQueryLog':
-    'prefix': 'DB-disableQueryLog'
-    'body': 'DB::disableQueryLog()'

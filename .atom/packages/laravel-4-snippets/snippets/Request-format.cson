@@ -1,4 +1,0 @@
-'.source.php':
-  'Request-format':
-    'prefix': 'Request-format'
-    'body': 'Request::format(${1:default})'

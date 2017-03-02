@@ -1,4 +1,0 @@
-'.source.php':
-  'Validator-extendImplicit':
-    'prefix': 'Validator-extendImplicit'
-    'body': 'Validator::extendImplicit(${1:rule}, ${2:extension}, ${3:message})'

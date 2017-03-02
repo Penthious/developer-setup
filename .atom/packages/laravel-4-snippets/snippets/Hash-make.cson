@@ -1,4 +1,0 @@
-'.source.php':
-  'Hash-make':
-    'prefix': 'Hash-make'
-    'body': 'Hash::make(${1:value}, ${2:options})'

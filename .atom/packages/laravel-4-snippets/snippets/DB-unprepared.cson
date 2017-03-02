@@ -1,4 +1,0 @@
-'.source.php':
-  'DB-unprepared':
-    'prefix': 'DB-unprepared'
-    'body': 'DB::unprepared(${1:query})'

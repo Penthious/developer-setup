@@ -1,4 +1,0 @@
-'.source.php':
-  'Session-replace':
-    'prefix': 'Session-replace'
-    'body': 'Session::replace(${1:attributes})'

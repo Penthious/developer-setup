@@ -1,4 +1,0 @@
-'.source.php':
-  'Paginator-setPageName':
-    'prefix': 'Paginator-setPageName'
-    'body': 'Paginator::setPageName(${1:pageName})'

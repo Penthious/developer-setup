@@ -1,4 +1,0 @@
-'.source.php':
-  'App-error':
-    'prefix': 'App-error'
-    'body': 'App::error(${1:callback})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Input-exists':
-    'prefix': 'Input-exists'
-    'body': 'Input::exists(${1:key})'

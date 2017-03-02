@@ -1,4 +1,0 @@
-'.source.php':
-  'App-abort':
-    'prefix': 'App-abort'
-    'body': 'App::abort(${1:code}, ${2:message}, ${3:headers})'

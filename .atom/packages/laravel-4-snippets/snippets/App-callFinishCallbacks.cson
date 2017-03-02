@@ -1,4 +1,0 @@
-'.source.php':
-  'App-callFinishCallbacks':
-    'prefix': 'App-callFinishCallbacks'
-    'body': 'App::callFinishCallbacks(${1:request}, ${2:response})'

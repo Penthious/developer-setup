@@ -1,4 +1,0 @@
-'.source.php':
-  'Cookie-getRequest':
-    'prefix': 'Cookie-getRequest'
-    'body': 'Cookie::getRequest()'

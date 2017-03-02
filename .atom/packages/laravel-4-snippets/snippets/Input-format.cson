@@ -1,4 +1,0 @@
-'.source.php':
-  'Input-format':
-    'prefix': 'Input-format'
-    'body': 'Input::format(${1:default})'

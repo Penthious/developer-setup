@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-getResourceUri':
-    'prefix': 'Route-getResourceUri'
-    'body': 'Route::getResourceUri(${1:resource})'

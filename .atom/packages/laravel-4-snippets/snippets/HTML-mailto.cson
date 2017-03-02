@@ -1,4 +1,0 @@
-'.source.php':
-  'HTML-mailto':
-    'prefix': 'HTML-mailto'
-    'body': 'HTML::mailto(${1:email}, ${2:title}, ${3:attributes})'

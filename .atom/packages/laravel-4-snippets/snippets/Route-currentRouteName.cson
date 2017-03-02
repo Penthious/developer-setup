@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-currentRouteName':
-    'prefix': 'Route-currentRouteName'
-    'body': 'Route::currentRouteName()'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Redirect-setSession':
-    'prefix': 'Redirect-setSession'
-    'body': 'Redirect::setSession(${1:session})'

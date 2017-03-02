@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-when':
-    'prefix': 'Route-when'
-    'body': 'Route::when(${1:pattern}, ${2:name}, ${3:methods})'

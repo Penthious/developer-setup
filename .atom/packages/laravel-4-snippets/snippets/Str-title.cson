@@ -1,4 +1,0 @@
-'.source.php':
-  'Str-title':
-    'prefix': 'Str-title'
-    'body': 'Str::title(${1:value})'

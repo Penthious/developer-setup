@@ -1,4 +1,0 @@
-'.source.php':
-  'File-extension':
-    'prefix': 'File-extension'
-    'body': 'File::extension(${1:path})'

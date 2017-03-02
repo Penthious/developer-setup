@@ -1,4 +1,0 @@
-'.source.php':
-  'Cache-has':
-    'prefix': 'Cache-has'
-    'body': 'Cache::has(${1:key})'

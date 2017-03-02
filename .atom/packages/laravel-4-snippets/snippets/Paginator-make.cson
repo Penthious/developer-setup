@@ -1,4 +1,0 @@
-'.source.php':
-  'Paginator-make':
-    'prefix': 'Paginator-make'
-    'body': 'Paginator::make(${1:items}, ${2:total}, ${3:perPage})'

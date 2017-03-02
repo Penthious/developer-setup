@@ -1,4 +1,0 @@
-'.source.php':
-  'Auth-setCookieJar':
-    'prefix': 'Auth-setCookieJar'
-    'body': 'Auth::setCookieJar(${1:cookie})'

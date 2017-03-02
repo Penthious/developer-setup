@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-options':
-    'prefix': 'Route-options'
-    'body': 'Route::options(${1:uri}, ${2:action})'

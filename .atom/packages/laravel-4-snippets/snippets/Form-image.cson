@@ -1,4 +1,0 @@
-'.source.php':
-  'Form-image':
-    'prefix': 'Form-image'
-    'body': 'Form::image(${1:url}, ${2:name}, ${3:attributes})'

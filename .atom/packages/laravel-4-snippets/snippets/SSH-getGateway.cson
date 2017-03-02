@@ -1,4 +1,0 @@
-'.source.php':
-  'SSH-getGateway':
-    'prefix': 'SSH-getGateway'
-    'body': 'SSH::getGateway()'

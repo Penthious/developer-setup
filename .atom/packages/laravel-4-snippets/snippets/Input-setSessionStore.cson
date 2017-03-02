@@ -1,4 +1,0 @@
-'.source.php':
-  'Input-setSessionStore':
-    'prefix': 'Input-setSessionStore'
-    'body': 'Input::setSessionStore(${1:session})'

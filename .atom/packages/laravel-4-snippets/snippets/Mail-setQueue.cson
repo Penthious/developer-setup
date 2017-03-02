@@ -1,4 +1,0 @@
-'.source.php':
-  'Mail-setQueue':
-    'prefix': 'Mail-setQueue'
-    'body': 'Mail::setQueue(${1:queue})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'DB-getSchemaBuilder':
-    'prefix': 'DB-getSchemaBuilder'
-    'body': 'DB::getSchemaBuilder()'

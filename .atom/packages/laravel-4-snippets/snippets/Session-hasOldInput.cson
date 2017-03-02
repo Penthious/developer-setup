@@ -1,4 +1,0 @@
-'.source.php':
-  'Session-hasOldInput':
-    'prefix': 'Session-hasOldInput'
-    'body': 'Session::hasOldInput(${1:key})'

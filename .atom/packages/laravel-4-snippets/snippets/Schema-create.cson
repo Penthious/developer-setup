@@ -1,4 +1,0 @@
-'.source.php':
-  'Schema-create':
-    'prefix': 'Schema-create'
-    'body': 'Schema::create(${1:table}, ${2:callback})'

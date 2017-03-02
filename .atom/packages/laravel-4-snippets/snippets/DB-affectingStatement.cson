@@ -1,4 +1,0 @@
-'.source.php':
-  'DB-affectingStatement':
-    'prefix': 'DB-affectingStatement'
-    'body': 'DB::affectingStatement(${1:query}, ${2:bindings})'

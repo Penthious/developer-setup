@@ -1,4 +1,0 @@
-'.source.php':
-  'Str-words':
-    'prefix': 'Str-words'
-    'body': 'Str::words(${1:value}, ${2:words}, ${3:end})'

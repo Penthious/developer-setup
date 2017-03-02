@@ -1,4 +1,0 @@
-'.source.php':
-  'Cookie-has':
-    'prefix': 'Cookie-has'
-    'body': 'Cookie::has(${1:key})'

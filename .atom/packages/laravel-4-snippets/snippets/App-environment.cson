@@ -1,4 +1,0 @@
-'.source.php':
-  'App-environment':
-    'prefix': 'App-environment'
-    'body': 'App::environment()'

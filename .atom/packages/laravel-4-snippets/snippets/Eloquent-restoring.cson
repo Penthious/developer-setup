@@ -1,4 +1,0 @@
-'.source.php':
-  'Eloquent-restoring':
-    'prefix': 'Eloquent-restoring'
-    'body': 'Eloquent::restoring(${1:callback})'

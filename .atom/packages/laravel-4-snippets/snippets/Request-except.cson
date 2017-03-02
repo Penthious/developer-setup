@@ -1,4 +1,0 @@
-'.source.php':
-  'Request-except':
-    'prefix': 'Request-except'
-    'body': 'Request::except(${1:keys})'

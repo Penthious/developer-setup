@@ -1,4 +1,0 @@
-'.source.php':
-  'Form-selectMonth':
-    'prefix': 'Form-selectMonth'
-    'body': 'Form::selectMonth(${1:name}, ${2:selected}, ${3:options}, ${4:format})'

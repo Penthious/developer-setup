@@ -1,4 +1,0 @@
-'.source.php':
-  'Eloquent-observe':
-    'prefix': 'Eloquent-observe'
-    'body': 'Eloquent::observe(${1:class})'

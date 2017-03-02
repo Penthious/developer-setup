@@ -1,4 +1,0 @@
-'.source.php':
-  'App-detectEnvironment':
-    'prefix': 'App-detectEnvironment'
-    'body': 'App::detectEnvironment(${1:envs})'

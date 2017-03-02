@@ -1,4 +1,0 @@
-'.source.php':
-  'Auth-validate':
-    'prefix': 'Auth-validate'
-    'body': 'Auth::validate(${1:credentials})'

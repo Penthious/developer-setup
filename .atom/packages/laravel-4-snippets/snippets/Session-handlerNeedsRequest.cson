@@ -1,4 +1,0 @@
-'.source.php':
-  'Session-handlerNeedsRequest':
-    'prefix': 'Session-handlerNeedsRequest'
-    'body': 'Session::handlerNeedsRequest()'

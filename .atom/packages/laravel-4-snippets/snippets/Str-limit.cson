@@ -1,4 +1,0 @@
-'.source.php':
-  'Str-limit':
-    'prefix': 'Str-limit'
-    'body': 'Str::limit(${1:value}, ${2:limit}, ${3:end})'

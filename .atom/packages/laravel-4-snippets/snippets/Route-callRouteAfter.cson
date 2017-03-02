@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-callRouteAfter':
-    'prefix': 'Route-callRouteAfter'
-    'body': 'Route::callRouteAfter(${1:route}, ${2:request}, ${3:response})'

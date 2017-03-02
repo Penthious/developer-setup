@@ -1,4 +1,0 @@
-'.source.php':
-  'Blade-compileEchoDefaults':
-    'prefix': 'Blade-compileEchoDefaults'
-    'body': 'Blade::compileEchoDefaults(${1:value})'

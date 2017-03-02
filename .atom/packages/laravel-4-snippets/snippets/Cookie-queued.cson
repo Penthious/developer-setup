@@ -1,4 +1,0 @@
-'.source.php':
-  'Cookie-queued':
-    'prefix': 'Cookie-queued'
-    'body': 'Cookie::queued(${1:key}, ${2:default})'

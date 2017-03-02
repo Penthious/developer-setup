@@ -1,4 +1,0 @@
-'.source.php':
-  'HTML-email':
-    'prefix': 'HTML-email'
-    'body': 'HTML::email(${1:email})'

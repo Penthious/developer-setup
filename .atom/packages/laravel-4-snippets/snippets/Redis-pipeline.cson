@@ -1,4 +1,0 @@
-'.source.php':
-  'Redis-pipeline':
-    'prefix': 'Redis-pipeline'
-    'body': 'Redis::pipeline()'

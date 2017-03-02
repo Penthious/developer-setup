@@ -1,4 +1,0 @@
-'.source.php':
-  'App-getRegistered':
-    'prefix': 'App-getRegistered'
-    'body': 'App::getRegistered(${1:provider})'

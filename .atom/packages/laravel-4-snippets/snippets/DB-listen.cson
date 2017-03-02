@@ -1,4 +1,0 @@
-'.source.php':
-  'DB-listen':
-    'prefix': 'DB-listen'
-    'body': 'DB::listen(${1:callback})'

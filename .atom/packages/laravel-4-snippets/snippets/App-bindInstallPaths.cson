@@ -1,4 +1,0 @@
-'.source.php':
-  'App-bindInstallPaths':
-    'prefix': 'App-bindInstallPaths'
-    'body': 'App::bindInstallPaths(${1:paths})'

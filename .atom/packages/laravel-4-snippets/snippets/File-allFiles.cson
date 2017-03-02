@@ -1,4 +1,0 @@
-'.source.php':
-  'File-allFiles':
-    'prefix': 'File-allFiles'
-    'body': 'File::allFiles(${1:directory})'

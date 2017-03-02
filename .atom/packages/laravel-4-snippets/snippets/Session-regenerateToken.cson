@@ -1,4 +1,0 @@
-'.source.php':
-  'Session-regenerateToken':
-    'prefix': 'Session-regenerateToken'
-    'body': 'Session::regenerateToken()'

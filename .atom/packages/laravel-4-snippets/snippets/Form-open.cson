@@ -1,4 +1,0 @@
-'.source.php':
-  'Form-open':
-    'prefix': 'Form-open'
-    'body': 'Form::open(${1:options})'

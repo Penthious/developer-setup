@@ -1,4 +1,0 @@
-'.source.php':
-  'Request-flashExcept':
-    'prefix': 'Request-flashExcept'
-    'body': 'Request::flashExcept(${1:keys})'

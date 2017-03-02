@@ -1,4 +1,0 @@
-'.source.php':
-  'Session-getBagData':
-    'prefix': 'Session-getBagData'
-    'body': 'Session::getBagData(${1:name})'

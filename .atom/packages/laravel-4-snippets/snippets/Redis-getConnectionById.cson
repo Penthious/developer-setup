@@ -1,4 +1,0 @@
-'.source.php':
-  'Redis-getConnectionById':
-    'prefix': 'Redis-getConnectionById'
-    'body': 'Redis::getConnectionById(${1:connectionId})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'HTML-ul':
-    'prefix': 'HTML-ul'
-    'body': 'HTML::ul(${1:list}, ${2:attributes})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Input-all':
-    'prefix': 'Input-all'
-    'body': 'Input::all()'

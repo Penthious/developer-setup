@@ -1,4 +1,0 @@
-'.source.php':
-  'Validator-setPresenceVerifier':
-    'prefix': 'Validator-setPresenceVerifier'
-    'body': 'Validator::setPresenceVerifier(${1:presenceVerifier})'

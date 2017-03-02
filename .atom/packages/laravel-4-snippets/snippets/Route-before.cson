@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-before':
-    'prefix': 'Route-before'
-    'body': 'Route::before(${1:callback})'

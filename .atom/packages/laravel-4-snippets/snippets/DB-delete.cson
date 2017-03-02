@@ -1,4 +1,0 @@
-'.source.php':
-  'DB-delete':
-    'prefix': 'DB-delete'
-    'body': 'DB::delete(${1:query}, ${2:bindings})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Lang-trans':
-    'prefix': 'Lang-trans'
-    'body': 'Lang::trans(${1:id}, ${2:parameters}, ${3:domain}, ${4:locale})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Mail-alwaysFrom':
-    'prefix': 'Mail-alwaysFrom'
-    'body': 'Mail::alwaysFrom(${1:address}, ${2:name})'

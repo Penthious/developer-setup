@@ -1,4 +1,0 @@
-'.source.php':
-  'App-startExceptionHandling':
-    'prefix': 'App-startExceptionHandling'
-    'body': 'App::startExceptionHandling()'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Config-afterLoading':
-    'prefix': 'Config-afterLoading'
-    'body': 'Config::afterLoading(${1:namespace}, ${2:callback})'

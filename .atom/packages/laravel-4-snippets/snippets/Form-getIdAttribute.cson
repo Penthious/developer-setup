@@ -1,4 +1,0 @@
-'.source.php':
-  'Form-getIdAttribute':
-    'prefix': 'Form-getIdAttribute'
-    'body': 'Form::getIdAttribute(${1:name}, ${2:attributes})'

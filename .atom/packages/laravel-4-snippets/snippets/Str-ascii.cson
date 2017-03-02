@@ -1,4 +1,0 @@
-'.source.php':
-  'Str-ascii':
-    'prefix': 'Str-ascii'
-    'body': 'Str::ascii(${1:value})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Request-url':
-    'prefix': 'Request-url'
-    'body': 'Request::url()'

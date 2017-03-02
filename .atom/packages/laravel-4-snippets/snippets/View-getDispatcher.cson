@@ -1,4 +1,0 @@
-'.source.php':
-  'View-getDispatcher':
-    'prefix': 'View-getDispatcher'
-    'body': 'View::getDispatcher()'

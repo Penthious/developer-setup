@@ -1,4 +1,0 @@
-'.source.php':
-  'HTML-script':
-    'prefix': 'HTML-script'
-    'body': 'HTML::script(${1:url}, ${2:attributes}, ${3:secure})'

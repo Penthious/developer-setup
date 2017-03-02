@@ -1,4 +1,0 @@
-'.source.php':
-  'Lang-setFallback':
-    'prefix': 'Lang-setFallback'
-    'body': 'Lang::setFallback(${1:fallback})'

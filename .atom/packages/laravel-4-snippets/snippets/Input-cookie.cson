@@ -1,4 +1,0 @@
-'.source.php':
-  'Input-cookie':
-    'prefix': 'Input-cookie'
-    'body': 'Input::cookie(${1:key}, ${2:default})'

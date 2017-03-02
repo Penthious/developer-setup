@@ -1,4 +1,0 @@
-'.source.php':
-  'Auth-check':
-    'prefix': 'Auth-check'
-    'body': 'Auth::check()'

@@ -1,4 +1,0 @@
-'.source.php':
-  'View-stopSection':
-    'prefix': 'View-stopSection'
-    'body': 'View::stopSection(${1:overwrite})'

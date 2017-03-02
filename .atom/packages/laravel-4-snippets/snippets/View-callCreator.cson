@@ -1,4 +1,0 @@
-'.source.php':
-  'View-callCreator':
-    'prefix': 'View-callCreator'
-    'body': 'View::callCreator(${1:view})'

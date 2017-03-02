@@ -1,4 +1,0 @@
-'.source.php':
-  'Session-has':
-    'prefix': 'Session-has'
-    'body': 'Session::has(${1:name})'

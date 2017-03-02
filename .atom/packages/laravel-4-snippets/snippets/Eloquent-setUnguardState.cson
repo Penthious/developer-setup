@@ -1,4 +1,0 @@
-'.source.php':
-  'Eloquent-setUnguardState':
-    'prefix': 'Eloquent-setUnguardState'
-    'body': 'Eloquent::setUnguardState(${1:state})'

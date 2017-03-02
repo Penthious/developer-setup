@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-callCloseFilter':
-    'prefix': 'Route-callCloseFilter'
-    'body': 'Route::callCloseFilter(${1:request}, ${2:response})'

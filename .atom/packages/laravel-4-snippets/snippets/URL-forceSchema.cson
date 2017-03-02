@@ -1,4 +1,0 @@
-'.source.php':
-  'URL-forceSchema':
-    'prefix': 'URL-forceSchema'
-    'body': 'URL::forceSchema(${1:schema})'

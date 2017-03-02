@@ -1,4 +1,0 @@
-'.source.php':
-  'Request-createFromBase':
-    'prefix': 'Request-createFromBase'
-    'body': 'Request::createFromBase(${1:request})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Str-contains':
-    'prefix': 'Str-contains'
-    'body': 'Str::contains(${1:haystack}, ${2:needles})'

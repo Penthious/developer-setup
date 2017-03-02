@@ -1,4 +1,0 @@
-'.source.php':
-  'Redirect-home':
-    'prefix': 'Redirect-home'
-    'body': 'Redirect::home(${1:status})'

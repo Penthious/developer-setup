@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-currentRouteAction':
-    'prefix': 'Route-currentRouteAction'
-    'body': 'Route::currentRouteAction()'

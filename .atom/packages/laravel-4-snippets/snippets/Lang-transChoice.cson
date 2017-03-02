@@ -1,4 +1,0 @@
-'.source.php':
-  'Lang-transChoice':
-    'prefix': 'Lang-transChoice'
-    'body': 'Lang::transChoice(${1:id}, ${2:number}, ${3:parameters}, ${4:domain}, ${5:locale})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Str-studly':
-    'prefix': 'Str-studly'
-    'body': 'Str::studly(${1:value})'

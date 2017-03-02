@@ -1,4 +1,0 @@
-'.source.php':
-  'Cookie-getEncrypter':
-    'prefix': 'Cookie-getEncrypter'
-    'body': 'Cookie::getEncrypter()'

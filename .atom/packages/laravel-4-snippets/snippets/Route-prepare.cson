@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-prepare':
-    'prefix': 'Route-prepare'
-    'body': 'Route::prepare(${1:value}, ${2:request})'

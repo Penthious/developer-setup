@@ -1,4 +1,0 @@
-'.source.php':
-  'Session-isStarted':
-    'prefix': 'Session-isStarted'
-    'body': 'Session::isStarted()'

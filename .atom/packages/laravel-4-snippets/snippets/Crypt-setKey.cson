@@ -1,4 +1,0 @@
-'.source.php':
-  'Crypt-setKey':
-    'prefix': 'Crypt-setKey'
-    'body': 'Crypt::setKey(${1:key})'

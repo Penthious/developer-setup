@@ -1,4 +1,0 @@
-'.source.php':
-  'Form-getSessionStore':
-    'prefix': 'Form-getSessionStore'
-    'body': 'Form::getSessionStore()'

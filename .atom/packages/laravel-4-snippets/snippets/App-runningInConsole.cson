@@ -1,4 +1,0 @@
-'.source.php':
-  'App-runningInConsole':
-    'prefix': 'App-runningInConsole'
-    'body': 'App::runningInConsole()'

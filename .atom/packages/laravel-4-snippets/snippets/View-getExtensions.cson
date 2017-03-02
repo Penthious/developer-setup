@@ -1,4 +1,0 @@
-'.source.php':
-  'View-getExtensions':
-    'prefix': 'View-getExtensions'
-    'body': 'View::getExtensions()'

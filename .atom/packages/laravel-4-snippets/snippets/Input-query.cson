@@ -1,4 +1,0 @@
-'.source.php':
-  'Input-query':
-    'prefix': 'Input-query'
-    'body': 'Input::query(${1:key}, ${2:default})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Log-useDailyFiles':
-    'prefix': 'Log-useDailyFiles'
-    'body': 'Log::useDailyFiles(${1:path}, ${2:days}, ${3:level})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Request-json':
-    'prefix': 'Request-json'
-    'body': 'Request::json(${1:key}, ${2:default})'

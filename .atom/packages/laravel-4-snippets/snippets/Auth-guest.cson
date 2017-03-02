@@ -1,4 +1,0 @@
-'.source.php':
-  'Auth-guest':
-    'prefix': 'Auth-guest'
-    'body': 'Auth::guest()'

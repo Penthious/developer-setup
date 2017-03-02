@@ -1,4 +1,0 @@
-'.source.php':
-  'SSH-define':
-    'prefix': 'SSH-define'
-    'body': 'SSH::define(${1:task}, ${2:commands})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Eloquent-reguard':
-    'prefix': 'Eloquent-reguard'
-    'body': 'Eloquent::reguard()'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Event-flush':
-    'prefix': 'Event-flush'
-    'body': 'Event::flush(${1:event})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'DB-getCacheManager':
-    'prefix': 'DB-getCacheManager'
-    'body': 'DB::getCacheManager()'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Str-finish':
-    'prefix': 'Str-finish'
-    'body': 'Str::finish(${1:value}, ${2:cap})'

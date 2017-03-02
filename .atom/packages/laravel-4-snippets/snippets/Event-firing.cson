@@ -1,4 +1,0 @@
-'.source.php':
-  'Event-firing':
-    'prefix': 'Event-firing'
-    'body': 'Event::firing()'

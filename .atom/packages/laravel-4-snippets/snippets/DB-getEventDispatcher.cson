@@ -1,4 +1,0 @@
-'.source.php':
-  'DB-getEventDispatcher':
-    'prefix': 'DB-getEventDispatcher'
-    'body': 'DB::getEventDispatcher()'

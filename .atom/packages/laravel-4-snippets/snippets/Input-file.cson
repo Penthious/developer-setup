@@ -1,4 +1,0 @@
-'.source.php':
-  'Input-file':
-    'prefix': 'Input-file'
-    'body': 'Input::file(${1:key}, ${2:default})'

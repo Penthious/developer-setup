@@ -1,4 +1,0 @@
-'.source.php':
-  'Eloquent-setConnectionResolver':
-    'prefix': 'Eloquent-setConnectionResolver'
-    'body': 'Eloquent::setConnectionResolver(${1:resolver})'

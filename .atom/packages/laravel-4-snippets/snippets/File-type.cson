@@ -1,4 +1,0 @@
-'.source.php':
-  'File-type':
-    'prefix': 'File-type'
-    'body': 'File::type(${1:path})'

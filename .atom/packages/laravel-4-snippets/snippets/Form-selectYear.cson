@@ -1,4 +1,0 @@
-'.source.php':
-  'Form-selectYear':
-    'prefix': 'Form-selectYear'
-    'body': 'Form::selectYear()'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Redis-pubSub':
-    'prefix': 'Redis-pubSub'
-    'body': 'Redis::pubSub()'

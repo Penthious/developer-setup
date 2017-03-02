@@ -1,4 +1,0 @@
-'.source.php':
-  'ClassLoader-register':
-    'prefix': 'ClassLoader-register'
-    'body': 'ClassLoader::register()'

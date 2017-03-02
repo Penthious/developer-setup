@@ -1,4 +1,0 @@
-'.source.php':
-  'Input-getSessionStore':
-    'prefix': 'Input-getSessionStore'
-    'body': 'Input::getSessionStore()'

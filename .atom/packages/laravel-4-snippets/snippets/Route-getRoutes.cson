@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-getRoutes':
-    'prefix': 'Route-getRoutes'
-    'body': 'Route::getRoutes()'

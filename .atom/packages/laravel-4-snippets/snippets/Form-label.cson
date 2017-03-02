@@ -1,4 +1,0 @@
-'.source.php':
-  'Form-label':
-    'prefix': 'Form-label'
-    'body': 'Form::label(${1:name}, ${2:value}, ${3:options})'

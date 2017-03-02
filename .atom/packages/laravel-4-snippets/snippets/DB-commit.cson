@@ -1,4 +1,0 @@
-'.source.php':
-  'DB-commit':
-    'prefix': 'DB-commit'
-    'body': 'DB::commit()'

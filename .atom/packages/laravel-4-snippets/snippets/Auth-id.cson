@@ -1,4 +1,0 @@
-'.source.php':
-  'Auth-id':
-    'prefix': 'Auth-id'
-    'body': 'Auth::id()'

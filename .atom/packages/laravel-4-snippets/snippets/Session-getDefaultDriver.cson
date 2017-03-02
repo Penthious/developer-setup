@@ -1,4 +1,0 @@
-'.source.php':
-  'Session-getDefaultDriver':
-    'prefix': 'Session-getDefaultDriver'
-    'body': 'Session::getDefaultDriver()'

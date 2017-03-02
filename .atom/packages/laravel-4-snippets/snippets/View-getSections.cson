@@ -1,4 +1,0 @@
-'.source.php':
-  'View-getSections':
-    'prefix': 'View-getSections'
-    'body': 'View::getSections()'

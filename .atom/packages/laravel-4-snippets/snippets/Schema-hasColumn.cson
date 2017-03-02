@@ -1,4 +1,0 @@
-'.source.php':
-  'Schema-hasColumn':
-    'prefix': 'Schema-hasColumn'
-    'body': 'Schema::hasColumn(${1:table}, ${2:column})'

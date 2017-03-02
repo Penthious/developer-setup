@@ -1,4 +1,0 @@
-'.source.php':
-  'Input-url':
-    'prefix': 'Input-url'
-    'body': 'Input::url()'

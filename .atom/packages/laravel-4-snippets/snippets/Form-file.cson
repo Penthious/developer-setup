@@ -1,4 +1,0 @@
-'.source.php':
-  'Form-file':
-    'prefix': 'Form-file'
-    'body': 'Form::file(${1:name}, ${2:options})'

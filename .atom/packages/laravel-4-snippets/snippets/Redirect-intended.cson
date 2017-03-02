@@ -1,4 +1,0 @@
-'.source.php':
-  'Redirect-intended':
-    'prefix': 'Redirect-intended'
-    'body': 'Redirect::intended(${1:default}, ${2:status}, ${3:headers}, ${4:secure})'

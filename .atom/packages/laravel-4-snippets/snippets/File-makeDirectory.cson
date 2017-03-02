@@ -1,4 +1,0 @@
-'.source.php':
-  'File-makeDirectory':
-    'prefix': 'File-makeDirectory'
-    'body': 'File::makeDirectory(${1:path}, ${2:mode}, ${3:recursive}, ${4:force})'

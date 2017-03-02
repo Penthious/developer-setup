@@ -1,4 +1,0 @@
-'.source.php':
-  'Artisan-call':
-    'prefix': 'Artisan-call'
-    'body': 'Artisan::call(${1:command}, ${2:parameters}, ${3:output})'

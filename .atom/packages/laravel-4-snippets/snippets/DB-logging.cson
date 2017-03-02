@@ -1,4 +1,0 @@
-'.source.php':
-  'DB-logging':
-    'prefix': 'DB-logging'
-    'body': 'DB::logging()'

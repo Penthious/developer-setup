@@ -1,4 +1,0 @@
-'.source.php':
-  'Redirect-back':
-    'prefix': 'Redirect-back'
-    'body': 'Redirect::back(${1:status}, ${2:headers})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'DB-transaction':
-    'prefix': 'DB-transaction'
-    'body': 'DB::transaction(${1:callback})'

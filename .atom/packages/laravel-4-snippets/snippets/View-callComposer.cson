@@ -1,4 +1,0 @@
-'.source.php':
-  'View-callComposer':
-    'prefix': 'View-callComposer'
-    'body': 'View::callComposer(${1:view})'

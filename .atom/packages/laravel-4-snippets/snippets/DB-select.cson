@@ -1,4 +1,0 @@
-'.source.php':
-  'DB-select':
-    'prefix': 'DB-select'
-    'body': 'DB::select(${1:query}, ${2:bindings})'

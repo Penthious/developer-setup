@@ -1,4 +1,0 @@
-'.source.php':
-  'App-after':
-    'prefix': 'App-after'
-    'body': 'App::after(${1:callback})'

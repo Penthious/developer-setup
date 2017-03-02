@@ -1,4 +1,0 @@
-'.source.php':
-  'App-registerDeferredProvider':
-    'prefix': 'App-registerDeferredProvider'
-    'body': 'App::registerDeferredProvider(${1:provider}, ${2:service})'

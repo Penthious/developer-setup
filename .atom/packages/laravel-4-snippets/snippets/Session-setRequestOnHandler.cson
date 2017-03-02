@@ -1,4 +1,0 @@
-'.source.php':
-  'Session-setRequestOnHandler':
-    'prefix': 'Session-setRequestOnHandler'
-    'body': 'Session::setRequestOnHandler(${1:request})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'App-forceRegister':
-    'prefix': 'App-forceRegister'
-    'body': 'App::forceRegister(${1:provider}, ${2:options})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'View-getNames':
-    'prefix': 'View-getNames'
-    'body': 'View::getNames()'

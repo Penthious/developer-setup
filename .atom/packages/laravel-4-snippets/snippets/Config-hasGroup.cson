@@ -1,4 +1,0 @@
-'.source.php':
-  'Config-hasGroup':
-    'prefix': 'Config-hasGroup'
-    'body': 'Config::hasGroup(${1:key})'

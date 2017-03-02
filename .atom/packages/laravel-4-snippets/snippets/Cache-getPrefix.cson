@@ -1,4 +1,0 @@
-'.source.php':
-  'Cache-getPrefix':
-    'prefix': 'Cache-getPrefix'
-    'body': 'Cache::getPrefix()'

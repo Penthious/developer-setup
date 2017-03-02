@@ -1,4 +1,0 @@
-'.source.php':
-  'Auth-getUser':
-    'prefix': 'Auth-getUser'
-    'body': 'Auth::getUser()'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Str-macro':
-    'prefix': 'Str-macro'
-    'body': 'Str::macro(${1:name}, ${2:macro})'

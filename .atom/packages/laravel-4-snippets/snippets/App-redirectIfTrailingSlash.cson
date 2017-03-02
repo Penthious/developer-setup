@@ -1,4 +1,0 @@
-'.source.php':
-  'App-redirectIfTrailingSlash':
-    'prefix': 'App-redirectIfTrailingSlash'
-    'body': 'App::redirectIfTrailingSlash()'

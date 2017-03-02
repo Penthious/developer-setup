@@ -1,4 +1,0 @@
-'.source.php':
-  'DB-getTablePrefix':
-    'prefix': 'DB-getTablePrefix'
-    'body': 'DB::getTablePrefix()'

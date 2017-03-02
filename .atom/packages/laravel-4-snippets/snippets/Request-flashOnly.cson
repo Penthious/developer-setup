@@ -1,4 +1,0 @@
-'.source.php':
-  'Request-flashOnly':
-    'prefix': 'Request-flashOnly'
-    'body': 'Request::flashOnly(${1:keys})'

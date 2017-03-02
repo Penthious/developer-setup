@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-setControllerDispatcher':
-    'prefix': 'Route-setControllerDispatcher'
-    'body': 'Route::setControllerDispatcher(${1:dispatcher})'

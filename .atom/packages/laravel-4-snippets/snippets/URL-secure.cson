@@ -1,4 +1,0 @@
-'.source.php':
-  'URL-secure':
-    'prefix': 'URL-secure'
-    'body': 'URL::secure(${1:path}, ${2:parameters})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Auth-attempting':
-    'prefix': 'Auth-attempting'
-    'body': 'Auth::attempting(${1:callback})'

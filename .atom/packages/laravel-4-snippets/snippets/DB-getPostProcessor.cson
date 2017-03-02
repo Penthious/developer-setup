@@ -1,4 +1,0 @@
-'.source.php':
-  'DB-getPostProcessor':
-    'prefix': 'DB-getPostProcessor'
-    'body': 'DB::getPostProcessor()'

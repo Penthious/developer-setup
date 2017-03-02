@@ -1,4 +1,0 @@
-'.source.php':
-  'Config-getItems':
-    'prefix': 'Config-getItems'
-    'body': 'Config::getItems()'

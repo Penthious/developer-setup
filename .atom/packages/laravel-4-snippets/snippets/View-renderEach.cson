@@ -1,4 +1,0 @@
-'.source.php':
-  'View-renderEach':
-    'prefix': 'View-renderEach'
-    'body': 'View::renderEach(${1:view}, ${2:data}, ${3:iterator}, ${4:empty})'

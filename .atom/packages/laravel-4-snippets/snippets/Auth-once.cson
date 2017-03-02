@@ -1,4 +1,0 @@
-'.source.php':
-  'Auth-once':
-    'prefix': 'Auth-once'
-    'body': 'Auth::once(${1:credentials})'

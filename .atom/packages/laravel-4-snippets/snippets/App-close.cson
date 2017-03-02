@@ -1,4 +1,0 @@
-'.source.php':
-  'App-close':
-    'prefix': 'App-close'
-    'body': 'App::close(${1:callback})'

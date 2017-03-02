@@ -1,4 +1,0 @@
-'.source.php':
-  'App-finish':
-    'prefix': 'App-finish'
-    'body': 'App::finish(${1:callback})'

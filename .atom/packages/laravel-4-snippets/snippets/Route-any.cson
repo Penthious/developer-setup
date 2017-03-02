@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-any':
-    'prefix': 'Route-any'
-    'body': 'Route::any(${1:uri}, ${2:action})'

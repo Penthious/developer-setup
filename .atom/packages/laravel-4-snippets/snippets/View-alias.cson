@@ -1,4 +1,0 @@
-'.source.php':
-  'View-alias':
-    'prefix': 'View-alias'
-    'body': 'View::alias(${1:view}, ${2:alias})'

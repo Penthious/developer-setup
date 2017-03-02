@@ -1,4 +1,0 @@
-'.source.php':
-  'App-getEnvironmentVariablesLoader':
-    'prefix': 'App-getEnvironmentVariablesLoader'
-    'body': 'App::getEnvironmentVariablesLoader()'

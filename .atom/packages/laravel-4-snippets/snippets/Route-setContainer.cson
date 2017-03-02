@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-setContainer':
-    'prefix': 'Route-setContainer'
-    'body': 'Route::setContainer(${1:container})'

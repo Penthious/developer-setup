@@ -1,4 +1,0 @@
-'.source.php':
-  'HTML-linkRoute':
-    'prefix': 'HTML-linkRoute'
-    'body': 'HTML::linkRoute(${1:name}, ${2:title}, ${3:parameters}, ${4:attributes})'

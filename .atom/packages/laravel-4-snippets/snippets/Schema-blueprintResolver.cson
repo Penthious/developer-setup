@@ -1,4 +1,0 @@
-'.source.php':
-  'Schema-blueprintResolver':
-    'prefix': 'Schema-blueprintResolver'
-    'body': 'Schema::blueprintResolver(${1:resolver})'

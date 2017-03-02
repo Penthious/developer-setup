@@ -1,4 +1,0 @@
-'.source.php':
-  'Eloquent-hydrate':
-    'prefix': 'Eloquent-hydrate'
-    'body': 'Eloquent::hydrate(${1:items}, ${2:connection})'

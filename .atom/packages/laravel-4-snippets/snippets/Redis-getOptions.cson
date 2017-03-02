@@ -1,4 +1,0 @@
-'.source.php':
-  'Redis-getOptions':
-    'prefix': 'Redis-getOptions'
-    'body': 'Redis::getOptions()'

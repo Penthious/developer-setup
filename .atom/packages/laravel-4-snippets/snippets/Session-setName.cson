@@ -1,4 +1,0 @@
-'.source.php':
-  'Session-setName':
-    'prefix': 'Session-setName'
-    'body': 'Session::setName(${1:name})'

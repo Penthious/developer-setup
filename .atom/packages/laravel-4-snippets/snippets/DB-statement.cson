@@ -1,4 +1,0 @@
-'.source.php':
-  'DB-statement':
-    'prefix': 'DB-statement'
-    'body': 'DB::statement(${1:query}, ${2:bindings})'

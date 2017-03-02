@@ -1,4 +1,0 @@
-'.source.php':
-  'File-isWritable':
-    'prefix': 'File-isWritable'
-    'body': 'File::isWritable(${1:path})'

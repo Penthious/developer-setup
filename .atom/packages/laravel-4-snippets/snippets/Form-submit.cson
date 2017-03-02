@@ -1,4 +1,0 @@
-'.source.php':
-  'Form-submit':
-    'prefix': 'Form-submit'
-    'body': 'Form::submit(${1:value}, ${2:options})'

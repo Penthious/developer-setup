@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-hasBinder':
-    'prefix': 'Route-hasBinder'
-    'body': 'Route::hasBinder(${1:key})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Eloquent-findOrFail':
-    'prefix': 'Eloquent-findOrFail'
-    'body': 'Eloquent::findOrFail(${1:id}, ${2:columns})'

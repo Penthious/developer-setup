@@ -1,4 +1,0 @@
-'.source.php':
-  'Eloquent-unsetEventDispatcher':
-    'prefix': 'Eloquent-unsetEventDispatcher'
-    'body': 'Eloquent::unsetEventDispatcher()'

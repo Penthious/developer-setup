@@ -1,4 +1,0 @@
-'.source.php':
-  'DB-prepareBindings':
-    'prefix': 'DB-prepareBindings'
-    'body': 'DB::prepareBindings(${1:bindings})'

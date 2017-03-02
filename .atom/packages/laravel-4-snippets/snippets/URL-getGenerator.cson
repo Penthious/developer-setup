@@ -1,4 +1,0 @@
-'.source.php':
-  'URL-getGenerator':
-    'prefix': 'URL-getGenerator'
-    'body': 'URL::getGenerator()'

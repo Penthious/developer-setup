@@ -1,4 +1,0 @@
-'.source.php':
-  'Input-secure':
-    'prefix': 'Input-secure'
-    'body': 'Input::secure()'

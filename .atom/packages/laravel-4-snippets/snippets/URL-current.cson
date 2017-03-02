@@ -1,4 +1,0 @@
-'.source.php':
-  'URL-current':
-    'prefix': 'URL-current'
-    'body': 'URL::current()'

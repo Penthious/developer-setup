@@ -1,4 +1,0 @@
-'.source.php':
-  'File-copyDirectory':
-    'prefix': 'File-copyDirectory'
-    'body': 'File::copyDirectory(${1:directory}, ${2:destination}, ${3:options})'

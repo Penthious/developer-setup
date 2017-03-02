@@ -1,4 +1,0 @@
-'.source.php':
-  'App-booted':
-    'prefix': 'App-booted'
-    'body': 'App::booted(${1:callback})'

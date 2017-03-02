@@ -1,4 +1,0 @@
-'.source.php':
-  'Form-token':
-    'prefix': 'Form-token'
-    'body': 'Form::token()'

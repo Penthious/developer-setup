@@ -1,4 +1,0 @@
-'.source.php':
-  'Eloquent-resolveConnection':
-    'prefix': 'Eloquent-resolveConnection'
-    'body': 'Eloquent::resolveConnection(${1:connection})'

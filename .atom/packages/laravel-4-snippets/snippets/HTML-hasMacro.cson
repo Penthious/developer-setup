@@ -1,4 +1,0 @@
-'.source.php':
-  'HTML-hasMacro':
-    'prefix': 'HTML-hasMacro'
-    'body': 'HTML::hasMacro(${1:name})'

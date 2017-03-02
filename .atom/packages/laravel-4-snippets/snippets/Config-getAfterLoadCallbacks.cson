@@ -1,4 +1,0 @@
-'.source.php':
-  'Config-getAfterLoadCallbacks':
-    'prefix': 'Config-getAfterLoadCallbacks'
-    'body': 'Config::getAfterLoadCallbacks()'

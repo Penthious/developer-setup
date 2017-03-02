@@ -1,4 +1,0 @@
-'.source.php':
-  'App-prepareRequest':
-    'prefix': 'App-prepareRequest'
-    'body': 'App::prepareRequest(${1:request})'

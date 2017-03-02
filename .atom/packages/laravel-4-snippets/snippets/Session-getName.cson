@@ -1,4 +1,0 @@
-'.source.php':
-  'Session-getName':
-    'prefix': 'Session-getName'
-    'body': 'Session::getName()'

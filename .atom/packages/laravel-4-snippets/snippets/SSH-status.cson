@@ -1,4 +1,0 @@
-'.source.php':
-  'SSH-status':
-    'prefix': 'SSH-status'
-    'body': 'SSH::status()'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Event-until':
-    'prefix': 'Event-until'
-    'body': 'Event::until(${1:event}, ${2:payload})'

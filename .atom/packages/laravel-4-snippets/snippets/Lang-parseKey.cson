@@ -1,4 +1,0 @@
-'.source.php':
-  'Lang-parseKey':
-    'prefix': 'Lang-parseKey'
-    'body': 'Lang::parseKey(${1:key})'

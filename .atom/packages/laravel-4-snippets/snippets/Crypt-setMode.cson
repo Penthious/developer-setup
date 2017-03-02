@@ -1,4 +1,0 @@
-'.source.php':
-  'Crypt-setMode':
-    'prefix': 'Crypt-setMode'
-    'body': 'Crypt::setMode(${1:mode})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-finish':
-    'prefix': 'Route-finish'
-    'body': 'Route::finish(${1:callback})'

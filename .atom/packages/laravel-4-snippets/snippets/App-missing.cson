@@ -1,4 +1,0 @@
-'.source.php':
-  'App-missing':
-    'prefix': 'App-missing'
-    'body': 'App::missing(${1:callback})'

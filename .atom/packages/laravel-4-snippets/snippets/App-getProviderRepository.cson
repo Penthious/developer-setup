@@ -1,4 +1,0 @@
-'.source.php':
-  'App-getProviderRepository':
-    'prefix': 'App-getProviderRepository'
-    'body': 'App::getProviderRepository()'

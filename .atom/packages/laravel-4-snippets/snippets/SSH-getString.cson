@@ -1,4 +1,0 @@
-'.source.php':
-  'SSH-getString':
-    'prefix': 'SSH-getString'
-    'body': 'SSH::getString(${1:remote})'

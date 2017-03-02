@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-getContainer':
-    'prefix': 'Route-getContainer'
-    'body': 'Route::getContainer()'

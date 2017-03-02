@@ -1,4 +1,0 @@
-'.source.php':
-  'DB-setPdo':
-    'prefix': 'DB-setPdo'
-    'body': 'DB::setPdo(${1:pdo})'

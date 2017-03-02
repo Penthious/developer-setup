@@ -1,4 +1,0 @@
-'.source.php':
-  'File-cleanDirectory':
-    'prefix': 'File-cleanDirectory'
-    'body': 'File::cleanDirectory(${1:directory})'

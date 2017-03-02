@@ -1,4 +1,0 @@
-'.source.php':
-  'Eloquent-query':
-    'prefix': 'Eloquent-query'
-    'body': 'Eloquent::query()'

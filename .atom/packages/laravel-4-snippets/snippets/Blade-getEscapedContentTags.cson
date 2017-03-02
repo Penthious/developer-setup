@@ -1,4 +1,0 @@
-'.source.php':
-  'Blade-getEscapedContentTags':
-    'prefix': 'Blade-getEscapedContentTags'
-    'body': 'Blade::getEscapedContentTags()'

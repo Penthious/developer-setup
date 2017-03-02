@@ -1,4 +1,0 @@
-'.source.php':
-  'Controller-setFilterer':
-    'prefix': 'Controller-setFilterer'
-    'body': 'Controller::setFilterer(${1:filterer})'

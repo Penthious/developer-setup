@@ -1,4 +1,0 @@
-'.source.php':
-  'Redirect-to':
-    'prefix': 'Redirect-to'
-    'body': 'Redirect::to(${1:path}, ${2:status}, ${3:headers}, ${4:secure})'

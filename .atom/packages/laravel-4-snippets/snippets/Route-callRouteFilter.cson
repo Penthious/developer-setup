@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-callRouteFilter':
-    'prefix': 'Route-callRouteFilter'
-    'body': 'Route::callRouteFilter(${1:filter}, ${2:parameters}, ${3:route}, ${4:request}, ${5:response})'

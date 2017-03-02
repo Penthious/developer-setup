@@ -1,4 +1,0 @@
-'.source.php':
-  'Session-set':
-    'prefix': 'Session-set'
-    'body': 'Session::set(${1:name}, ${2:value})'

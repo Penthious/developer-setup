@@ -1,4 +1,0 @@
-'.source.php':
-  'Paginator-setRequest':
-    'prefix': 'Paginator-setRequest'
-    'body': 'Paginator::setRequest(${1:request})'

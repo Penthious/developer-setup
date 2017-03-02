@@ -1,4 +1,0 @@
-'.source.php':
-  'Form-old':
-    'prefix': 'Form-old'
-    'body': 'Form::old(${1:name})'

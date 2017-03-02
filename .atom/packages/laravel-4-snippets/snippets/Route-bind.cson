@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-bind':
-    'prefix': 'Route-bind'
-    'body': 'Route::bind(${1:key}, ${2:binder})'

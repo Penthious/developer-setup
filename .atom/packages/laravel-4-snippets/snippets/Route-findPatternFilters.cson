@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-findPatternFilters':
-    'prefix': 'Route-findPatternFilters'
-    'body': 'Route::findPatternFilters(${1:request})'

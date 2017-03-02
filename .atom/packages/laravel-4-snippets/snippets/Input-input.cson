@@ -1,4 +1,0 @@
-'.source.php':
-  'Input-input':
-    'prefix': 'Input-input'
-    'body': 'Input::input(${1:key}, ${2:default})'

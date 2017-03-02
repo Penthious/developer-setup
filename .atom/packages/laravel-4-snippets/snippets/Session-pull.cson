@@ -1,4 +1,0 @@
-'.source.php':
-  'Session-pull':
-    'prefix': 'Session-pull'
-    'body': 'Session::pull(${1:key}, ${2:default})'

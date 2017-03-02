@@ -1,4 +1,0 @@
-'.source.php':
-  'Paginator-getViewFactory':
-    'prefix': 'Paginator-getViewFactory'
-    'body': 'Paginator::getViewFactory()'

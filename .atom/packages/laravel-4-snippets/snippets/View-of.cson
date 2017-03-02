@@ -1,4 +1,0 @@
-'.source.php':
-  'View-of':
-    'prefix': 'View-of'
-    'body': 'View::of(${1:view}, ${2:data})'

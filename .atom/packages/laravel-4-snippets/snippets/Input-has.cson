@@ -1,4 +1,0 @@
-'.source.php':
-  'Input-has':
-    'prefix': 'Input-has'
-    'body': 'Input::has(${1:key})'

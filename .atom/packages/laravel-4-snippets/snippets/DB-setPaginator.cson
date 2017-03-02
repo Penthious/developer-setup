@@ -1,4 +1,0 @@
-'.source.php':
-  'DB-setPaginator':
-    'prefix': 'DB-setPaginator'
-    'body': 'DB::setPaginator(${1:paginator})'

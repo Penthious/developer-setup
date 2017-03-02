@@ -1,4 +1,0 @@
-'.source.php':
-  'Eloquent-unsetConnectionResolver':
-    'prefix': 'Eloquent-unsetConnectionResolver'
-    'body': 'Eloquent::unsetConnectionResolver()'

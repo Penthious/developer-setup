@@ -1,4 +1,0 @@
-'.source.php':
-  'Log-setEventDispatcher':
-    'prefix': 'Log-setEventDispatcher'
-    'body': 'Log::setEventDispatcher(${1:dispatcher})'

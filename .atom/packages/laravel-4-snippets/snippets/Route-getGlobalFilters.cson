@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-getGlobalFilters':
-    'prefix': 'Route-getGlobalFilters'
-    'body': 'Route::getGlobalFilters()'

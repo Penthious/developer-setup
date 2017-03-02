@@ -1,4 +1,0 @@
-'.source.php':
-  'View-appendSection':
-    'prefix': 'View-appendSection'
-    'body': 'View::appendSection()'

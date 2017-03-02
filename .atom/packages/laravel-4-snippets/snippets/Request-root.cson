@@ -1,4 +1,0 @@
-'.source.php':
-  'Request-root':
-    'prefix': 'Request-root'
-    'body': 'Request::root()'

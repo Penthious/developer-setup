@@ -1,4 +1,0 @@
-'.source.php':
-  'Queue-push':
-    'prefix': 'Queue-push'
-    'body': 'Queue::push(${1:job}, ${2:data}, ${3:queue})'

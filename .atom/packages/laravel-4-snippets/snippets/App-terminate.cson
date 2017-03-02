@@ -1,4 +1,0 @@
-'.source.php':
-  'App-terminate':
-    'prefix': 'App-terminate'
-    'body': 'App::terminate(${1:request}, ${2:response})'

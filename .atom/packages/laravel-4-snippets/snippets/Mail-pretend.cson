@@ -1,4 +1,0 @@
-'.source.php':
-  'Mail-pretend':
-    'prefix': 'Mail-pretend'
-    'body': 'Mail::pretend(${1:value})'

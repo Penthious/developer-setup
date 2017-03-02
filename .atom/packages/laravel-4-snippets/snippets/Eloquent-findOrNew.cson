@@ -1,4 +1,0 @@
-'.source.php':
-  'Eloquent-findOrNew':
-    'prefix': 'Eloquent-findOrNew'
-    'body': 'Eloquent::findOrNew(${1:id}, ${2:columns})'

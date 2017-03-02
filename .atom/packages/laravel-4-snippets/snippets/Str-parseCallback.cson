@@ -1,4 +1,0 @@
-'.source.php':
-  'Str-parseCallback':
-    'prefix': 'Str-parseCallback'
-    'body': 'Str::parseCallback(${1:callback}, ${2:default})'

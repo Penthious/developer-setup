@@ -1,4 +1,0 @@
-'.source.php':
-  'Paginator-getViewName':
-    'prefix': 'Paginator-getViewName'
-    'body': 'Paginator::getViewName(${1:view})'

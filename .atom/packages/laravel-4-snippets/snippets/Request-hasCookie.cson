@@ -1,4 +1,0 @@
-'.source.php':
-  'Request-hasCookie':
-    'prefix': 'Request-hasCookie'
-    'body': 'Request::hasCookie(${1:key})'

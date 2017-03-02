@@ -1,4 +1,0 @@
-'.source.php':
-  'Session-getHandler':
-    'prefix': 'Session-getHandler'
-    'body': 'Session::getHandler()'

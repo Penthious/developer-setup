@@ -1,4 +1,0 @@
-'.source.php':
-  'Redis-executeCommand':
-    'prefix': 'Redis-executeCommand'
-    'body': 'Redis::executeCommand(${1:command})'

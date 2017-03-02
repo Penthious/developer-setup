@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-controllers':
-    'prefix': 'Route-controllers'
-    'body': 'Route::controllers(${1:controllers})'

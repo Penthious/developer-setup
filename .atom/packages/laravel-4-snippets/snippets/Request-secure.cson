@@ -1,4 +1,0 @@
-'.source.php':
-  'Request-secure':
-    'prefix': 'Request-secure'
-    'body': 'Request::secure()'

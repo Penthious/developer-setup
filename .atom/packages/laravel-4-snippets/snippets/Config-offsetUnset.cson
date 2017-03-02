@@ -1,4 +1,0 @@
-'.source.php':
-  'Config-offsetUnset':
-    'prefix': 'Config-offsetUnset'
-    'body': 'Config::offsetUnset(${1:key})'

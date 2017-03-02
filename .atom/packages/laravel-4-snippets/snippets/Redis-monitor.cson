@@ -1,4 +1,0 @@
-'.source.php':
-  'Redis-monitor':
-    'prefix': 'Redis-monitor'
-    'body': 'Redis::monitor()'

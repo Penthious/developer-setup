@@ -1,4 +1,0 @@
-'.source.php':
-  'Redis-quit':
-    'prefix': 'Redis-quit'
-    'body': 'Redis::quit()'

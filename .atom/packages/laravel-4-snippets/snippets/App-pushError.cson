@@ -1,4 +1,0 @@
-'.source.php':
-  'App-pushError':
-    'prefix': 'App-pushError'
-    'body': 'App::pushError(${1:callback})'

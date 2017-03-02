@@ -1,4 +1,0 @@
-'.source.php':
-  'Form-text':
-    'prefix': 'Form-text'
-    'body': 'Form::text(${1:name}, ${2:value}, ${3:options})'

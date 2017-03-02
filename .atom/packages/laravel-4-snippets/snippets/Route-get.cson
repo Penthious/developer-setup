@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-get':
-    'prefix': 'Route-get'
-    'body': 'Route::get(${1:uri}, ${2:action})'

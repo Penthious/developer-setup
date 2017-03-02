@@ -1,4 +1,0 @@
-'.source.php':
-  'App-fatal':
-    'prefix': 'App-fatal'
-    'body': 'App::fatal(${1:callback})'

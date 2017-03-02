@@ -1,4 +1,0 @@
-'.source.php':
-  'Eloquent-hasGlobalScope':
-    'prefix': 'Eloquent-hasGlobalScope'
-    'body': 'Eloquent::hasGlobalScope(${1:scope})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Paginator-getLocale':
-    'prefix': 'Paginator-getLocale'
-    'body': 'Paginator::getLocale()'

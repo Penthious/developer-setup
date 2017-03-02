@@ -1,4 +1,0 @@
-'.source.php':
-  'Auth-onceBasic':
-    'prefix': 'Auth-onceBasic'
-    'body': 'Auth::onceBasic(${1:field}, ${2:request})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'File-get':
-    'prefix': 'File-get'
-    'body': 'File::get(${1:path})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'View-setFinder':
-    'prefix': 'View-setFinder'
-    'body': 'View::setFinder(${1:finder})'

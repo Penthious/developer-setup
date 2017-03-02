@@ -1,4 +1,0 @@
-'.source.php':
-  'App-isBooted':
-    'prefix': 'App-isBooted'
-    'body': 'App::isBooted()'

@@ -1,4 +1,0 @@
-'.source.php':
-  'File-delete':
-    'prefix': 'File-delete'
-    'body': 'File::delete(${1:paths})'

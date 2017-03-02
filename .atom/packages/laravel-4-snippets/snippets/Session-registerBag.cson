@@ -1,4 +1,0 @@
-'.source.php':
-  'Session-registerBag':
-    'prefix': 'Session-registerBag'
-    'body': 'Session::registerBag(${1:bag})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Request-ajax':
-    'prefix': 'Request-ajax'
-    'body': 'Request::ajax()'

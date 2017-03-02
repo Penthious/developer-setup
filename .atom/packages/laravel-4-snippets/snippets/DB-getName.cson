@@ -1,4 +1,0 @@
-'.source.php':
-  'DB-getName':
-    'prefix': 'DB-getName'
-    'body': 'DB::getName()'

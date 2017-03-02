@@ -1,4 +1,0 @@
-'.source.php':
-  'Request-hasFile':
-    'prefix': 'Request-hasFile'
-    'body': 'Request::hasFile(${1:key})'

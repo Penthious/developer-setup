@@ -1,4 +1,0 @@
-'.source.php':
-  'App-shutdown':
-    'prefix': 'App-shutdown'
-    'body': 'App::shutdown(${1:callback})'

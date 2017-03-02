@@ -1,4 +1,0 @@
-'.source.php':
-  'Request-method':
-    'prefix': 'Request-method'
-    'body': 'Request::method()'

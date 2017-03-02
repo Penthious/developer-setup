@@ -1,4 +1,0 @@
-'.source.php':
-  'View-setContainer':
-    'prefix': 'View-setContainer'
-    'body': 'View::setContainer(${1:container})'

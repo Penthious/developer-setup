@@ -1,4 +1,0 @@
-'.source.php':
-  'Input-ajax':
-    'prefix': 'Input-ajax'
-    'body': 'Input::ajax()'

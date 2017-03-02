@@ -1,4 +1,0 @@
-'.source.php':
-  'Eloquent-flushEventListeners':
-    'prefix': 'Eloquent-flushEventListeners'
-    'body': 'Eloquent::flushEventListeners()'

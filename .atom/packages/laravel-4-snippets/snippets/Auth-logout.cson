@@ -1,4 +1,0 @@
-'.source.php':
-  'Auth-logout':
-    'prefix': 'Auth-logout'
-    'body': 'Auth::logout()'

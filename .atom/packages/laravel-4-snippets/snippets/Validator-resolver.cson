@@ -1,4 +1,0 @@
-'.source.php':
-  'Validator-resolver':
-    'prefix': 'Validator-resolver'
-    'body': 'Validator::resolver(${1:resolver})'

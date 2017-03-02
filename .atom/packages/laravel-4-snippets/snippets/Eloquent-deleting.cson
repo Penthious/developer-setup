@@ -1,4 +1,0 @@
-'.source.php':
-  'Eloquent-deleting':
-    'prefix': 'Eloquent-deleting'
-    'body': 'Eloquent::deleting(${1:callback})'

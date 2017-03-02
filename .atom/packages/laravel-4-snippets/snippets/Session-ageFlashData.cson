@@ -1,4 +1,0 @@
-'.source.php':
-  'Session-ageFlashData':
-    'prefix': 'Session-ageFlashData'
-    'body': 'Session::ageFlashData()'

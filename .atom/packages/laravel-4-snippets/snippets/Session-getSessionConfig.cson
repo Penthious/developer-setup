@@ -1,4 +1,0 @@
-'.source.php':
-  'Session-getSessionConfig':
-    'prefix': 'Session-getSessionConfig'
-    'body': 'Session::getSessionConfig()'

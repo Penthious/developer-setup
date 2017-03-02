@@ -1,4 +1,0 @@
-'.source.php':
-  'Input-segment':
-    'prefix': 'Input-segment'
-    'body': 'Input::segment(${1:index}, ${2:default})'

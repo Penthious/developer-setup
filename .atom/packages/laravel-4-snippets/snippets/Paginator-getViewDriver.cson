@@ -1,4 +1,0 @@
-'.source.php':
-  'Paginator-getViewDriver':
-    'prefix': 'Paginator-getViewDriver'
-    'body': 'Paginator::getViewDriver()'

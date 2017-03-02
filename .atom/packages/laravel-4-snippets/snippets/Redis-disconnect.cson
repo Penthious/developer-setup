@@ -1,4 +1,0 @@
-'.source.php':
-  'Redis-disconnect':
-    'prefix': 'Redis-disconnect'
-    'body': 'Redis::disconnect()'

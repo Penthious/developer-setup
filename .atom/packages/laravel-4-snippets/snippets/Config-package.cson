@@ -1,4 +1,0 @@
-'.source.php':
-  'Config-package':
-    'prefix': 'Config-package'
-    'body': 'Config::package(${1:package}, ${2:hint}, ${3:namespace})'

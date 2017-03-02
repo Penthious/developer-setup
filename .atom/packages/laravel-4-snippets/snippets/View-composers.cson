@@ -1,4 +1,0 @@
-'.source.php':
-  'View-composers':
-    'prefix': 'View-composers'
-    'body': 'View::composers(${1:composers})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Mail-setSwiftMailer':
-    'prefix': 'Mail-setSwiftMailer'
-    'body': 'Mail::setSwiftMailer(${1:swift})'

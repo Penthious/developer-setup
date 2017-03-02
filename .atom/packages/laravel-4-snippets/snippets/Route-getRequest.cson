@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-getRequest':
-    'prefix': 'Route-getRequest'
-    'body': 'Route::getRequest()'

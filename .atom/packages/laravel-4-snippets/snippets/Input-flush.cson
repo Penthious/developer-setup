@@ -1,4 +1,0 @@
-'.source.php':
-  'Input-flush':
-    'prefix': 'Input-flush'
-    'body': 'Input::flush()'

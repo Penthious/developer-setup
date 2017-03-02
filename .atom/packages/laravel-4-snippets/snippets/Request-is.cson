@@ -1,4 +1,0 @@
-'.source.php':
-  'Request-is':
-    'prefix': 'Request-is'
-    'body': 'Request::is()'

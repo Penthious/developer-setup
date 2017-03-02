@@ -1,4 +1,0 @@
-'.source.php':
-  'Session-setId':
-    'prefix': 'Session-setId'
-    'body': 'Session::setId(${1:id})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'App-setLocale':
-    'prefix': 'App-setLocale'
-    'body': 'App::setLocale(${1:locale})'

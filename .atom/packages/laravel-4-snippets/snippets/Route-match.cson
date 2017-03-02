@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-match':
-    'prefix': 'Route-match'
-    'body': 'Route::match(${1:methods}, ${2:uri}, ${3:action})'

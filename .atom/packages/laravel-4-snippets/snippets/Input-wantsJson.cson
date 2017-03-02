@@ -1,4 +1,0 @@
-'.source.php':
-  'Input-wantsJson':
-    'prefix': 'Input-wantsJson'
-    'body': 'Input::wantsJson()'

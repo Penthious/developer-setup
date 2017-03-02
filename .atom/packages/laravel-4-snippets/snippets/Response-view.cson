@@ -1,4 +1,0 @@
-'.source.php':
-  'Response-view':
-    'prefix': 'Response-view'
-    'body': 'Response::view(${1:view}, ${2:data}, ${3:status}, ${4:headers})'

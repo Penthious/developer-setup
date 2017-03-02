@@ -1,4 +1,0 @@
-'.source.php':
-  'Session-getId':
-    'prefix': 'Session-getId'
-    'body': 'Session::getId()'

@@ -1,4 +1,0 @@
-'.source.php':
-  'View-setDispatcher':
-    'prefix': 'View-setDispatcher'
-    'body': 'View::setDispatcher(${1:events})'

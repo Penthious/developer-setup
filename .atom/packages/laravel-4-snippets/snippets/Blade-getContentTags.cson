@@ -1,4 +1,0 @@
-'.source.php':
-  'Blade-getContentTags':
-    'prefix': 'Blade-getContentTags'
-    'body': 'Blade::getContentTags()'

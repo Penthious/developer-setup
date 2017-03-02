@@ -1,4 +1,0 @@
-'.source.php':
-  'Request-header':
-    'prefix': 'Request-header'
-    'body': 'Request::header(${1:key}, ${2:default})'

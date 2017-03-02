@@ -1,4 +1,0 @@
-'.source.php':
-  'Eloquent-find':
-    'prefix': 'Eloquent-find'
-    'body': 'Eloquent::find(${1:id}, ${2:columns})'

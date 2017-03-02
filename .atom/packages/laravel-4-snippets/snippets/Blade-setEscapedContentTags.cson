@@ -1,4 +1,0 @@
-'.source.php':
-  'Blade-setEscapedContentTags':
-    'prefix': 'Blade-setEscapedContentTags'
-    'body': 'Blade::setEscapedContentTags(${1:openTag}, ${2:closeTag})'

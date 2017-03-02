@@ -1,4 +1,0 @@
-'.source.php':
-  'Mail-handleQueuedMessage':
-    'prefix': 'Mail-handleQueuedMessage'
-    'body': 'Mail::handleQueuedMessage(${1:job}, ${2:data})'

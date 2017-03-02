@@ -1,4 +1,0 @@
-'.source.php':
-  'File-copy':
-    'prefix': 'File-copy'
-    'body': 'File::copy(${1:path}, ${2:target})'

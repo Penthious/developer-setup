@@ -1,4 +1,0 @@
-'.source.php':
-  'View-exists':
-    'prefix': 'View-exists'
-    'body': 'View::exists(${1:view})'

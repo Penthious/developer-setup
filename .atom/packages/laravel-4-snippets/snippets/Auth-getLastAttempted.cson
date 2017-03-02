@@ -1,4 +1,0 @@
-'.source.php':
-  'Auth-getLastAttempted':
-    'prefix': 'Auth-getLastAttempted'
-    'body': 'Auth::getLastAttempted()'

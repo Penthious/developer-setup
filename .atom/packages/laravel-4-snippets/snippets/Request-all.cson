@@ -1,4 +1,0 @@
-'.source.php':
-  'Request-all':
-    'prefix': 'Request-all'
-    'body': 'Request::all()'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Lang-getLoader':
-    'prefix': 'Lang-getLoader'
-    'body': 'Lang::getLoader()'

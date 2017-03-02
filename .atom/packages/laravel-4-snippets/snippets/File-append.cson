@@ -1,4 +1,0 @@
-'.source.php':
-  'File-append':
-    'prefix': 'File-append'
-    'body': 'File::append(${1:path}, ${2:data})'

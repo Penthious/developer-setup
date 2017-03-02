@@ -1,4 +1,0 @@
-'.source.php':
-  'App-readyForResponses':
-    'prefix': 'App-readyForResponses'
-    'body': 'App::readyForResponses()'

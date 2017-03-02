@@ -1,4 +1,0 @@
-'.source.php':
-  'Request-wantsJson':
-    'prefix': 'Request-wantsJson'
-    'body': 'Request::wantsJson()'

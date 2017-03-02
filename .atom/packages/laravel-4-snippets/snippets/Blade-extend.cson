@@ -1,4 +1,0 @@
-'.source.php':
-  'Blade-extend':
-    'prefix': 'Blade-extend'
-    'body': 'Blade::extend(${1:compiler})'

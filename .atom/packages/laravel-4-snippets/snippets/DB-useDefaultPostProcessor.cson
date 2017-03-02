@@ -1,4 +1,0 @@
-'.source.php':
-  'DB-useDefaultPostProcessor':
-    'prefix': 'DB-useDefaultPostProcessor'
-    'body': 'DB::useDefaultPostProcessor()'

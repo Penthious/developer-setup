@@ -1,4 +1,0 @@
-'.source.php':
-  'View-getContainer':
-    'prefix': 'View-getContainer'
-    'body': 'View::getContainer()'

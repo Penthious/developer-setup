@@ -1,4 +1,0 @@
-'.source.php':
-  'DB-insert':
-    'prefix': 'DB-insert'
-    'body': 'DB::insert(${1:query}, ${2:bindings})'

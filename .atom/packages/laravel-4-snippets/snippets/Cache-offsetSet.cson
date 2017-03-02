@@ -1,4 +1,0 @@
-'.source.php':
-  'Cache-offsetSet':
-    'prefix': 'Cache-offsetSet'
-    'body': 'Cache::offsetSet(${1:key}, ${2:value})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-getResourceWildcard':
-    'prefix': 'Route-getResourceWildcard'
-    'body': 'Route::getResourceWildcard(${1:value})'

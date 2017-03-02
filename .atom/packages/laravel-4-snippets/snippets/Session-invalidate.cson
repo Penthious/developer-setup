@@ -1,4 +1,0 @@
-'.source.php':
-  'Session-invalidate':
-    'prefix': 'Session-invalidate'
-    'body': 'Session::invalidate(${1:lifetime})'

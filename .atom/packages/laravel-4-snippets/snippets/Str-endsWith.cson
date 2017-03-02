@@ -1,4 +1,0 @@
-'.source.php':
-  'Str-endsWith':
-    'prefix': 'Str-endsWith'
-    'body': 'Str::endsWith(${1:haystack}, ${2:needles})'

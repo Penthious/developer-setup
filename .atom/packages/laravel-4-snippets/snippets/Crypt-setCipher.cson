@@ -1,4 +1,0 @@
-'.source.php':
-  'Crypt-setCipher':
-    'prefix': 'Crypt-setCipher'
-    'body': 'Crypt::setCipher(${1:cipher})'

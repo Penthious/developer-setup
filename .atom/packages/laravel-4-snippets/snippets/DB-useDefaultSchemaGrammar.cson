@@ -1,4 +1,0 @@
-'.source.php':
-  'DB-useDefaultSchemaGrammar':
-    'prefix': 'DB-useDefaultSchemaGrammar'
-    'body': 'DB::useDefaultSchemaGrammar()'

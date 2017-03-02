@@ -1,4 +1,0 @@
-'.source.php':
-  'Validator-make':
-    'prefix': 'Validator-make'
-    'body': 'Validator::make(${1:data}, ${2:rules}, ${3:messages}, ${4:customAttributes})'

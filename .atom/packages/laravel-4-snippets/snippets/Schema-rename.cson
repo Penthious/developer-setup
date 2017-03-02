@@ -1,4 +1,0 @@
-'.source.php':
-  'Schema-rename':
-    'prefix': 'Schema-rename'
-    'body': 'Schema::rename(${1:from}, ${2:to})'

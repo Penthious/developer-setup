@@ -1,4 +1,0 @@
-'.source.php':
-  'URL-asset':
-    'prefix': 'URL-asset'
-    'body': 'URL::asset(${1:path}, ${2:secure})'

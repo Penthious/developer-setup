@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-after':
-    'prefix': 'Route-after'
-    'body': 'Route::after(${1:callback})'

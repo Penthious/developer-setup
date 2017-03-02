@@ -1,4 +1,0 @@
-'.source.php':
-  'URL-setGenerator':
-    'prefix': 'URL-setGenerator'
-    'body': 'URL::setGenerator(${1:generator})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-setCurrentRoute':
-    'prefix': 'Route-setCurrentRoute'
-    'body': 'Route::setCurrentRoute(${1:route})'

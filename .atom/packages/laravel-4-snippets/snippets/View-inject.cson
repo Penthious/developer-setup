@@ -1,4 +1,0 @@
-'.source.php':
-  'View-inject':
-    'prefix': 'View-inject'
-    'body': 'View::inject(${1:section}, ${2:content})'

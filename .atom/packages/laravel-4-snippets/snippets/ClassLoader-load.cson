@@ -1,4 +1,0 @@
-'.source.php':
-  'ClassLoader-load':
-    'prefix': 'ClassLoader-load'
-    'body': 'ClassLoader::load(${1:class})'

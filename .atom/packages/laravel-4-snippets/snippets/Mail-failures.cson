@@ -1,4 +1,0 @@
-'.source.php':
-  'Mail-failures':
-    'prefix': 'Mail-failures'
-    'body': 'Mail::failures()'

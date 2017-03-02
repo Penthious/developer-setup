@@ -1,4 +1,0 @@
-'.source.php':
-  'Request-merge':
-    'prefix': 'Request-merge'
-    'body': 'Request::merge(${1:input})'

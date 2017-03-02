@@ -1,4 +1,0 @@
-'.source.php':
-  'Cookie-forget':
-    'prefix': 'Cookie-forget'
-    'body': 'Cookie::forget(${1:name}, ${2:path}, ${3:domain})'

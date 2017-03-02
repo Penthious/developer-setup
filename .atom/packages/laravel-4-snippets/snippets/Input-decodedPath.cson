@@ -1,4 +1,0 @@
-'.source.php':
-  'Input-decodedPath':
-    'prefix': 'Input-decodedPath'
-    'body': 'Input::decodedPath()'

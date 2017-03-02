@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-callFinishFilter':
-    'prefix': 'Route-callFinishFilter'
-    'body': 'Route::callFinishFilter(${1:request}, ${2:response})'

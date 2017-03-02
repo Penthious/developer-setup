@@ -1,4 +1,0 @@
-'.source.php':
-  'Request-query':
-    'prefix': 'Request-query'
-    'body': 'Request::query(${1:key}, ${2:default})'

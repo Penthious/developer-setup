@@ -1,4 +1,0 @@
-'.source.php':
-  'DB-table':
-    'prefix': 'DB-table'
-    'body': 'DB::table(${1:table})'

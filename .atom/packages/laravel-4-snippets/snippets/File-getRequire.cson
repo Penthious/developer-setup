@@ -1,4 +1,0 @@
-'.source.php':
-  'File-getRequire':
-    'prefix': 'File-getRequire'
-    'body': 'File::getRequire(${1:path})'

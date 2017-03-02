@@ -1,4 +1,0 @@
-'.source.php':
-  'Blade-setPath':
-    'prefix': 'Blade-setPath'
-    'body': 'Blade::setPath(${1:path})'

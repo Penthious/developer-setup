@@ -1,4 +1,0 @@
-'.source.php':
-  'HTML-obfuscate':
-    'prefix': 'HTML-obfuscate'
-    'body': 'HTML::obfuscate(${1:value})'

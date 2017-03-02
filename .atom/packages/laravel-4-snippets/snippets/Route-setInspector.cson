@@ -1,4 +1,0 @@
-'.source.php':
-  'Route-setInspector':
-    'prefix': 'Route-setInspector'
-    'body': 'Route::setInspector(${1:inspector})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Session-keep':
-    'prefix': 'Session-keep'
-    'body': 'Session::keep(${1:keys})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Hash-needsRehash':
-    'prefix': 'Hash-needsRehash'
-    'body': 'Hash::needsRehash(${1:hashedValue}, ${2:options})'

@@ -1,4 +1,0 @@
-'.source.php':
-  'Schema-getConnection':
-    'prefix': 'Schema-getConnection'
-    'body': 'Schema::getConnection()'

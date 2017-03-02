@@ -1,4 +1,0 @@
-'.source.php':
-  'App-prepareResponse':
-    'prefix': 'App-prepareResponse'
-    'body': 'App::prepareResponse(${1:value})'

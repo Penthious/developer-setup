@@ -1,4 +1,0 @@
-'.source.php':
-  'Input-server':
-    'prefix': 'Input-server'
-    'body': 'Input::server(${1:key}, ${2:default})'

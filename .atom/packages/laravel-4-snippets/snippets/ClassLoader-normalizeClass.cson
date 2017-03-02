@@ -1,4 +1,0 @@
-'.source.php':
-  'ClassLoader-normalizeClass':
-    'prefix': 'ClassLoader-normalizeClass'
-    'body': 'ClassLoader::normalizeClass(${1:class})'

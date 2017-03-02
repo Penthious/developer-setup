@@ -1,4 +1,0 @@
-'.source.php':
-  'URL-action':
-    'prefix': 'URL-action'
-    'body': 'URL::action(${1:action}, ${2:parameters}, ${3:absolute})'

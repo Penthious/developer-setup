@@ -1,4 +1,0 @@
-'.source.php':
-  'Eloquent-firstOrCreate':
-    'prefix': 'Eloquent-firstOrCreate'
-    'body': 'Eloquent::firstOrCreate(${1:attributes})'

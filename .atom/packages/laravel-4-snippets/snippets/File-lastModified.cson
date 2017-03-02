@@ -1,4 +1,0 @@
-'.source.php':
-  'File-lastModified':
-    'prefix': 'File-lastModified'
-    'body': 'File::lastModified(${1:path})'

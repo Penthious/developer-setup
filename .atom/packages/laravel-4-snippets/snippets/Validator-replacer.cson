@@ -1,4 +1,0 @@
-'.source.php':
-  'Validator-replacer':
-    'prefix': 'Validator-replacer'
-    'body': 'Validator::replacer(${1:rule}, ${2:replacer})'

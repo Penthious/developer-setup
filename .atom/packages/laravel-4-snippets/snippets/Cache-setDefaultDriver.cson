@@ -1,4 +1,0 @@
-'.source.php':
-  'Cache-setDefaultDriver':
-    'prefix': 'Cache-setDefaultDriver'
-    'body': 'Cache::setDefaultDriver(${1:name})'

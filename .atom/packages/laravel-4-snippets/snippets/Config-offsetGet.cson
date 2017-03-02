@@ -1,4 +1,0 @@
-'.source.php':
-  'Config-offsetGet':
-    'prefix': 'Config-offsetGet'
-    'body': 'Config::offsetGet(${1:key})'
