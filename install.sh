@@ -98,17 +98,18 @@ else
             brew install $app
         fi
     done
-#
-# Moves the cask app folder to the correct place
-#
+
+    #
+    # Moves the cask app folder to the correct place
+    #
     if [ -d /opt/homebrew-cask/Caskroom ]; then
         echo "Moving caskroom folder"
         sudo mv /opt/homebrew-cask/Caskroom /usr/local
     fi
 
-#
-# Installs all all my caskApps
-#
+    #
+    # Installs all all my caskApps
+    #
     for app in "${caskApps[@]}"; do
         if  brew cask list "$app" > /dev/null; then
             echo "$app already installed"
@@ -154,6 +155,9 @@ fi
 #
 # Add ssh keys to github
 #
+if [ ! -d ~/.ssh/ ]; then
+    mkdir ~/.ssh/
+fi
 if [ ! -f ~/.ssh/id_rsa.pub ]; then
     echo "Adding ssh key"
     cd ~/.ssh && ssh-keygen
@@ -187,7 +191,7 @@ fi
 # Installing zsh plugins
 #
 if [ ! -d ~/.oh-my-zsh ]; then
-    mkdir ~/.oh-my-zsh
+    mkdir -p ~/.oh-my-zsh/plugins
 fi
 for plugin in "${zshPlugins[@]}"; do
     echo "Installing zsh plugins"
@@ -218,14 +222,42 @@ fi
 # Install laravel and laravel valet
 #
 if [ ! -d ~/.composer/vendor/laravel ]; then
-  echo "Downloading laravel"
-  composer global require "laravel/installer"
+    echo "Downloading laravel"
+    composer global require "laravel/installer"
 fi
 
 if [ ! -d ~/.composer/vendor/laravel/valet ]; then
-  echo "Downloading laravel valet"
-  composer global require laravel/valet
+    echo "Downloading laravel valet"
+    composer global require laravel/valet
+    valet install
 fi
+
+#
+# Set up laravel projects paths
+#
+if [ ! -d ~/projects ]; then
+    echo "Making projects directory"
+    mkdir ~/projects
+fi
+
+if [ ! -d ~/projects/clevermage ]; then
+    echo "Making projects directory"
+    mkdir ~/projects/clevermage
+    valet park ~/projects/clevermage
+fi
+
+if [ ! -d ~/projects/personal ]; then
+    echo "Making projects directory"
+    mkdir ~/projects/personal
+    valet park ~/projects/personal
+fi
+
+if [ ! -d ~/projects/redolive ]; then
+    echo "Making projects directory"
+    mkdir ~/projects/redolive
+    valet park ~/projects/redolive
+fi
+
 
 #
 # Clones the developer setup repo
@@ -251,7 +283,7 @@ ln -sf ~/developer-setup/phpstorm/.ideavimcr ~/.ideavimrc
 
 if [ ! -d ~/.config/karabiner ]; then
   echo "Making directory .config/karabiner"
-  mkdir ~/.config/karabiner
+  mkdir -p ~/.config/karabiner
 else
   echo "Removing current karabiner file"
   rm ~/.config/karabiner/karabiner.json
@@ -274,7 +306,7 @@ fi
 
 if [ ! -d ~/.config/nvim ]; then
   echo "    Creating nvim folder!"
-  mkdir ~/.config/nvim
+  mkdir -p ~/.config/nvim
   echo "Symlinking neovim"
   ln -sf ~/developer-setup/init.vim ~/.config/nvim/init.vim
 else
