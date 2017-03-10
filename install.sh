@@ -54,16 +54,17 @@ brewApps=(
 
 caskApps=(
     # flags should pass through the `brew cask`
+    atom
+    dropbox
     google-chrome
+    iterm2
+    insomnia
+    karabiner-elements
     phpstorm
     sequel-pro
     slack
-    iterm2
-    insomnia
-    atom
-    karabiner-elements
+    sourcetree
     teamviewer
-    dropbox
 )
 
 zshPlugins=(
@@ -134,8 +135,20 @@ fi
 if ! command_exists yarn; then
     echo "yarn not found. Please install and then re-run installation scripts"
     exit 1
+fi
+
+if ! command_exists npm; then
+    echo "npm not found. Please install and then re-run installation scripts"
+    exit 1                 
+else 
+    npm update -g
+fi
+
+if ! command_exists ng; then
+    npm install -g @angular/cli@latest
+    ng set --global packageManager=yarn
 else
-    echo "Do stuff with yarn here"
+    echo "Angular-cli already installed"
 fi
 
 #

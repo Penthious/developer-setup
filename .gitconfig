@@ -19,9 +19,16 @@
 
 [core]
   pager = zsh -lc 'diff-highlight | strip_diff_leading_symbols | less -r' -
+	excludesfile = /Users/tomas/.gitignore_global
 
 [color "diff-highlight"]
   oldNormal = "red bold"
   oldHighlight = "red bold 52"
   newNormal = "green bold"
   newHighlight = "green bold 22"
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
