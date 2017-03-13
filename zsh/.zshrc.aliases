@@ -26,6 +26,11 @@ alias license="cd ~/projects/redolive/licensing-service-api"
 alias pa="php artisan"
 alias pam="pa migrate"
 alias pams="pam --seed"
-alias pamr="pa migrate:refresh"
+alias pamr="pa migrate:refresh --seed"
 alias pae="pa env:generate"
 
+#
+# Phpunit
+#
+alias pt="phpunit tests"
+alias ptc="phpunit --coverage-html ./report"

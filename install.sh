@@ -36,20 +36,21 @@ echo "=============================="
 
 brewApps=(
     # flags should pass through the `brew list check`
+    composer
+    dnsmasq
     git
     'grep --with-default-names'
+    mysql
     neovim/neovim/neovim
-    wget
-    zsh
     node
+    nginx
     php71
     php71-xdebug
     phpunit
     python3
+    wget
     yarn
-    dnsmasq
-    mysql
-    nginx
+    zsh
 )
 
 caskApps=(
@@ -198,26 +199,6 @@ for plugin in "${zshPlugins[@]}"; do
     git clone $plugin
 done
  
-
-#
-# Install composer
-#
-if ! command_exists composer; then
-    echo "Downloading composer"
-    php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-    php -r "if (hash_file('SHA384', 'composer-setup.php') === '55d6ead61b29c7bdee5cccfb50076874187bd9f21f65d8991d46ec5cc90518f447387fb9f76ebae1fbbacf329e583e30') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
-    php composer-setup.php
-    php -r "unlink('composer-setup.php');"
-
-    echo "Moving composer to the correct directory"
-    mv composer.phar /usr/local/bin/composer
-else
-    echo "Updating composer"
-    composer self-update
-    echo "Updating global composer dependencies"
-    composer global update
-fi
-
 #
 # Install laravel and laravel valet
 #
