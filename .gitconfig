@@ -15,11 +15,12 @@
 	smudge = git lfs smudge %f
 	required = true
 [github]
-  user = Penthious
+  user = Tomas
 
 [core]
   pager = zsh -lc 'diff-highlight | strip_diff_leading_symbols | less -r' -
 	excludesfile = /Users/tomas/.gitignore_global
+  editor = vim
 
 [color "diff-highlight"]
   oldNormal = "red bold"
