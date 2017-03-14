@@ -2,7 +2,7 @@
 	clean = git-media-clean %f
 	smudge = git-media-smudge %f
 [user]
-	name = Penthious 
+	name = Tomas
 	email = tleffew1994@gmail.com
 [credential]
 	helper = osxkeychain
