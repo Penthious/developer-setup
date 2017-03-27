@@ -69,7 +69,8 @@ caskApps=(
 )
 
 zshPlugins=(
-    git://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions   
+    git://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions
+    https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/plugins/zsh-syntax-highlighting
 )
 
 #
@@ -196,6 +197,7 @@ if [ ! -d ~/.oh-my-zsh ]; then
 fi
 for plugin in "${zshPlugins[@]}"; do
     echo "Installing zsh plugins"
+    echo $plugin
     git clone $plugin
 done
  
@@ -260,7 +262,11 @@ rm -rf ~/.atom
 echo "Removing current ideavimcr"
 rm ~/.ideavimrc
 echo "Symlinking ideavimcr"
+rm ~/_time.sh
+
 ln -sf ~/developer-setup/phpstorm/.ideavimcr ~/.ideavimrc
+ln -sf ~/developer-setup/_time.sh ~/_time.sh
+chmod +x ~/_time.sh
 
 if [ ! -d ~/.config/karabiner ]; then
   echo "Making directory .config/karabiner"
