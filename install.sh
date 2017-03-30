@@ -36,6 +36,7 @@ echo "=============================="
 
 brewApps=(
     # flags should pass through the `brew list check`
+    bower
     composer
     dnsmasq
     git
@@ -69,8 +70,8 @@ caskApps=(
 )
 
 zshPlugins=(
-    git://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions
-    https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/plugins/zsh-syntax-highlighting
+    "git://github.com/zsh-users/zsh-autosuggestions $HOME/.oh-my-zsh/plugins/zsh-autosuggestions"
+    "https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.oh-my-zsh/plugins/zsh-syntax-highlighting"
 )
 
 #
@@ -176,17 +177,6 @@ if [ ! -f ~/.ssh/id_rsa.pub ]; then
             * ) echo "Please answer yes or no.";;
         esac
     done
-fi
-
-#
-# Installs zsh with oh-my-zsh
-#
-if ! command_exists zsh; then
-    echo "zsh not found. Please install and then re-run installation scripts"
-    exit 1
-elif ! [[ $SHELL =~ .*zsh.* ]]; then
-    echo "Installing oh-my-zsh"
-    sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 fi
 
 #
@@ -301,6 +291,16 @@ else
   rm ~/.config/nvim/init.vim
   echo "Symlinking neovim"
   ln -sf ~/developer-setup/init.vim ~/.config/nvim/init.vim
+fi
+#
+# Installs zsh with oh-my-zsh
+#
+if ! command_exists zsh; then
+    echo "zsh not found. Please install and then re-run installation scripts"
+    exit 1
+elif ! [[ $SHELL =~ .*zsh.* ]]; then
+    echo "Installing oh-my-zsh"
+    sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 fi
 
 #
