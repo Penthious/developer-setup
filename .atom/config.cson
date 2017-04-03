@@ -53,6 +53,7 @@
       "color-picker"
       "linter-jscs"
     ]
+    packagesWithKeymapsDisabled: []
     projectHome: "/Users/tomas/vagrant-lamp/sites/"
     telemetryConsent: "no"
     themes: [
@@ -88,7 +89,8 @@
     gistId: "ca3513ffe431ca82c688a0dfdaf2680a"
     personalAccessToken: "90ee6553b0814416ff12899b592d8291e507055e"
   "tree-view": {}
-  "vim-mode": {}
+  "vim-mode":
+    wrapLeftRightMotion: true
   welcome:
     showOnStartup: false
 ".blade.html.php.text":

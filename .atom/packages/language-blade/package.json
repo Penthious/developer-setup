@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/d-11722-48173-enpugf/package.tgz",
+        "raw": "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/d-11733-12433-a9qyz8/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/d-11722-48173-enpugf/package.tgz",
-        "spec": "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/d-11722-48173-enpugf/package.tgz",
+        "rawSpec": "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/d-11733-12433-a9qyz8/package.tgz",
+        "spec": "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/d-11733-12433-a9qyz8/package.tgz",
         "type": "local"
       },
-      "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/apm-install-dir-11722-48173-1rfdusy"
+      "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/apm-install-dir-11733-12433-f1t62h"
     ]
   ],
-  "_from": "../d-11722-48173-enpugf/package.tgz",
-  "_id": "language-blade@0.28.1",
+  "_from": "../d-11733-12433-a9qyz8/package.tgz",
+  "_id": "language-blade@0.29.0",
   "_inCache": true,
   "_installable": true,
   "_location": "/language-blade",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/d-11722-48173-enpugf/package.tgz",
+    "raw": "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/d-11733-12433-a9qyz8/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/d-11722-48173-enpugf/package.tgz",
-    "spec": "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/d-11722-48173-enpugf/package.tgz",
+    "rawSpec": "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/d-11733-12433-a9qyz8/package.tgz",
+    "spec": "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/d-11733-12433-a9qyz8/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-11722-48173-enpugf/package.tgz",
-  "_shasum": "68f0e3134434e4953a43c66f9f4b542f0cee7617",
+  "_resolved": "file:../d-11733-12433-a9qyz8/package.tgz",
+  "_shasum": "ca6c97e86b7bf5dc86ac4588c2ae17d3d137da6f",
   "_shrinkwrap": null,
-  "_spec": "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/d-11722-48173-enpugf/package.tgz",
-  "_where": "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/apm-install-dir-11722-48173-1rfdusy",
+  "_spec": "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/d-11733-12433-a9qyz8/package.tgz",
+  "_where": "/private/var/folders/_4/354dntzn3jjbhrdgl1w8blcc0000gn/T/apm-install-dir-11733-12433-f1t62h",
   "bugs": {
     "url": "https://github.com/jawee/language-blade/issues"
   },
@@ -56,5 +56,5 @@
     "type": "git",
     "url": "git+https://github.com/jawee/language-blade.git"
   },
-  "version": "0.28.1"
+  "version": "0.29.0"
 }
