@@ -96,11 +96,13 @@ else
     for app in "${brewApps[@]}"; do
         if  brew list "$app" > /dev/null 2>&1; then
             echo "$app already installed"
-        else  
+        else
             echo "Installing $app"
             brew install $app
         fi
     done
+    echo "Removing old versions of brew apps"
+    brew cleanup
 
     #
     # Moves the cask app folder to the correct place
@@ -127,8 +129,10 @@ fi
 # Installs neovim to pip
 #
 if pip3 list neovim > /dev/null 2>&1; then
+    echo "installing neovim"
     pip3 install --upgrade neovim
 else
+    echo "updating neovim"
     pip3 install neovim
     pip3 install --upgrade neovim
 fi
@@ -143,12 +147,14 @@ fi
 
 if ! command_exists npm; then
     echo "npm not found. Please install and then re-run installation scripts"
-    exit 1                 
-else 
+    exit 1
+else
+    echo "Upgrading npm packages"
     npm update -g
 fi
 
 if ! command_exists ng; then
+    echo "Adding Angular-cli"
     npm install -g @angular/cli@latest
     ng set --global packageManager=yarn
 else
@@ -190,7 +196,7 @@ for plugin in "${zshPlugins[@]}"; do
     echo $plugin
     git clone $plugin
 done
- 
+
 #
 # Install laravel and laravel valet
 #
@@ -282,7 +288,7 @@ else
 fi
 
 if [ ! -d ~/.config/nvim ]; then
-  echo "    Creating nvim folder!"
+  echo "Creating nvim folder!"
   mkdir -p ~/.config/nvim
   echo "Symlinking neovim"
   ln -sf ~/developer-setup/init.vim ~/.config/nvim/init.vim
@@ -292,6 +298,7 @@ else
   echo "Symlinking neovim"
   ln -sf ~/developer-setup/init.vim ~/.config/nvim/init.vim
 fi
+
 #
 # Installs zsh with oh-my-zsh
 #
