@@ -56,6 +56,7 @@ brewApps=(
 
 caskApps=(
     # flags should pass through the `brew cask`
+    1password
     atom
     dropbox
     google-chrome
@@ -192,6 +193,7 @@ if [ ! -d ~/.oh-my-zsh ]; then
     mkdir -p ~/.oh-my-zsh/plugins
 fi
 for plugin in "${zshPlugins[@]}"; do
+    rm -rf $zshPlugins[plugin] 
     echo "Installing zsh plugins"
     echo $plugin
     git clone $plugin
