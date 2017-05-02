@@ -8,6 +8,7 @@
 " repo  : https://github.com/penthious/dotfiles/
 "Setup ---- -----------------------------------------------------------------{{{ 
 
+":UpdateRemotePlugins
 let g:python3_host_prog = "/usr/local/bin/python3"
 if (!isdirectory(expand("$HOME/.config/nvim/repos/github.com/Shougo/dein.vim")))
   call system(expand("mkdir -p $HOME/.config/nvim/repos/github.com"))

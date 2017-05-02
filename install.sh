@@ -48,6 +48,7 @@ brewApps=(
     php71
     php71-xdebug
     phpunit
+    phpunit@5.7
     python3
     wget
     yarn
