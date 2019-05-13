@@ -6,7 +6,7 @@
 "
 " Author: Tomas Leffew
 " repo  : https://github.com/penthious/dotfiles/
-"Setup ---- -----------------------------------------------------------------{{{ 
+" Setup ---------------------------------------------------------------------{{{ 
 
 ":UpdateRemotePlugins
 let g:python3_host_prog = "/usr/local/bin/python3"
@@ -28,24 +28,34 @@ call dein#add('ryanoasis/vim-devicons')
 call dein#add('vim-airline/vim-airline')
 call dein#add('mhartington/oceanic-next')
 call dein#add('Yggdroot/indentLine')
-
-call dein#add('Raimondi/delimitMate', {'on_ft': ['javascript', 'css', 'scss']})
-call dein#add('valloric/MatchTagAlways', {'on_ft': 'html'})
-call dein#add('tpope/vim-fugitive')
-call dein#add('mhinz/vim-signify')
-call dein#add('Xuyuanp/nerdtree-git-plugin')
-call dein#add('tpope/vim-repeat')
-call dein#add('benekastah/neomake')
-call dein#add('editorconfig/editorconfig-vim')
-call dein#add('scrooloose/nerdtree')
 call dein#add('tpope/vim-surround')
-call dein#add('tomtom/tcomment_vim')
-call dein#add('mattn/emmet-vim', {'on_ft': 'html'})
-call dein#add('Chiel92/vim-autoformat')
-call dein#add('ap/vim-css-color')
-call dein#add('Shougo/deoplete.nvim')
+call dein#add('scrooloose/nerdtree')
+call dein#add('Xuyuanp/nerdtree-git-plugin')
+call dein#add('valloric/MatchTagAlways', {'on_ft': 'html'}) " Matches the closing html tag
+call dein#add('neomake/neomake') " Alows for async actions 
+call dein#add('editorconfig/editorconfig-vim')
 call dein#add('vim-scripts/HTML-AutoCloseTag')
+call dein#add('ap/vim-css-color')
 call dein#add('jiangmiao/auto-pairs')
+
+" Git
+call dein#add('mhinz/vim-signify') " Shows git differences in file
+call dein#add('tpope/vim-fugitive')
+
+" Auto complete
+call dein#add('Shougo/deoplete.nvim')
+
+" Javascript plugins
+call dein#add('ternjs/tern_for_vim', {'do': 'npm install && npm install -g tern'})
+call dein#add('carlitux/deoplete-ternjs')
+call dein#add('mxw/vim-jsx')
+call dein#add('pangloss/vim-javascript')
+
+call dein#add('mattn/emmet-vim')
+" call dein#add('Raimondi/delimitMate', {'on_ft': ['javascript', 'css', 'scss']})
+" call dein#add('tpope/vim-repeat')
+" call dein#add('tomtom/tcomment_vim')
+" call dein#add('Chiel92/vim-autoformat')
 "}}}
 if dein#check_install()
   call dein#install()
@@ -58,6 +68,8 @@ filetype plugin indent on
 
 " System Settings  ----------------------------------------------------------{{{
 " Neovim Settings
+
+  let g:spacevim_plugin_manager=1
   let g:closetag_filenames = "*.html,*.xhtml,*.phtml, *.php"
   let $NVIM_TUI_ENABLE_TRUE_COLOR=1 " ----------------------- sets true vim colors
   
@@ -114,7 +126,7 @@ filetype plugin indent on
 "}}}
 
 " System mappings  ----------------------------------------------------------{{{
-                                       let g:mta_use_matchparen_group = 1
+  let g:mta_use_matchparen_group = 1
   "atom like saving
   map <C-s> <esc>:w<CR>
   set splitbelow " ------------------------------------------- Make splits default to below
@@ -198,12 +210,14 @@ filetype plugin indent on
   "sets the background color
   set background=dark
 
-   " Keep my terminal window open when I navigate away
+ " Keep my terminal window open when I navigate away
   autocmd TermOpen * set bufhidden=hide
+  
+  set guifont=SourceCodePro\ Code:h12
 "}}}
 
 " Plugin settings -----------------------------------------------------------{{{
- "nerdtree {{{
+  "nerdtree {{{
   map <C-\> :NERDTreeToggle<CR>
   autocmd StdinReadPre * let s:std_in=1
   " autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
@@ -363,22 +377,48 @@ filetype plugin indent on
 
   "Linting {{{
 
-  let g:neomake_javascript_enabled_makers = ['eslint']
-  function! neomake#makers#ft#javascript#eslint()
-      return {
-          \ 'args': ['-f', 'compact'],
-          \ 'errorformat': '%E%f: line %l\, col %c\, Error - %m,' .
-          \ '%W%f: line %l\, col %c\, Warning - %m'
-          \ }
-  endfunction
-  autocmd! BufWritePost * Neomake
+    let g:neomake_javascript_enabled_makers = ['eslint']
+    function! neomake#makers#ft#javascript#eslint()
+        return {
+            \ 'args': ['-f', 'compact'],
+            \ 'errorformat': '%E%f: line %l\, col %c\, Error - %m,' .
+            \ '%W%f: line %l\, col %c\, Warning - %m'
+            \ }
+    endfunction
+    autocmd! BufWritePost * Neomake
 
-  function! JscsFix()
-      let l:winview = winsaveview()
-      % ! jscs -x
-      call winrestview(l:winview)
-  endfunction
-  command JscsFix :call JscsFix()
-  noremap <leader>j :JscsFix<CR>
-"}}}
+    function! JscsFix()
+        let l:winview = winsaveview()
+        % ! jscs -x
+        call winrestview(l:winview)
+    endfunction
+    command JscsFix :call JscsFix()
+    noremap <leader>j :JscsFix<CR>
+  "}}}
+
+  "Deoplete {{{
+    let g:deoplete#enable_at_startup = 1
+    let g:deoplete#enable_ignore_case = 1
+    let g:deoplete#enable_smart_case = 1
+    let g:deoplete#enable_camel_case = 1
+    let g:deoplete#enable_refresh_always = 1
+    let g:deoplete#max_abbr_width = 0
+    let g:deoplete#max_menu_width = 0
+    let g:deoplete#omni#input_patterns = get(g:,'deoplete#omni#input_patterns',{})
+
+    let g:tern_request_timeout = 1
+    let g:tern_request_timeout = 6000
+    let g:tern#command = ["tern"]
+    let g:tern#arguments = ["--persistent"]
+
+  "}}}
+  
+  "Emmet {{{
+  let g:user_emmet_leader_key='<Tab>'
+  let g:user_emmet_settings = {
+    \  'javascript.jsx' : {
+      \      'extends' : 'jsx',
+    \  },
+  \}
+  "}}}
 "}}}

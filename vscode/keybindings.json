@@ -1,0 +1,23 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "cmd+h",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+d",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+cmd+v",
+        "command": "quokka.showValue",
+        "when": "!quokka.isLiveShareClient && !terminalFocus"
+    },
+    {
+        "key": "cmd+k v",
+        "command": "-quokka.showValue",
+        "when": "!quokka.isLiveShareClient && !terminalFocus"
+    }
+]
