@@ -137,22 +137,6 @@ else
 fi
 
 #
-# Install vscode settings and extensions
-#
-if command_exists code-insiders; then
-    echo "Install vsode extensions"
-    cat $developer_setup/vscode/extensions.txt | xargs -L 1 code-insiders --install-extension
-fi
-
-if [ ! -d "~/Library/Application Support/Code - Insiders"]; then
-    echo "Making projects directory"
-    mkdir "~/Library/Application Support/Code - Insiders"
-fi
-ln -sf $developer_setup/vscode/settings.json "~/Library/Application Support/Code - Insiders/settings.json"
-ln -sf $developer_setup/vscode/keybindings.json "~/Library/Application Support/Code - Insiders/keybindings.json"
-
-
-#
 # Installs yarn dependencies
 #
 if ! command_exists yarn; then
@@ -272,6 +256,21 @@ else
   echo "Symlinking neovim"
   ln -sf $developer_setup/init.vim ~/.config/nvim/init.vim
 fi
+
+#
+# Install vscode settings and extensions
+#
+if command_exists code-insiders; then
+    echo "Install vsode extensions"
+    cat $developer_setup/vscode/extensions.txt | xargs -L 1 code-insiders --install-extension
+fi
+
+if [ ! -d "~/Library/Application Support/Code - Insiders"]; then
+    echo "Making projects directory"
+    mkdir "~/Library/Application Support/Code - Insiders"
+fi
+ln -sf $developer_setup/vscode/settings.json "~/Library/Application Support/Code - Insiders/settings.json"
+ln -sf $developer_setup/vscode/keybindings.json "~/Library/Application Support/Code - Insiders/keybindings.json"
 
 #
 # Installs zsh with oh-my-zsh
