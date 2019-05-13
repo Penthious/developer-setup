@@ -215,8 +215,6 @@ fi
 #
 # Where I remove base files and symlink my developer-setup files
 #
-echo "Removing current zshrc file"
-rm ~/.zshrc
 echo "Removing current gitconfig file"
 rm ~/.gitconfig
 
@@ -226,12 +224,6 @@ ln -sf $developer_setup/.gitconfig ~/.gitconfig
 echo "Symlinking gitignore"
 ln -sf $developer_setup/.gitignore ~/.gitignore
 
-if [ ! -f ~/.zshrc ]; then
-    echo "Symlinking zshrc"
-    ln -sf $developer_setup/.zshrc ~/.zshrc
-else
-    echo "Keeping existing zshrc!"
-fi
 
 if [ ! -d ~/.config/nvim ]; then
   echo "Creating nvim folder!"
@@ -292,6 +284,11 @@ for plugin in "${zshPlugins[@]}"; do
     echo $plugin
     git clone $plugin
 done
+
+echo "Removing current zshrc file"
+rm ~/.zshrc
+echo "Symlinking zshrc"
+ln -sf $developer_setup/.zshrc ~/.zshrc
 
 #
 # Finally change shell to zsh
