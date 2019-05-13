@@ -250,8 +250,9 @@ rm ~/.gitconfig
 
 echo "Symlinking gitconfig"
 ln -sf $developer_setup/.gitconfig ~/.gitconfig
-echo "Symlinking karabiner"
 
+echo "Symlinking gitignore"
+ln -sf $developer_setup/.gitignore ~/.gitignore
 
 if [ ! -f ~/.zshrc ]; then
     echo "Symlinking zshrc"
