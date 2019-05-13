@@ -1,16 +1,25 @@
 #!/bin/sh
+command_exists(){
+    type "$1" > /dev/null 2>&1
+}
+echo $SHELL
+if ! command_exists zsh; then
+    echo "zsh not found. Please install and then re-run installation scripts"
+    exit 1
+elif [[ ! -d "$HOME/.oh-my-zsh/" ]]; then
+    echo "Installing oh-my-zsh"
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+fi
 
-cd ~/.ssh && ssh-keygen
-cat id_rsa.pub | pbcopy
-
-open "https://github.com/settings/keys"
-while true; do
-    read -p "Are you done adding your ssh keys to github?" yn
-    case $yn in
-        [Yy]* ) break;;
-        [Nn]* ) exit;;
-        * ) echo "Please answer yes or no.";;
-    esac
+#
+# Installing zsh plugins
+#
+if [ ! -d ~/.oh-my-zsh ]; then
+    mkdir -p ~/.oh-my-zsh/plugins
+fi
+for plugin in "${zshPlugins[@]}"; do
+    rm -rf $zshPlugins[plugin] 
+    echo "Installing zsh plugins"
+    echo $plugin
+    git clone $plugin
 done
-
-echo "Keys were added"

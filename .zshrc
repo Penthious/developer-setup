@@ -42,8 +42,8 @@ ZSH_THEME="muse"
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 source /usr/local/bin/virtualenvwrapper.sh
-source ~/developer-setup/zsh/.zshrc.aliases
-source ~/developer-setup/zsh/.zshrc.functions
-source ~/developer-setup/zsh/.zshrc.plugins
+source ~/projects/personal/developer_setup/zsh/.zshrc.aliases
+source ~/projects/personal/developer_setup/zsh/.zshrc.functions
+source ~/projects/personal/developer_setup/zsh/.zshrc.plugins
 source $ZSH/oh-my-zsh.sh
 

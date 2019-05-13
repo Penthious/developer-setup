@@ -3,6 +3,7 @@
 projects_path="${HOME}/projects"
 personal_projects="${projects_path}/personal"
 developer_setup="${personal_projects}/developer_setup"
+vscode_insiders_path="$HOME/Library/Application Support/Code - Insiders/User"
 
 command_exists(){
     type "$1" > /dev/null 2>&1
@@ -185,19 +186,6 @@ if [ ! -f ~/.ssh/id_rsa.pub ]; then
 fi
 
 #
-# Installing zsh plugins
-#
-if [ ! -d ~/.oh-my-zsh ]; then
-    mkdir -p ~/.oh-my-zsh/plugins
-fi
-for plugin in "${zshPlugins[@]}"; do
-    rm -rf $zshPlugins[plugin] 
-    echo "Installing zsh plugins"
-    echo $plugin
-    git clone $plugin
-done
-
-#
 # Set up projects
 #
 if [ ! -d $projects_path ]; then
@@ -265,23 +253,45 @@ if command_exists code-insiders; then
     cat $developer_setup/vscode/extensions.txt | xargs -L 1 code-insiders --install-extension
 fi
 
-if [ ! -d "~/Library/Application Support/Code - Insiders"]; then
+if [ ! -d "$vscode_insiders_path" ]; then
     echo "Making projects directory"
-    mkdir "~/Library/Application Support/Code - Insiders"
+    mkdir -p "$vscode_insiders_path"
 fi
-ln -sf $developer_setup/vscode/settings.json "~/Library/Application Support/Code - Insiders/User/settings.json"
-ln -sf $developer_setup/vscode/keybindings.json "~/Library/Application Support/Code - Insiders/User/keybindings.json"
+echo "remove Settings"
+sudo rm "$vscode_insiders_path/settings.json"
+echo "remove key"
+sudo rm "$vscode_insiders_path/keybindings.json"
+
+echo "set Settings"
+sudo ln -sf "$developer_setup/vscode/settings.json" "$vscode_insiders_path/settings.json"
+echo "set key"
+sudo ln -sf "$developer_setup/vscode/keybindings.json" "$vscode_insiders_path/keybindings.json"
+
 
 #
-# Installs zsh with oh-my-zsh
+# Install oh-my-zsh
 #
+echo $SHELL
 if ! command_exists zsh; then
     echo "zsh not found. Please install and then re-run installation scripts"
     exit 1
-elif ! [[ $SHELL =~ .*zsh.* ]]; then
+elif [[ ! -d "$HOME/.oh-my-zsh/" ]]; then
     echo "Installing oh-my-zsh"
-    sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 fi
+
+#
+# Installing zsh plugins
+#
+if [ ! -d ~/.oh-my-zsh ]; then
+    mkdir -p ~/.oh-my-zsh/plugins
+fi
+for plugin in "${zshPlugins[@]}"; do
+    rm -rf $zshPlugins[plugin] 
+    echo "Installing zsh plugins"
+    echo $plugin
+    git clone $plugin
+done
 
 #
 # Finally change shell to zsh
