@@ -269,8 +269,8 @@ if [ ! -d "~/Library/Application Support/Code - Insiders"]; then
     echo "Making projects directory"
     mkdir "~/Library/Application Support/Code - Insiders"
 fi
-ln -sf $developer_setup/vscode/settings.json "~/Library/Application Support/Code - Insiders/settings.json"
-ln -sf $developer_setup/vscode/keybindings.json "~/Library/Application Support/Code - Insiders/keybindings.json"
+ln -sf $developer_setup/vscode/settings.json "~/Library/Application Support/Code - Insiders/User/settings.json"
+ln -sf $developer_setup/vscode/keybindings.json "~/Library/Application Support/Code - Insiders/User/keybindings.json"
 
 #
 # Installs zsh with oh-my-zsh
