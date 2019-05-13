@@ -6,6 +6,8 @@ alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias ll="ls -la"
 alias refresh="source ~/.zshrc"
+alias cd="venv_cd"
+eval $(thefuck --alias)
 
 #
 # Github settings

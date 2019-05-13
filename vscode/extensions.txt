@@ -1,0 +1,17 @@
+ckolkman.vscode-postgres
+CoenraadS.bracket-pair-colorizer-2
+dbaeumer.vscode-eslint
+eamodio.gitlens
+esbenp.prettier-vscode
+extr0py.vscode-relative-line-numbers
+henriiik.docker-linter
+ms-mssql.mssql
+ms-python.python
+ms-vscode.Go
+ms-vsliveshare.vsliveshare
+PeterJausovec.vscode-docker
+Shan.code-settings-sync
+shd101wyy.markdown-preview-enhanced
+techer.open-in-browser
+vscodevim.vim
+WallabyJs.quokka-vscode
