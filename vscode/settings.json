@@ -21,20 +21,6 @@
       "after": [":"]
     }
   ],
-  // "terminal.integrated.shell.windows": "C:\\Program Files\\Cmder\\Cmder.exe %V",
-  // "terminal.integrated.shellArgs.windows" : ["/K","C:\\Program Files\\cmder\\vendor\\init.bat"]
-  "files.autoSave": "onFocusChange",
-  // "editor.formatOnSave": true,
-  "prettier.trailingComma": "all",
-  "sync.gist": "9481bfdf2a91d99424b6bb5393088e61",
-  "sync.autoDownload": false,
-  "sync.autoUpload": false,
-  "sync.quietSync": false,
-  "sync.askGistName": false,
-  "sync.removeExtensions": true,
-  "sync.syncExtensions": true,
-  "sync.forceDownload": false,
-  "window.zoomLevel": 0,
   "vim.visualModeKeyBindingsNonRecursive": [
     {
       "before": ["H"],
@@ -53,16 +39,20 @@
       "after": ["5", "j"]
     }
   ],
+  "files.autoSave": "onFocusChange",
+  // "editor.formatOnSave": true,
+  "prettier.trailingComma": "all",
+  "window.zoomLevel": 0,
   "python.linting.flake8Enabled": true,
   "python.linting.pylintEnabled": false,
   "editor.minimap.enabled": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
 	"docker-linter.debug": true,
 	"docker-linter.flake8.machine": "",
 	"docker-linter.flake8.enable": true,
   "docker-linter.flake8.container": "web",
   "explorer.confirmDelete": false,
   "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
