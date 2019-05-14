@@ -62,7 +62,7 @@ caskApps=(
     # flags should pass through the `brew cask`
     1password
     dropbox
-    font-source-code-pro
+    font-fira-code
     google-chrome
     insomnia
     iterm2
@@ -84,14 +84,16 @@ zshPlugins=(
 if ! command_exists brew; then
     echo "Some reason brew did not install"
 else
-    echo "Updating brew"
-    brew update
-    echo "Upgrading brew"
-    brew upgrade
     echo "Tapping caskroom"
     brew tap caskroom/cask
     echo "Tapping caskroom versions"
     brew tap homebrew/cask-versions
+    echo "Tapping caskroom fonts"
+    brew tap caskroom/fonts
+    echo "Updating brew"
+    brew update
+    echo "Upgrading brew"
+    brew upgrade
     echo "Checking for apps to install"
     for app in "${brewApps[@]}"; do
         if  brew list "$app" > /dev/null 2>&1; then
