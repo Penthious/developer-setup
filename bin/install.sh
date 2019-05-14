@@ -43,6 +43,7 @@ brewApps=(
     # flags should pass through the `brew list check`
     awscli
     docker
+    docker-compose
     git
     go
     grep
@@ -62,6 +63,7 @@ caskApps=(
     # flags should pass through the `brew cask`
     1password
     dropbox
+    docker
     font-fira-code
     google-chrome
     insomnia
@@ -277,7 +279,7 @@ fi
 #
 # Installing zsh plugins
 #
-if [ ! -d ~/.oh-my-zsh ]; then
+if [ ! -d ~/.oh-my-zsh/plugins ]; then
     mkdir -p ~/.oh-my-zsh/plugins
 fi
 for plugin in "${zshPlugins[@]}"; do
@@ -295,6 +297,7 @@ ln -sf $developer_setup/.zshrc ~/.zshrc
 #
 # Finally change shell to zsh
 #
+echo $SHELL
 if ! [[ $SHELL =~ .*zsh.* ]]; then
     echo "Configuring zsh as default shell"
     chsh -s $(which zsh)

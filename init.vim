@@ -89,7 +89,7 @@ filetype plugin indent on
   
   set noswapfile " ------------------------------------------ prevents vim from creating a .swp file
 
-  set filetype " -------------------------------------------- auto detect file types
+  " set filetype " -------------------------------------------- auto detect file types
 
   set relativenumber number " ------------------------------- set hybrid number, show current line number, then shows numbers relative to your position
 
@@ -118,8 +118,6 @@ filetype plugin indent on
               \ if line("'\"") > 0 && line ("'\"") <= line("$") |
               \   exe "normal! g'\"" |
               \ endif
-  " center buffer around cursor when opening files
-  autocmd BufRead * normal zz 
   let g:deoplete#enable_at_startup = 1 " --------------------- start deoplete on startup
 
   let g:indentLine_char='│' " -------------------------------- set indent line to |
@@ -376,16 +374,6 @@ filetype plugin indent on
 " }}}
 
   "Linting {{{
-
-    let g:neomake_javascript_enabled_makers = ['eslint']
-    function! neomake#makers#ft#javascript#eslint()
-        return {
-            \ 'args': ['-f', 'compact'],
-            \ 'errorformat': '%E%f: line %l\, col %c\, Error - %m,' .
-            \ '%W%f: line %l\, col %c\, Warning - %m'
-            \ }
-    endfunction
-    autocmd! BufWritePost * Neomake
 
     function! JscsFix()
         let l:winview = winsaveview()

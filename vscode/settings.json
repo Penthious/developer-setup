@@ -39,6 +39,7 @@
       "after": ["5", "j"]
     }
   ],
+  "vim.useSystemClipboard": true,
   "files.autoSave": "onFocusChange",
   // "editor.formatOnSave": true,
   "prettier.trailingComma": "all",

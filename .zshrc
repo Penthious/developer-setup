@@ -8,7 +8,7 @@ export PATH=$PATH:$HOME/bin
 export PATH=$PATH:$HOME/.composer/vendor/bin
 export ZSH=$HOME/.oh-my-zsh
 export TERM="xterm-256color"
-export VIRTUAL_ENV_DISABLE_PROMPT=1
+export VIRTUAL_ENV_DISABLE_PROMPT=0
 export VIRTUALENVWRAPPER_PYTHON="/usr/local/Cellar/python/3.7.3/bin/python3.7"
 #export NVM_DIR="$HOME/.nvm"
 #  . "/usr/local/opt/nvm/nvm.sh"
