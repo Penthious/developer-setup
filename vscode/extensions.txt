@@ -10,7 +10,6 @@ ms-python.python
 ms-vscode.Go
 ms-vsliveshare.vsliveshare
 PeterJausovec.vscode-docker
-Shan.code-settings-sync
 shd101wyy.markdown-preview-enhanced
 techer.open-in-browser
 vscodevim.vim

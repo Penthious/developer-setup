@@ -1,3 +1,3 @@
 #!/bin/bash
 
-code-insiders --list-extensions > ~/projects/personal/vscode/extensions.txt
+code-insiders --list-extensions > $HOME/projects/personal/developer_setup/vscode/extensions.txt
