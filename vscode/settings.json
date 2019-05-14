@@ -62,6 +62,7 @@
 	"docker-linter.flake8.enable": true,
   "docker-linter.flake8.container": "web",
   "explorer.confirmDelete": false,
+  "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
