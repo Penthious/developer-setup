@@ -9,16 +9,19 @@ export PATH=$PATH:$HOME/.composer/vendor/bin
 export ZSH=$HOME/.oh-my-zsh
 export TERM="xterm-256color"
 export VIRTUAL_ENV_DISABLE_PROMPT=0
-export VIRTUALENVWRAPPER_PYTHON="/usr/local/Cellar/python/3.7.3/bin/python3.7"
+export VIRTUALENVWRAPPER_PYTHON="/usr/local/opt/python/libexec/bin/python"
 #export NVM_DIR="$HOME/.nvm"
 #  . "/usr/local/opt/nvm/nvm.sh"
-export GOPATH=$HOME/go
-export GOROOT="/usr/local/Cellar/go/1.11.4/libexec"
+export GOPATH=$HOME/golang
+export GOPROXY=direct
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
 
 export NEW_RELIC_ENABLED=false
 export USE_MIRAGE=false
-export GOPROXY="https://goproxy.teem.world"
 export CONNECT_SCHEMAS_ENABLE=false
+export NVM_DIR=~/projects/personal/developer_setup/.nvm
 #export CONNECT_BOOTSTRAP_SERVERS='localhost:9092'
 #export CONTROL_CENTER_BOOTSTRAP_SERVERS='localhost:9092'
 #export KAFKA_ADVERTISED_LISTENERS='PLAINTEXT://localhost:29092'
@@ -40,6 +43,7 @@ ZSH_THEME="muse"
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+source $(brew --prefix nvm)/nvm.sh
 
 source /usr/local/bin/virtualenvwrapper.sh
 source ~/projects/personal/developer_setup/zsh/.zshrc.aliases

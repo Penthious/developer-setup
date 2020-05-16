@@ -18,15 +18,17 @@
   user = Tomas
 
 [core]
-	excludesfile = ~/.gitignore
+	excludesfile = /Users/tleffew/.gitignore
   editor = vim
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
-[url "git@github.com:"]
-	insteadOf = https://github.com/
 [alias]
 	please = push --force-with-lease
+[commit]
+	template = PULL_REQUEST_TEMPLATE.md
+[url "git@github.com:"]
+	insteadOf = https://github.com/

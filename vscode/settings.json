@@ -42,14 +42,18 @@
   "vim.useSystemClipboard": true,
   "files.autoSave": "onFocusChange",
   // "editor.formatOnSave": true,
+  "[python]": {
+    "editor.formatOnSave": false
+  },
   "prettier.trailingComma": "all",
   "window.zoomLevel": 0,
   "python.linting.flake8Enabled": true,
   "python.linting.pylintEnabled": false,
+  "python.formatting.provider": "black",
   "editor.minimap.enabled": false,
-	"docker-linter.debug": true,
-	"docker-linter.flake8.machine": "",
-	"docker-linter.flake8.enable": true,
+  "docker-linter.debug": true,
+  "docker-linter.flake8.machine": "",
+  "docker-linter.flake8.enable": true,
   "docker-linter.flake8.container": "web",
   "explorer.confirmDelete": false,
   "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
@@ -59,5 +63,16 @@
   },
   "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
-
+  "editor.tabSize": 2,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.pythonPath": "/Users/tleffew/.virtualenvs/data-grabber/bin/python",
+  "python.insidersChannel": "off",
+  "go.formatTool": "goimports",
+  "go.gopath": "/Users/tleffew/golang",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }

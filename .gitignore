@@ -3,3 +3,7 @@
 .tern-project
 .venv
 .DS_Store
+node_modules
+.octebrc
+tmp
+.nvm

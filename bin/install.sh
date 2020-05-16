@@ -51,6 +51,7 @@ brewApps=(
     neovim
     nginx
     node
+    nvm
     postgresql
     python
     thefuck
@@ -62,7 +63,7 @@ brewApps=(
 caskApps=(
     # flags should pass through the `brew cask`
     1password
-    dropbox
+    discord
     docker
     font-fira-code
     google-chrome
@@ -72,7 +73,7 @@ caskApps=(
     slack
     spotify
     teamviewer
-    visual-studio-code
+    visual-studio-code-insiders
 )
 
 zshPlugins=(
@@ -129,6 +130,8 @@ else
     done
 fi
 
+brew cask upgrade
+
 #
 # Installs neovim to pip
 #
@@ -142,52 +145,28 @@ else
 fi
 
 #
-# Installs yarn dependencies
-#
-if ! command_exists yarn; then
-    echo "yarn not found. Please install and then re-run installation scripts"
-    exit 1
-fi
-
-if ! command_exists npm; then
-    echo "npm not found. Please install and then re-run installation scripts"
-    exit 1
-else
-    echo "Upgrading npm packages"
-    npm update -g
-fi
-
-if ! command_exists ng; then
-    echo "Adding Angular-cli"
-    npm install -g @angular/cli@latest
-    ng set --global packageManager=yarn
-else
-    echo "Angular-cli already installed"
-fi
-
-#
 # Add ssh keys to github
 #
-if [ ! -d ~/.ssh/ ]; then
-    mkdir ~/.ssh/
-fi
-if [ ! -f ~/.ssh/id_rsa.pub ]; then
-    echo "Adding ssh key"
-    cd ~/.ssh && ssh-keygen
-    echo "Copying ssh key"
-    cat id_rsa.pub | pbcopy
+# if [ ! -d ~/.ssh/ ]; then
+#     mkdir ~/.ssh/
+# fi
+# if [ ! -f ~/.ssh/id_rsa.pub ]; then
+#     echo "Adding ssh key"
+#     cd ~/.ssh && ssh-keygen
+#     echo "Copying ssh key"
+#     cat id_rsa.pub | pbcopy
 
-    echo "Add new ssh key to github"
-    open "https://github.com/settings/keys"
-    while true; do
-        read -p "Are you done adding your ssh keys to github?" yn
-        case $yn in
-            [Yy]* ) break;;
-            [Nn]* ) exit;;
-            * ) echo "Please answer yes or no.";;
-        esac
-    done
-fi
+#     echo "Add new ssh key to github"
+#     open "https://github.com/settings/keys"
+#     while true; do
+#         read -p "Are you done adding your ssh keys to github?" yn
+#         case $yn in
+#             [Yy]* ) break;;
+#             [Nn]* ) exit;;
+#             * ) echo "Please answer yes or no.";;
+#         esac
+#     done
+# fi
 
 #
 # Set up projects
